@@ -1,0 +1,23 @@
+metric,category,value
+total_candidates,all,363
+by_source,ASRS,361
+by_source,plane_crashes.csv,2
+by_scenario_type,Runway change during approach,129
+by_scenario_type,Late runway change,114
+by_scenario_type,Runway reassignment,81
+by_scenario_type,Approach reconfiguration,39
+by_phase_inferred,approach,138
+by_phase_inferred,Unknown,133
+by_phase_inferred,final approach,37
+by_phase_inferred,descent,26
+by_phase_inferred,initial approach,26
+by_phase_inferred,initial approach; descent,2
+by_phase_inferred,descent; final approach,1
+outcome_flag,go_around,50
+outcome_flag,unstable_approach,21
+outcome_flag,wrong_runway,5
+outcome_flag,runway_confusion,4
+outcome_flag,fms_reprogramming,44
+outcome_flag,atc_late_change,16
+outcome_flag,track_deviation,58
+by_intent,Unknown,363

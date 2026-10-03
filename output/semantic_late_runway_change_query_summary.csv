@@ -1,0 +1,11 @@
+query,threshold,initial_k,matches_kept,text_column_used,final_unique_rows_after_filter
+late runway change during approach,0.52,20000,55,summary,144
+runway changed on final approach,0.52,20000,129,summary,144
+new runway assigned during approach,0.52,20000,40,summary,144
+different runway assigned by ATC during arrival,0.52,20000,368,summary,144
+approach changed to another runway,0.52,20000,58,summary,144
+switched to different landing runway close to landing,0.52,20000,32,summary,144
+ATC reassigned runway during final approach,0.52,20000,879,summary,144
+arrival runway change caused confusion,0.52,20000,163,summary,144
+runway reassignment during visual approach,0.52,20000,36,summary,144
+runway change required reprogramming FMS on approach,0.52,20000,35,summary,144

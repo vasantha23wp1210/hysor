@@ -1,0 +1,18 @@
+{
+  "input_files": 88,
+  "input_missing": [],
+  "input_hash_mismatch": [],
+  "non_retrieval_claims_checked": 83,
+  "non_retrieval_claims_matching": 72,
+  "retrieval_numbers_in_paper": 89,
+  "retrieval_checked_reference_hysor_rrf": 85,
+  "retrieval_matching_reference_hysor_rrf": 46,
+  "retrieval_checked_published_protocol": 52,
+  "retrieval_matching_published_protocol": 21,
+  "figures_regenerated": [
+    "_repro/evaluation/figures/hazard_analysis.pdf",
+    "_repro/evaluation/figures/hazard_analysis.png",
+    "_repro/evaluation/figures/retrieval_comparison.pdf",
+    "_repro/evaluation/figures/retrieval_comparison.png"
+  ]
+}

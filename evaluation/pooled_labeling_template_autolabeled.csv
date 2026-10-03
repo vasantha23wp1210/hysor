@@ -1,0 +1,371 @@
+query_id,query_text,system,rank,incident_id,score,narrative_preview,relevance,auto_similarity
+Q001,late runway change during approach,bm25,5,ASRS_0067228,15.9897,ASRS_0067228,0,-0.0408
+Q002,runway was changed on final,bm25,1,ASRS_0018743,13.8059,ASRS_0018743,0,-0.0152
+Q002,runway was changed on final,bm25,3,ASRS_0063866,11.1868,b757 captain reported workload was very heavy on approach into lax when atc changed their runway assignment twice.,0,0.3822
+Q002,runway was changed on final,bm25,4,ASRS_0049458,11.1868,ASRS_0049458,0,-0.0103
+Q002,runway was changed on final,bm25,5,ASRS_0013301,11.1056,ASRS_0013301,0,-0.0175
+Q003,ATC assigned different landing runway during arrival,bm25,1,ASRS_0082781,16.9962,ASRS_0082781,0,0.1292
+Q003,ATC assigned different landing runway during arrival,bm25,2,ASRS_0055227,14.2917,after requesting and receiving a different runway for takeoff; crew was assigned a different departure procedure. crew failed to notice the different final altitude clearance of the new departure.,1,0.5303
+Q003,ATC assigned different landing runway during arrival,bm25,3,ASRS_0091181,14.0432,ASRS_0091181,0,0.1038
+Q003,ATC assigned different landing runway during arrival,bm25,4,ASRS_0019042,13.7272,after atc said to expect runway 24r on the lax seavu arrival; 25l was assigned later. a track deviation occurred when the fmc did not accept the arrival and runway change.,1,0.5719
+Q003,ATC assigned different landing runway during arrival,bm25,5,ASRS_0048154,13.4398,ASRS_0048154,0,0.1577
+Q004,new runway assigned close to touchdown,bm25,2,ASRS_0072547,15.5186,ASRS_0072547,0,0.0568
+Q004,new runway assigned close to touchdown,bm25,3,ASRS_0090314,14.4338,ASRS_0090314,0,0.0378
+Q004,new runway assigned close to touchdown,bm25,4,ASRS_0056508,13.4957,ASRS_0056508,0,0.056
+Q004,new runway assigned close to touchdown,bm25,5,ASRS_0072293,13.3587,ASRS_0072293,0,0.0407
+Q005,runway change requiring FMS reprogramming on approach,bm25,1,ASRS_0035944,21.4276,ASRS_0035944,0,-0.0268
+Q005,runway change requiring FMS reprogramming on approach,bm25,2,ASRS_0070512,20.4235,ASRS_0070512,0,-0.0118
+Q005,runway change requiring FMS reprogramming on approach,bm25,3,ASRS_0014480,19.5753,ASRS_0014480,0,-0.0058
+Q005,runway change requiring FMS reprogramming on approach,bm25,4,ASRS_0012546,19.1958,ASRS_0012546,0,-0.0195
+Q005,runway change requiring FMS reprogramming on approach,bm25,5,ASRS_0011939,18.9145,ASRS_0011939,0,-0.012
+Q006,visual approach with last minute runway change,bm25,1,ASRS_0078402,25.1503,b737 captain reported that a last minute runway change from atc resulted in an unstabilized approach.,0,0.435
+Q006,visual approach with last minute runway change,bm25,2,ASRS_0082386,23.1421,flight crew reported last minute runway change on a requested vor approach and low on faf due to lack of familiarity with airport.,0,0.4368
+Q006,visual approach with last minute runway change,bm25,3,ASRS_0071264,22.2804,ASRS_0071264,0,-0.1094
+Q006,visual approach with last minute runway change,bm25,4,ASRS_0078139,22.2804,ASRS_0078139,0,-0.0808
+Q007,runway change resulting in go around,bm25,1,ASRS_0078640,15.5755,ASRS_0078640,0,-0.05
+Q007,runway change resulting in go around,bm25,2,ASRS_0108276,15.5755,ASRS_0108276,0,-0.0347
+Q007,runway change resulting in go around,bm25,3,ASRS_0076084,15.5755,ASRS_0076084,0,-0.0269
+Q007,runway change resulting in go around,bm25,4,ASRS_0077230,15.5755,ASRS_0077230,0,-0.0402
+Q007,runway change resulting in go around,bm25,5,ASRS_0025788,15.2399,ASRS_0025788,0,-0.0312
+Q008,different runway cleared after intercepting localizer,bm25,1,ASRS_0014948,20.1959,ASRS_0014948,0,0.0367
+Q008,different runway cleared after intercepting localizer,bm25,4,ASRS_0062110,15.998,ASRS_0062110,0,0.0235
+Q008,different runway cleared after intercepting localizer,bm25,5,ASRS_0067457,15.8364,ASRS_0067457,0,0.0109
+Q009,controller switched landing runway due traffic,bm25,3,ASRS_0040045,12.9214,ASRS_0040045,0,0.0102
+Q009,controller switched landing runway due traffic,bm25,4,ASRS_0029901,12.7035,ASRS_0029901,0,0.0171
+Q009,controller switched landing runway due traffic,bm25,5,ASRS_0063414,12.6832,ASRS_0063414,0,0.0195
+Q010,runway reassignment caused confusion on approach,bm25,1,ASRS_0014350,12.6886,ASRS_0014350,0,-0.0448
+Q010,runway reassignment caused confusion on approach,bm25,2,NTSB_003228,12.6886,NTSB_003228,0,-0.0207
+Q010,runway reassignment caused confusion on approach,bm25,3,ASRS_0084466,12.4335,ASRS_0084466,0,-0.0055
+Q010,runway reassignment caused confusion on approach,bm25,4,ASRS_0015180,12.368,ASRS_0015180,0,-0.0421
+Q010,runway reassignment caused confusion on approach,bm25,5,ASRS_0056578,12.2502,ASRS_0056578,0,-0.0368
+Q011,runway change while aircraft established on ILS,bm25,1,ASRS_0055813,18.9458,ASRS_0055813,0,0.0055
+Q011,runway change while aircraft established on ILS,bm25,3,ASRS_0037207,13.8752,ASRS_0037207,0,-0.0153
+Q011,runway change while aircraft established on ILS,bm25,4,NTSB_003266,13.3391,NTSB_003266,0,-0.0181
+Q011,runway change while aircraft established on ILS,bm25,5,ASRS_0036885,13.2887,ASRS_0036885,0,-0.0018
+Q012,change from intersecting to parallel runway during approach,bm25,1,ASRS_0022568,17.629,ASRS_0022568,0,-0.0581
+Q012,change from intersecting to parallel runway during approach,bm25,2,ASRS_0064233,16.7947,ASRS_0064233,0,-0.0696
+Q012,change from intersecting to parallel runway during approach,bm25,4,ASRS_0065031,16.2986,ASRS_0065031,0,-0.0494
+Q012,change from intersecting to parallel runway during approach,bm25,5,ASRS_0083341,16.2739,ASRS_0083341,0,-0.0564
+Q013,ATC changed runway due sudden wind shift,bm25,1,ASRS_0100606,17.6152,ASRS_0100606,0,0.1172
+Q013,ATC changed runway due sudden wind shift,bm25,2,ASRS_0057859,17.3348,ASRS_0057859,0,0.104
+Q013,ATC changed runway due sudden wind shift,bm25,3,ASRS_0095047,15.5411,ASRS_0095047,0,0.101
+Q013,ATC changed runway due sudden wind shift,bm25,5,ASRS_0052352,14.8069,ASRS_0052352,0,0.0946
+Q014,runway reassignment after gear-down selection,bm25,1,ASRS_0015306,17.5224,ASRS_0015306,0,-0.0547
+Q014,runway reassignment after gear-down selection,bm25,2,ASRS_0095254,15.7436,ASRS_0095254,0,-0.0488
+Q014,runway reassignment after gear-down selection,bm25,3,ASRS_0094687,14.6043,ASRS_0094687,0,-0.0427
+Q014,runway reassignment after gear-down selection,bm25,4,ASRS_0092078,14.2386,ASRS_0092078,0,-0.0426
+Q014,runway reassignment after gear-down selection,bm25,5,ASRS_0001155,12.8447,ASRS_0001155,0,-0.031
+Q015,runway change issued while vectoring to final,bm25,1,ASRS_0089935,17.4082,ASRS_0089935,0,0.0027
+Q015,runway change issued while vectoring to final,bm25,2,ASRS_0022087,15.8731,ASRS_0022087,0,0.0272
+Q015,runway change issued while vectoring to final,bm25,3,ASRS_0052416,15.6641,a pilot on final to apa was asked to slow for departing aircraft; but could not because his aircraft was at approach speed so atc issued a runway change on very short final creating a perceived unsafe situation for the pilot.,1,0.4865
+Q015,runway change issued while vectoring to final,bm25,4,ASRS_0092247,14.9423,ASRS_0092247,0,-0.0103
+Q015,runway change issued while vectoring to final,bm25,5,ASRS_0098354,14.9317,ASRS_0098354,0,0.0179
+Q016,arrival runway changed twice during approach,bm25,1,ASRS_0063866,18.5155,b757 captain reported workload was very heavy on approach into lax when atc changed their runway assignment twice.,1,0.4998
+Q016,arrival runway changed twice during approach,bm25,2,ASRS_0048586,15.3136,emb-170 first officer describes an fms anomaly during approach to lax that will not allow the approach to be changed from runway 25l to runway 24r as assigned by atc. runway 24r is entered twice and each time reverts back to 25l. a hand flown approach to runway 24r is accomplished.,1,0.4722
+Q016,arrival runway changed twice during approach,bm25,3,ASRS_0048875,15.1609,ASRS_0048875,0,0.032
+Q016,arrival runway changed twice during approach,bm25,5,ASRS_0099905,13.8217,ASRS_0099905,0,-0.0432
+Q017,runway change while on short final with traffic ahead,bm25,1,ASRS_0089734,18.2649,ASRS_0089734,0,-0.0638
+Q017,runway change while on short final with traffic ahead,bm25,2,ASRS_0030028,18.0916,ASRS_0030028,0,-0.0689
+Q017,runway change while on short final with traffic ahead,bm25,3,ASRS_0101837,17.8087,ASRS_0101837,0,-0.0838
+Q017,runway change while on short final with traffic ahead,bm25,4,ASRS_0100645,17.6892,ASRS_0100645,0,-0.0758
+Q017,runway change while on short final with traffic ahead,bm25,5,ASRS_0039580,17.3579,ASRS_0039580,0,-0.0537
+Q018,new runway assigned after approach briefing completed,bm25,1,ASRS_0017154,14.588,ASRS_0017154,0,0.0335
+Q018,new runway assigned after approach briefing completed,bm25,2,ASRS_0021156,13.7692,ASRS_0021156,0,0.0281
+Q018,new runway assigned after approach briefing completed,bm25,3,ASRS_0032980,13.7315,ASRS_0032980,0,-0.0017
+Q018,new runway assigned after approach briefing completed,bm25,4,ASRS_0009729,13.6322,ASRS_0009729,0,-0.0018
+Q018,new runway assigned after approach briefing completed,bm25,5,ASRS_0078139,13.0413,ASRS_0078139,0,0.0111
+Q019,runway change to shorter runway on approach,bm25,1,ASRS_0053105,17.8077,first officer reported late runway change during approach to lax. crew was able to reprogram fmc and complete the approach to the newly assigned runway.,1,0.4572
+Q019,runway change to shorter runway on approach,bm25,2,ASRS_0066467,17.1836,ASRS_0066467,0,-0.0239
+Q019,runway change to shorter runway on approach,bm25,3,ASRS_0056067,17.0747,ASRS_0056067,0,-0.0272
+Q019,runway change to shorter runway on approach,bm25,5,ASRS_0049488,16.6782,ASRS_0049488,0,-0.0196
+Q020,ATC issued circle-to-land to different runway late in approach,bm25,1,ASRS_0087286,26.646,ASRS_0087286,0,0.0742
+Q020,ATC issued circle-to-land to different runway late in approach,bm25,2,ASRS_0020507,25.5466,ASRS_0020507,0,0.0918
+Q020,ATC issued circle-to-land to different runway late in approach,bm25,3,ASRS_0071351,24.731,ASRS_0071351,0,0.0865
+Q020,ATC issued circle-to-land to different runway late in approach,bm25,4,ASRS_0044286,23.7189,ASRS_0044286,0,0.0724
+Q021,incorrect readback of amended clearance,bm25,3,ASRS_0089219,16.8795,center controller reported an aircraft flew below the minimum vectoring altitude due to an incorrect readback of the controller's clearance.,1,0.4792
+Q021,incorrect readback of amended clearance,bm25,4,ASRS_0080477,16.3386,tracon controller reported missing an incorrect readback.,0,0.376
+Q022,pilot did not read back runway assignment correctly,bm25,1,ASRS_0098444,21.5045,ASRS_0098444,0,0.0621
+Q022,pilot did not read back runway assignment correctly,bm25,3,ASRS_0070163,21.2616,controller reported not listening correctly to a read back which had the pilot descend below the minimum vectoring altitude.,1,0.4964
+Q022,pilot did not read back runway assignment correctly,bm25,4,ASRS_0093193,21.1196,ASRS_0093193,0,0.0506
+Q022,pilot did not read back runway assignment correctly,bm25,5,ASRS_0060676,20.5299,ASRS_0060676,0,0.0888
+Q023,ATC phraseology ambiguity during approach clearance,bm25,3,ASRS_0057997,17.2044,ASRS_0057997,0,0.0949
+Q023,ATC phraseology ambiguity during approach clearance,bm25,4,ASRS_0066498,16.4638,ASRS_0066498,0,0.082
+Q023,ATC phraseology ambiguity during approach clearance,bm25,5,ASRS_0044634,15.3972,ASRS_0044634,0,0.0895
+Q024,hearback error on altitude change,bm25,2,ASRS_0012722,18.0417,ASRS_0012722,0,0.1439
+Q024,hearback error on altitude change,bm25,3,ASRS_0005445,15.8584,ASRS_0005445,0,0.107
+Q024,hearback error on altitude change,bm25,4,ASRS_0017888,14.2289,ASRS_0017888,0,0.1554
+Q024,hearback error on altitude change,bm25,5,ASRS_0022483,13.2803,ASRS_0022483,0,0.1282
+Q025,simultaneous transmissions caused missed restriction,bm25,1,ASRS_0046031,16.5175,ASRS_0046031,0,0.0408
+Q025,simultaneous transmissions caused missed restriction,bm25,2,ASRS_0038453,12.8924,ASRS_0038453,0,0.0113
+Q025,simultaneous transmissions caused missed restriction,bm25,3,ASRS_0024984,12.5709,ASRS_0024984,0,0.024
+Q025,simultaneous transmissions caused missed restriction,bm25,4,ASRS_0070164,12.3736,ASRS_0070164,0,0.0411
+Q025,simultaneous transmissions caused missed restriction,bm25,5,ASRS_0077019,12.3736,ASRS_0077019,0,0.0157
+Q026,pilot used non standard phraseology requesting runway change,bm25,1,ASRS_0001180,22.281,ASRS_0001180,0,-0.015
+Q026,pilot used non standard phraseology requesting runway change,bm25,2,NTSB_003707,21.7451,NTSB_003707,0,-0.0407
+Q026,pilot used non standard phraseology requesting runway change,bm25,3,ASRS_0075368,21.6098,a light transport pilot reported atc used non-standard phraseology which led to the crew executing a right 360 degree turn instead of turning to a heading of 360.,1,0.488
+Q026,pilot used non standard phraseology requesting runway change,bm25,5,ASRS_0086128,20.979,air carrier flight crew reported difficulty understanding an arrival clearance and non-standard phraseology used by zsha atc during arrival at zspd foreign airport.,1,0.4556
+Q027,clearance cancelled but pilot continued due miscommunication,bm25,3,ASRS_0104485,16.0176,pilot reported atc cancelled takeoff clearance during takeoff roll due to an aircraft landing on an intersecting runway.,2,0.6214
+Q027,clearance cancelled but pilot continued due miscommunication,bm25,4,ASRS_0071422,15.3939,air carrier captain reported a possible runway incursion due to miscommunication of atc clearance.,2,0.629
+Q027,clearance cancelled but pilot continued due miscommunication,bm25,5,ASRS_0071284,15.3939,ASRS_0071284,0,0.1326
+Q028,frequency congestion during critical approach phase,bm25,1,ASRS_0061570,18.0463,ASRS_0061570,0,0.0356
+Q028,frequency congestion during critical approach phase,bm25,2,ASRS_0100595,17.6863,ASRS_0100595,0,0.0132
+Q028,frequency congestion during critical approach phase,bm25,3,ASRS_0085463,15.9826,ASRS_0085463,0,0.0309
+Q028,frequency congestion during critical approach phase,bm25,4,ASRS_0068503,15.972,ASRS_0068503,0,0.0304
+Q028,frequency congestion during critical approach phase,bm25,5,ASRS_0050958,15.4803,pilot reported an approach controller demanded he accept a visual approach to follow other traffic.  when the pilot refused the clearance; the controller became irate; causing distraction during a critical phase of flight.,0,0.1802
+Q029,readback not corrected by controller,bm25,1,ASRS_0060430,18.1352,ASRS_0060430,0,0.155
+Q029,readback not corrected by controller,bm25,2,ASRS_0001825,16.4836,ASRS_0001825,0,0.1343
+Q030,controller fast delivery of complex clearance,bm25,1,ASRS_0029402,17.5257,ASRS_0029402,0,0.1109
+Q030,controller fast delivery of complex clearance,bm25,2,ASRS_0057129,17.1847,clearance delivery issued a clearance to an aircraft which was read back incorrectly. clearance delivery did not catch the mistake.,0,0.3878
+Q030,controller fast delivery of complex clearance,bm25,4,ASRS_0066639,14.607,ASRS_0066639,0,0.1248
+Q030,controller fast delivery of complex clearance,bm25,5,ASRS_0024903,14.2351,ASRS_0024903,0,0.1015
+Q031,similar call signs leading to wrong clearance acceptance,bm25,1,ASRS_0075209,29.5881,ASRS_0075209,0,0.1753
+Q031,similar call signs leading to wrong clearance acceptance,bm25,5,ASRS_0046543,28.0138,ASRS_0046543,0,0.1474
+Q032,pilot responded to clearance meant for other aircraft,bm25,1,ASRS_0066978,19.0419,ASRS_0066978,0,0.0724
+Q032,pilot responded to clearance meant for other aircraft,bm25,2,ASRS_0067697,18.289,ASRS_0067697,0,0.0927
+Q032,pilot responded to clearance meant for other aircraft,bm25,3,ASRS_0072182,17.169,ASRS_0072182,0,0.1071
+Q032,pilot responded to clearance meant for other aircraft,bm25,4,ASRS_0053320,16.6437,b737 flight crew reported becoming confused by similar sounding call signs during approach to atl and mistakenly accepted a descent clearance meant for another aircraft.,1,0.5102
+Q032,pilot responded to clearance meant for other aircraft,bm25,5,ASRS_0031464,16.6109,ASRS_0031464,0,0.1011
+Q033,language difficulties between crew and controller,bm25,2,ASRS_0025718,17.2548,ASRS_0025718,0,0.1237
+Q033,language difficulties between crew and controller,bm25,3,ASRS_0005523,16.3088,ASRS_0005523,0,0.1215
+Q033,language difficulties between crew and controller,bm25,5,ASRS_0071121,15.0353,ASRS_0071121,0,0.1303
+Q034,controller used non standard phraseology for speed control,bm25,1,ASRS_0038372,22.6582,ASRS_0038372,0,0.1027
+Q034,controller used non standard phraseology for speed control,bm25,3,ASRS_0001180,22.281,ASRS_0001180,0,0.102
+Q034,controller used non standard phraseology for speed control,bm25,4,NTSB_003707,21.7451,NTSB_003707,0,0.0539
+Q034,controller used non standard phraseology for speed control,bm25,5,ASRS_0036171,21.7248,ASRS_0036171,0,0.1034
+Q035,missed level-off due to unclear altitude phraseology,bm25,1,ASRS_0073951,19.2858,ASRS_0073951,0,0.094
+Q035,missed level-off due to unclear altitude phraseology,bm25,2,ASRS_0074250,18.5727,clt controller reported he missed a readback while issuing a clearance which caused a departing aircraft to level off below the minimum vectoring altitude.,1,0.5171
+Q035,missed level-off due to unclear altitude phraseology,bm25,3,ASRS_0082279,18.3038,ASRS_0082279,0,0.0501
+Q035,missed level-off due to unclear altitude phraseology,bm25,4,ASRS_0036732,18.2016,ASRS_0036732,0,0.0728
+Q035,missed level-off due to unclear altitude phraseology,bm25,5,ASRS_0095210,17.9248,ASRS_0095210,0,0.0374
+Q036,altitude restriction omitted in readback,bm25,3,ASRS_0099321,12.4283,ASRS_0099321,0,0.0605
+Q036,altitude restriction omitted in readback,bm25,5,ASRS_0072599,12.3228,ASRS_0072599,0,0.0515
+Q037,pilot assumed clearance based on expectation,bm25,1,ASRS_0044037,16.8022,ASRS_0044037,0,0.0466
+Q037,pilot assumed clearance based on expectation,bm25,2,ASRS_0106881,14.791,ASRS_0106881,0,0.0174
+Q037,pilot assumed clearance based on expectation,bm25,4,ASRS_0080777,13.9922,ASRS_0080777,0,0.0193
+Q037,pilot assumed clearance based on expectation,bm25,5,ASRS_0046461,13.9316,ASRS_0046461,0,0.0362
+Q038,controller changed frequency at busy point in approach,bm25,1,ASRS_0047290,16.0656,ASRS_0047290,0,0.0987
+Q038,controller changed frequency at busy point in approach,bm25,2,ASRS_0068900,15.5503,ASRS_0068900,0,0.1048
+Q038,controller changed frequency at busy point in approach,bm25,3,ASRS_0046027,15.3715,ASRS_0046027,0,0.1143
+Q038,controller changed frequency at busy point in approach,bm25,4,ASRS_0087558,15.2482,ASRS_0087558,0,0.1347
+Q039,missed handoff resulting in loss of contact,bm25,1,ASRS_0077496,15.1151,ASRS_0077496,0,0.1243
+Q039,missed handoff resulting in loss of contact,bm25,2,ASRS_0094718,14.4929,ASRS_0094718,0,0.1006
+Q039,missed handoff resulting in loss of contact,bm25,3,ASRS_0080323,14.4929,ASRS_0080323,0,0.1284
+Q039,missed handoff resulting in loss of contact,bm25,4,ASRS_0065793,14.2806,ASRS_0065793,0,0.1139
+Q039,missed handoff resulting in loss of contact,bm25,5,ASRS_0062548,13.9661,ASRS_0062548,0,0.1509
+Q040,pilot switched to wrong frequency and missed instructions,bm25,1,ASRS_0079997,21.8736,ASRS_0079997,0,0.1305
+Q040,pilot switched to wrong frequency and missed instructions,bm25,2,ASRS_0019181,19.8714,ASRS_0019181,0,0.1755
+Q040,pilot switched to wrong frequency and missed instructions,bm25,4,ASRS_0103011,18.3106,ASRS_0103011,0,0.1616
+Q041,unstable approach due high sink rate,bm25,4,ASRS_0104915,22.425,ASRS_0104915,0,0.1091
+Q041,unstable approach due high sink rate,bm25,5,ASRS_0100145,22.3408,ASRS_0100145,0,0.0931
+Q042,go around from short final due unstable approach,bm25,4,ASRS_0066854,22.3245,ASRS_0066854,0,0.0981
+Q042,go around from short final due unstable approach,bm25,5,ASRS_0104738,21.9026,ASRS_0104738,0,0.071
+Q043,approach continued below minima,bm25,3,NTSB_001046,15.3821,NTSB_001046,0,-0.0172
+Q043,approach continued below minima,bm25,4,NTSB_001632,14.4172,NTSB_001632,0,-0.0454
+Q043,approach continued below minima,bm25,5,NTSB_000931,13.8112,NTSB_000931,0,-0.0104
+Q044,late configuration leading to unstable approach,bm25,3,ASRS_0107382,19.1836,fractional first officer reported an unstable approach leading to a sink rate call by the aircraft.,0,0.2921
+Q044,late configuration leading to unstable approach,bm25,5,ASRS_0067612,17.8958,ASRS_0067612,0,0.0941
+Q045,high energy approach requiring steep descent,bm25,1,ASRS_0067242,15.4127,ASRS_0067242,0,-0.0037
+Q045,high energy approach requiring steep descent,bm25,2,ASRS_0068828,14.5042,ASRS_0068828,0,0.0129
+Q045,high energy approach requiring steep descent,bm25,3,ASRS_0055741,13.6773,ASRS_0055741,0,-0.014
+Q045,high energy approach requiring steep descent,bm25,4,ASRS_0096022,13.6067,ASRS_0096022,0,0.0346
+Q045,high energy approach requiring steep descent,bm25,5,ASRS_0056927,13.4856,ASRS_0056927,0,-0.0022
+Q046,tailwind landing causing unstable approach,bm25,1,ASRS_0066243,16.8469,ASRS_0066243,0,0.0672
+Q046,tailwind landing causing unstable approach,bm25,2,ASRS_0106674,16.7229,ASRS_0106674,0,0.0951
+Q046,tailwind landing causing unstable approach,bm25,4,ASRS_0092264,14.0847,ASRS_0092264,0,0.1015
+Q046,tailwind landing causing unstable approach,bm25,5,ASRS_0066418,13.5681,ASRS_0066418,0,0.0542
+Q047,unstable ILS due incorrect glideslope intercept,bm25,1,ASRS_0056236,18.3954,ASRS_0056236,0,0.1207
+Q047,unstable ILS due incorrect glideslope intercept,bm25,2,ASRS_0106434,17.4573,ASRS_0106434,0,0.1499
+Q047,unstable ILS due incorrect glideslope intercept,bm25,3,ASRS_0048567,16.1626,ASRS_0048567,0,0.1175
+Q047,unstable ILS due incorrect glideslope intercept,bm25,4,ASRS_0049001,15.9168,ASRS_0049001,0,0.104
+Q047,unstable ILS due incorrect glideslope intercept,bm25,5,ASRS_0056986,15.9093,ASRS_0056986,0,0.1137
+Q048,unstable visual approach with inadequate guidance,bm25,2,ASRS_0072582,15.1627,a319 flight crew reported executing a go-around due to an unstable approach resulting from inadequate spacing and 30-knot tailwind.,0,0.4053
+Q048,unstable visual approach with inadequate guidance,bm25,3,ASRS_0095457,14.332,ASRS_0095457,0,-0.0061
+Q048,unstable visual approach with inadequate guidance,bm25,4,ASRS_0054424,13.989,ASRS_0054424,0,0.0124
+Q049,automation mode confusion during approach,bm25,1,ASRS_0109047,15.5705,ASRS_0109047,0,0.0635
+Q049,automation mode confusion during approach,bm25,2,ASRS_0108009,14.1698,ASRS_0108009,0,0.0746
+Q049,automation mode confusion during approach,bm25,3,ASRS_0098909,12.7892,ASRS_0098909,0,0.0294
+Q049,automation mode confusion during approach,bm25,4,ASRS_0037282,12.7548,ASRS_0037282,0,0.0666
+Q049,automation mode confusion during approach,bm25,5,ASRS_0104158,12.6914,ASRS_0104158,0,0.0693
+Q050,unstable approach combined with late runway change,bm25,2,ASRS_0097601,18.0847,ASRS_0097601,0,-0.0623
+Q050,unstable approach combined with late runway change,bm25,3,ASRS_0061815,17.6481,a b767 captain reported receiving a late runway change for the ils on a parallel runway. the captain was unstable on approach; but elected to continue landing due to the potential conflict with a departing aircraft if they would have gone around.,1,0.5084
+Q050,unstable approach combined with late runway change,bm25,5,ASRS_0081124,16.4799,flight crew reported a go around due to unstable approach and late handoff from approach controller.,1,0.5002
+Q051,stabilized criteria not met but landing continued,bm25,3,ASRS_0048293,19.4853,ASRS_0048293,0,0.1484
+Q051,stabilized criteria not met but landing continued,bm25,4,ASRS_0053531,18.3678,ASRS_0053531,0,0.1096
+Q051,stabilized criteria not met but landing continued,bm25,5,ASRS_0008350,17.8934,ASRS_0008350,0,0.1171
+Q052,unstable approach due to unexpected tailwind gradient,bm25,1,ASRS_0106674,23.4547,ASRS_0106674,0,0.0799
+Q052,unstable approach due to unexpected tailwind gradient,bm25,3,ASRS_0066243,19.4575,ASRS_0066243,0,0.0571
+Q052,unstable approach due to unexpected tailwind gradient,bm25,4,ASRS_0022019,19.1594,ASRS_0022019,0,0.042
+Q052,unstable approach due to unexpected tailwind gradient,bm25,5,ASRS_0082028,18.0054,ASRS_0082028,0,0.0678
+Q053,gear not down on time causing unstable approach,bm25,1,ASRS_0081655,17.1001,ASRS_0081655,0,0.0532
+Q053,gear not down on time causing unstable approach,bm25,3,ASRS_0076784,14.5651,ASRS_0076784,0,0.0337
+Q053,gear not down on time causing unstable approach,bm25,4,ASRS_0080386,14.4372,ASRS_0080386,0,0.03
+Q053,gear not down on time causing unstable approach,bm25,5,ASRS_0071570,13.6782,ASRS_0071570,0,0.0337
+Q054,unstable non-precision approach with high workload,bm25,1,ASRS_0084399,16.8481,air carrier flight crew reported a high workload environment on approach into den airport; which included several runway changes; confusion over arrival procedures; and an unstable approach resulted in a go-around.,0,0.2942
+Q054,unstable non-precision approach with high workload,bm25,2,ASRS_0018501,16.6922,ASRS_0018501,0,0.0067
+Q054,unstable non-precision approach with high workload,bm25,3,ASRS_0006972,16.6367,ASRS_0006972,0,0.0042
+Q054,unstable non-precision approach with high workload,bm25,4,ASRS_0070877,16.0758,ASRS_0070877,0,-0.0076
+Q055,unstable approach on short runway,bm25,1,ASRS_0107236,15.2168,air carrier flight crew reported an unstable approach and temporary loss of control on short final.,1,0.4671
+Q055,unstable approach on short runway,bm25,3,ASRS_0056986,14.5053,ASRS_0056986,0,-0.0264
+Q055,unstable approach on short runway,bm25,4,ASRS_0101516,12.7512,ASRS_0101516,0,-0.0322
+Q055,unstable approach on short runway,bm25,5,NTSB_001851,12.0766,NTSB_001851,0,-0.0308
+Q056,unstable approach due to incorrect approach speed,bm25,1,ASRS_0071333,24.5475,widebody transport captain reported unstable approach to mem airport due to speed and configuration mismanagement.,1,0.4787
+Q056,unstable approach due to incorrect approach speed,bm25,2,ASRS_0082028,20.7793,ASRS_0082028,0,0.0664
+Q056,unstable approach due to incorrect approach speed,bm25,3,ASRS_0071401,20.719,ASRS_0071401,0,0.031
+Q056,unstable approach due to incorrect approach speed,bm25,4,ASRS_0104820,20.497,ASRS_0104820,0,0.0462
+Q056,unstable approach due to incorrect approach speed,bm25,5,ASRS_0081124,20.2573,flight crew reported a go around due to unstable approach and late handoff from approach controller.,1,0.4864
+Q057,unstable approach due to tailwind and gusts,bm25,1,ASRS_0106674,25.3061,ASRS_0106674,0,0.0623
+Q057,unstable approach due to tailwind and gusts,bm25,3,ASRS_0066243,19.4575,ASRS_0066243,0,0.0435
+Q057,unstable approach due to tailwind and gusts,bm25,4,ASRS_0082028,18.0054,ASRS_0082028,0,0.0524
+Q057,unstable approach due to tailwind and gusts,bm25,5,ASRS_0071401,17.8117,ASRS_0071401,0,0.0425
+Q058,crew rejected go around despite unstable criteria,bm25,1,ASRS_0108942,19.7858,medium transport flight crew reported unstable approach at mfr resulted in a go-around. flight crew stated that published approaches do not allow approaches to be flown within stabilized approach criteria.,1,0.5294
+Q058,crew rejected go around despite unstable criteria,bm25,2,ASRS_0087974,17.9115,pilot reported an unstable approach and a go around.,1,0.4748
+Q058,crew rejected go around despite unstable criteria,bm25,3,ASRS_0066971,17.4701,ASRS_0066971,0,0.0685
+Q058,crew rejected go around despite unstable criteria,bm25,4,ASRS_0066975,17.1133,ASRS_0066975,0,0.0806
+Q058,crew rejected go around despite unstable criteria,bm25,5,ASRS_0052354,16.6841,ASRS_0052354,0,0.0666
+Q059,unstable approach during circle-to-land manoeuvre,bm25,1,ASRS_0076490,21.4733,ASRS_0076490,0,0.0454
+Q059,unstable approach during circle-to-land manoeuvre,bm25,2,ASRS_0078164,20.5707,ASRS_0078164,0,0.0618
+Q059,unstable approach during circle-to-land manoeuvre,bm25,3,ASRS_0071351,20.5707,ASRS_0071351,0,0.0446
+Q059,unstable approach during circle-to-land manoeuvre,bm25,4,ASRS_0044286,20.4546,ASRS_0044286,0,0.0317
+Q059,unstable approach during circle-to-land manoeuvre,bm25,5,ASRS_0068163,19.9957,ASRS_0068163,0,0.0624
+Q060,unstable approach after automation disconnect,bm25,1,ASRS_0068333,15.2825,ASRS_0068333,0,0.0208
+Q060,unstable approach after automation disconnect,bm25,2,ASRS_0056236,14.6463,ASRS_0056236,0,0.0262
+Q060,unstable approach after automation disconnect,bm25,3,ASRS_0066971,13.526,ASRS_0066971,0,0.0175
+Q060,unstable approach after automation disconnect,bm25,4,ASRS_0066418,13.2007,ASRS_0066418,0,0.0285
+Q060,unstable approach after automation disconnect,bm25,5,ASRS_0057328,12.8789,ASRS_0057328,0,0.0652
+Q061,aircraft crossed hold short line without clearance,bm25,2,ASRS_0081955,27.2815,ASRS_0081955,0,0.0154
+Q062,vehicle on runway during landing,bm25,1,ASRS_0108053,13.2271,ASRS_0108053,0,0.0631
+Q062,vehicle on runway during landing,bm25,3,ASRS_0100280,12.8587,ASRS_0100280,0,0.0839
+Q062,vehicle on runway during landing,bm25,4,ASRS_0101494,12.6944,ASRS_0101494,0,0.102
+Q062,vehicle on runway during landing,bm25,5,ASRS_0108743,12.4878,ASRS_0108743,0,0.0695
+Q063,landing clearance issued with aircraft still on runway,bm25,1,ASRS_0010634,19.2488,ASRS_0010634,0,0.0556
+Q063,landing clearance issued with aircraft still on runway,bm25,2,ASRS_0033078,17.8472,ASRS_0033078,0,0.0614
+Q063,landing clearance issued with aircraft still on runway,bm25,3,ASRS_0027842,17.0433,an anc controller described a loss of separation event occuring when a take off clearance was issued to runway 25r traffic with runway 14 landing traffic still on the runway. photo mission distractions were listed as causal factors.,1,0.5345
+Q063,landing clearance issued with aircraft still on runway,bm25,5,ASRS_0107167,15.7094,ASRS_0107167,0,0.0741
+Q064,pilot lined up on wrong runway for departure,bm25,1,ASRS_0087352,24.2823,pilot reported confusion during taxi for takeoff and lined up on the wrong runway for departure from sts airport. atc notified pilot and the pilot taxied to the correct runway.,2,0.648
+Q064,pilot lined up on wrong runway for departure,bm25,3,ASRS_0065623,23.1111,ASRS_0065623,0,0.0487
+Q064,pilot lined up on wrong runway for departure,bm25,4,ASRS_0059761,23.1111,ASRS_0059761,0,0.0478
+Q064,pilot lined up on wrong runway for departure,bm25,5,ASRS_0079694,22.0276,ASRS_0079694,0,0.0333
+Q065,taxiway crossing without clearance,bm25,1,ASRS_0032134,17.4294,ASRS_0032134,0,-0.0731
+Q065,taxiway crossing without clearance,bm25,2,ASRS_0067011,15.3746,ASRS_0067011,0,-0.064
+Q065,taxiway crossing without clearance,bm25,4,ASRS_0028446,13.2948,ASRS_0028446,0,-0.0445
+Q065,taxiway crossing without clearance,bm25,5,ASRS_0074690,13.1262,ASRS_0074690,0,-0.0678
+Q066,runway incursion during low visibility operations,bm25,1,ASRS_0055597,17.4413,ASRS_0055597,0,-0.0075
+Q066,runway incursion during low visibility operations,bm25,2,ASRS_0031729,16.3774,ASRS_0031729,0,-0.0103
+Q066,runway incursion during low visibility operations,bm25,3,ASRS_0072792,16.2412,ASRS_0072792,0,-0.0101
+Q066,runway incursion during low visibility operations,bm25,4,ASRS_0019226,15.8723,ASRS_0019226,0,0.0104
+Q066,runway incursion during low visibility operations,bm25,5,ASRS_0066837,15.3818,ASRS_0066837,0,-0.0197
+Q067,multiple aircraft cleared to use same runway,bm25,2,ASRS_0054310,16.2973,ASRS_0054310,0,-0.0389
+Q067,multiple aircraft cleared to use same runway,bm25,4,ASRS_0070046,16.2771,ASRS_0070046,0,-0.0417
+Q067,multiple aircraft cleared to use same runway,bm25,5,ASRS_0108204,16.2439,ASRS_0108204,0,-0.0411
+Q068,backtracking on runway with conflicting traffic,bm25,1,ASRS_0075851,14.4584,ASRS_0075851,0,0.0306
+Q068,backtracking on runway with conflicting traffic,bm25,2,ASRS_0064296,13.8526,ASRS_0064296,0,0.0118
+Q068,backtracking on runway with conflicting traffic,bm25,3,ASRS_0074240,13.5656,ASRS_0074240,0,0.0169
+Q068,backtracking on runway with conflicting traffic,bm25,4,ASRS_0046095,13.4103,ASRS_0046095,0,0.0011
+Q068,backtracking on runway with conflicting traffic,bm25,5,ASRS_0076900,13.2265,ASRS_0076900,0,0.0038
+Q069,high speed rejected takeoff for conflicting traffic,bm25,3,ASRS_0068952,21.7974,ASRS_0068952,0,0.0499
+Q070,aircraft landed on taxiway instead of runway,bm25,4,ASRS_0047084,16.5971,ASRS_0047084,0,-0.0285
+Q071,deviation around thunderstorm cells,bm25,3,ASRS_0059918,13.0259,ASRS_0059918,0,0.0056
+Q071,deviation around thunderstorm cells,bm25,4,ASRS_0003034,11.6416,ASRS_0003034,0,-0.0057
+Q071,deviation around thunderstorm cells,bm25,5,ASRS_0004799,11.3804,ASRS_0004799,0,0.0168
+Q072,wind shear on final approach,bm25,2,ASRS_0076067,21.3245,ASRS_0076067,0,0.0778
+Q072,wind shear on final approach,bm25,5,ASRS_0107161,20.4337,ASRS_0107161,0,0.0659
+Q073,severe turbulence during climb,bm25,3,ASRS_0072039,17.8118,ASRS_0072039,0,0.0461
+Q073,severe turbulence during climb,bm25,4,ASRS_0104267,16.6132,ASRS_0104267,0,0.0644
+Q073,severe turbulence during climb,bm25,5,ASRS_0055602,16.2487,ASRS_0055602,0,0.0771
+Q074,icing encounter on approach requiring go around,bm25,1,ASRS_0076100,18.037,ASRS_0076100,0,0.0704
+Q074,icing encounter on approach requiring go around,bm25,2,ASRS_0079743,17.8805,ASRS_0079743,0,0.0175
+Q074,icing encounter on approach requiring go around,bm25,3,ASRS_0102545,17.2788,ASRS_0102545,0,0.0429
+Q074,icing encounter on approach requiring go around,bm25,4,ASRS_0059084,16.7763,ASRS_0059084,0,0.0298
+Q074,icing encounter on approach requiring go around,bm25,5,ASRS_0080144,16.0909,ASRS_0080144,0,0.028
+Q075,CB penetration due poor radar interpretation,bm25,1,ASRS_0076965,12.1995,ASRS_0076965,0,-0.0077
+Q075,CB penetration due poor radar interpretation,bm25,2,ASRS_0078796,12.179,ASRS_0078796,0,-0.0005
+Q075,CB penetration due poor radar interpretation,bm25,3,ASRS_0002325,11.975,ASRS_0002325,0,-0.0038
+Q075,CB penetration due poor radar interpretation,bm25,4,ASRS_0088449,11.6297,ASRS_0088449,0,-0.013
+Q075,CB penetration due poor radar interpretation,bm25,5,ASRS_0103094,11.4566,ASRS_0103094,0,0.0041
+Q076,diversion due to weather at destination,bm25,2,ASRS_0092959,21.4536,ASRS_0092959,0,-0.0088
+Q076,diversion due to weather at destination,bm25,5,ASRS_0023440,18.0301,ASRS_0023440,0,-0.0207
+Q077,low visibility approach near minimums,bm25,2,ASRS_0027316,16.6669,ASRS_0027316,0,0.0015
+Q077,low visibility approach near minimums,bm25,3,ASRS_0048799,15.1024,ASRS_0048799,0,0.0041
+Q077,low visibility approach near minimums,bm25,4,ASRS_0068879,14.9094,m-20k pilot reported low fuel level indications causing a descent below minimums on approach.,0,0.3599
+Q077,low visibility approach near minimums,bm25,5,ASRS_0046205,14.059,ASRS_0046205,0,0.0193
+Q078,microburst encounter on final,bm25,5,ASRS_0000202,13.0787,ASRS_0000202,0,0.0846
+Q079,turbulence injury to cabin crew,bm25,2,ASRS_0091687,15.7493,ASRS_0091687,0,0.0987
+Q079,turbulence injury to cabin crew,bm25,3,ASRS_0017645,15.6322,ASRS_0017645,0,0.1116
+Q079,turbulence injury to cabin crew,bm25,4,ASRS_0087477,15.6322,ASRS_0087477,0,0.0859
+Q079,turbulence injury to cabin crew,bm25,5,ASRS_0068836,15.4735,ASRS_0068836,0,0.0808
+Q080,icing on departure roll,bm25,1,ASRS_0008997,11.5699,ASRS_0008997,0,0.0871
+Q080,icing on departure roll,bm25,3,ASRS_0050321,10.0203,ASRS_0050321,0,0.0647
+Q080,icing on departure roll,bm25,4,ASRS_0009019,9.9687,ASRS_0009019,0,0.0745
+Q080,icing on departure roll,bm25,5,ASRS_0081578,9.5002,ASRS_0081578,0,0.0878
+Q081,engine failure after takeoff,bm25,1,NTSB_001757,14.8821,NTSB_001757,0,0.1113
+Q081,engine failure after takeoff,bm25,4,ASRS_0083260,13.7431,ASRS_0083260,0,0.1133
+Q082,mechanical failure during approach,bm25,1,ASRS_0046663,13.2549,ASRS_0046663,0,0.0832
+Q082,mechanical failure during approach,bm25,2,ASRS_0106579,12.9821,ASRS_0106579,0,0.0877
+Q082,mechanical failure during approach,bm25,3,ASRS_0082653,12.5563,ASRS_0082653,0,0.0695
+Q082,mechanical failure during approach,bm25,4,ASRS_0085353,12.4688,ASRS_0085353,0,0.0654
+Q082,mechanical failure during approach,bm25,5,ASRS_0069163,12.4688,ASRS_0069163,0,0.0669
+Q083,hydraulic failure causing alternate gear extension,bm25,1,ASRS_0035269,20.4553,ASRS_0035269,0,0.0226
+Q083,hydraulic failure causing alternate gear extension,bm25,2,ASRS_0071302,19.9146,ASRS_0071302,0,0.0515
+Q083,hydraulic failure causing alternate gear extension,bm25,4,ASRS_0094988,18.5174,ASRS_0094988,0,0.0306
+Q083,hydraulic failure causing alternate gear extension,bm25,5,ASRS_0102388,18.3987,ASRS_0102388,0,0.0509
+Q084,fuel imbalance discovered during cruise,bm25,2,ASRS_0045449,18.7499,ASRS_0045449,0,0.0384
+Q085,maintenance error left panel unsecured,bm25,1,ASRS_0062065,13.5754,ASRS_0062065,0,0.232
+Q085,maintenance error left panel unsecured,bm25,2,ASRS_0039452,13.0987,ASRS_0039452,0,0.2174
+Q085,maintenance error left panel unsecured,bm25,3,ASRS_0040259,12.8994,ASRS_0040259,0,0.215
+Q085,maintenance error left panel unsecured,bm25,4,NTSB_002389,12.6122,NTSB_002389,0,0.1395
+Q085,maintenance error left panel unsecured,bm25,5,ASRS_0037028,12.368,ASRS_0037028,0,0.2187
+Q086,smoke in cabin requiring emergency landing,bm25,4,ASRS_0009850,15.6227,ASRS_0009850,0,0.0898
+Q086,smoke in cabin requiring emergency landing,bm25,5,ASRS_0060810,15.2816,ASRS_0060810,0,0.1136
+Q087,pressurization problem leading to emergency descent,bm25,1,ASRS_0045507,18.5568,ASRS_0045507,0,0.1025
+Q087,pressurization problem leading to emergency descent,bm25,3,ASRS_0078614,18.0329,ASRS_0078614,0,0.1119
+Q087,pressurization problem leading to emergency descent,bm25,4,ASRS_0019763,17.5065,ASRS_0019763,0,0.1274
+Q087,pressurization problem leading to emergency descent,bm25,5,ASRS_0042509,17.0662,ASRS_0042509,0,0.135
+Q088,gear did not extend normally,bm25,1,ASRS_0023276,19.8139,ASRS_0023276,0,0.06
+Q088,gear did not extend normally,bm25,2,ASRS_0076050,18.8266,ASRS_0076050,0,0.105
+Q088,gear did not extend normally,bm25,3,ASRS_0078431,18.7426,ASRS_0078431,0,0.0453
+Q088,gear did not extend normally,bm25,4,ASRS_0004085,18.5143,ASRS_0004085,0,0.0493
+Q088,gear did not extend normally,bm25,5,ASRS_0098735,18.379,ASRS_0098735,0,0.0567
+Q089,electrical failure causing loss of some instruments,bm25,1,ASRS_0009487,18.9267,ASRS_0009487,0,0.0364
+Q089,electrical failure causing loss of some instruments,bm25,3,ASRS_0098447,16.517,ASRS_0098447,0,0.0394
+Q090,APU fire during ground operations,bm25,2,ASRS_0080700,16.5357,ASRS_0080700,0,0.0709
+Q090,APU fire during ground operations,bm25,3,ASRS_0060342,16.1245,ASRS_0060342,0,0.059
+Q090,APU fire during ground operations,bm25,4,ASRS_0076556,15.7255,ASRS_0076556,0,0.0226
+Q091,crew fatigue contributed to decision errors,bm25,1,ASRS_0014499,17.2743,ASRS_0014499,0,0.0563
+Q091,crew fatigue contributed to decision errors,bm25,2,ASRS_0019561,16.0637,ASRS_0019561,0,0.0535
+Q091,crew fatigue contributed to decision errors,bm25,3,ASRS_0028965,15.8152,ASRS_0028965,0,0.0458
+Q091,crew fatigue contributed to decision errors,bm25,4,ASRS_0000082,15.5323,ASRS_0000082,0,0.0492
+Q091,crew fatigue contributed to decision errors,bm25,5,ASRS_0083248,15.2252,ASRS_0083248,0,0.0741
+Q092,high workload in terminal area led to missed call,bm25,1,ASRS_0071912,21.242,ASRS_0071912,0,0.0427
+Q092,high workload in terminal area led to missed call,bm25,3,ASRS_0073554,19.5516,b737-800 captain expressed concern that atc often delayed runway and arrival assignment information to flight crews; increasing workload in the terminal area.,0,0.3901
+Q092,high workload in terminal area led to missed call,bm25,4,ASRS_0090524,19.2086,ASRS_0090524,0,0.0659
+Q092,high workload in terminal area led to missed call,bm25,5,ASRS_0030866,19.103,ASRS_0030866,0,0.0801
+Q093,captain and first officer disagreed on go around decision,bm25,1,ASRS_0096828,18.3622,ASRS_0096828,0,0.0341
+Q093,captain and first officer disagreed on go around decision,bm25,2,ASRS_0023226,17.801,ASRS_0023226,0,0.0704
+Q093,captain and first officer disagreed on go around decision,bm25,3,ASRS_0022385,17.7956,ASRS_0022385,0,0.0679
+Q093,captain and first officer disagreed on go around decision,bm25,4,ASRS_0067286,17.3936,ASRS_0067286,0,0.0518
+Q094,distraction in cockpit due to non-essential conversation,bm25,1,ASRS_0070061,18.3904,ASRS_0070061,0,0.0097
+Q094,distraction in cockpit due to non-essential conversation,bm25,2,ASRS_0005007,18.2951,ASRS_0005007,0,0.0068
+Q094,distraction in cockpit due to non-essential conversation,bm25,3,ASRS_0067149,17.2776,ASRS_0067149,0,-0.0043
+Q094,distraction in cockpit due to non-essential conversation,bm25,4,ASRS_0076153,16.8718,ASRS_0076153,0,-0.0027
+Q094,distraction in cockpit due to non-essential conversation,bm25,5,ASRS_0008251,16.4079,ASRS_0008251,0,-0.0098
+Q095,PF/PM role confusion during approach,bm25,3,ASRS_0024967,17.456,ASRS_0024967,0,0.0841
+Q095,PF/PM role confusion during approach,bm25,4,ASRS_0106149,16.0148,ASRS_0106149,0,0.0946
+Q095,PF/PM role confusion during approach,bm25,5,ASRS_0051017,13.0423,ASRS_0051017,0,0.0822
+Q096,inadequate briefing led to misunderstanding of plan,bm25,1,ASRS_0072343,22.5069,ASRS_0072343,0,-0.0167
+Q096,inadequate briefing led to misunderstanding of plan,bm25,2,ASRS_0034554,17.4505,ASRS_0034554,0,-0.009
+Q096,inadequate briefing led to misunderstanding of plan,bm25,4,ASRS_0018578,15.1555,ASRS_0018578,0,0.0019
+Q096,inadequate briefing led to misunderstanding of plan,bm25,5,ASRS_0095259,15.0547,ASRS_0095259,0,-0.0254
+Q097,captain overrode first officer's concern about weather,bm25,2,ASRS_0092562,14.4187,ASRS_0092562,0,0.0671
+Q097,captain overrode first officer's concern about weather,bm25,3,ASRS_0064616,14.4187,ASRS_0064616,0,0.1205
+Q097,captain overrode first officer's concern about weather,bm25,4,ASRS_0023306,14.4187,ASRS_0023306,0,0.0898
+Q097,captain overrode first officer's concern about weather,bm25,5,ASRS_0039287,13.9177,ASRS_0039287,0,0.0707
+Q098,ATC workload resulted in delayed responses,bm25,1,ASRS_0012808,16.1332,ASRS_0012808,0,0.2064
+Q098,ATC workload resulted in delayed responses,bm25,2,ASRS_0099955,15.4832,ASRS_0099955,0,0.1623
+Q098,ATC workload resulted in delayed responses,bm25,4,ASRS_0076862,14.486,ASRS_0076862,0,0.1903
+Q098,ATC workload resulted in delayed responses,bm25,5,ASRS_0084957,13.6673,ASRS_0084957,0,0.2026
+Q099,multiple simultaneous abnormal indications overwhelmed crew,bm25,1,ASRS_0005467,17.3343,ASRS_0005467,0,0.0707
+Q099,multiple simultaneous abnormal indications overwhelmed crew,bm25,2,ASRS_0071263,15.1015,ASRS_0071263,0,0.0548
+Q099,multiple simultaneous abnormal indications overwhelmed crew,bm25,3,ASRS_0078411,14.5684,ASRS_0078411,0,0.0646
+Q099,multiple simultaneous abnormal indications overwhelmed crew,bm25,4,ASRS_0077398,14.2488,ASRS_0077398,0,0.0435
+Q099,multiple simultaneous abnormal indications overwhelmed crew,bm25,5,ASRS_0030475,14.063,ASRS_0030475,0,0.0675
+Q100,crew rushed checklist due time pressure,bm25,2,ASRS_0006167,15.9098,ASRS_0006167,0,0.1305

@@ -1,0 +1,955 @@
+query_id,query_text,system,rank,incident_id,score,narrative_preview,relevance
+Q001,late runway change during approach,hybrid,1,ASRS_0105099,0.6114,air carrier pilot reported being given a last minute change to runway assignment during final approach due to a uas flying at the approach end of the runway. the approach to the new runway became unstabilized; but the pilot continued to landing.,2
+Q001,late runway change during approach,hybrid,2,ASRS_0068022,0.692,air carrier flight crew reported a late runway change during approach due to heavy volume of traffic.,2
+Q001,late runway change during approach,hybrid,3,ASRS_0078219,0.6092,air carrier first officer reported loss of situational awareness and turned toward the wrong runway during initial approach after receiving a late runway change.,2
+Q001,late runway change during approach,hybrid,4,ASRS_0081270,0.5715,air carrier first officer reported they were given multiple runway changes resulting in an unstabilized approach and go-around.,2
+Q001,late runway change during approach,hybrid,5,ASRS_0078708,0.5726,emb-120er captain reported that on approach they became disoriented and lined up with runway at an adjacent airport.,0
+Q001,late runway change during approach,bm25,2,ASRS_0053105,16.851,first officer reported late runway change during approach to lax. crew was able to reprogram fmc and complete the approach to the newly assigned runway.,2
+Q001,late runway change during approach,bm25,3,ASRS_0057681,16.7256,air carrier captain reported a late runway change resulted in an unstabilized approach to a landing.,2
+Q001,late runway change during approach,bm25,5,ASRS_0067228,15.9897,ASRS_0067228,0
+Q002,runway was changed on final,hybrid,1,ASRS_0105099,0.6534,air carrier pilot reported being given a last minute change to runway assignment during final approach due to a uas flying at the approach end of the runway. the approach to the new runway became unstabilized; but the pilot continued to landing.,2
+Q002,runway was changed on final,hybrid,2,ASRS_0103933,0.5591,embraer legacy 450/500 pilot reported on short final they observed a c172 still on the runway. they advised atc who changed their clearance to the parallel runway.,2
+Q002,runway was changed on final,hybrid,3,ASRS_0106008,0.5465,medium transport captain reported that runway 31r/13l is closed but still has the runway identifiers on the ends; despite the runway now operating as taxiway h. the garmin database also depicts it as both a runway and taxiway; leading to potential confusion.,1
+Q002,runway was changed on final,hybrid,4,ASRS_0082748,0.5752,air carrier flight crew reported a runway change prior to departure and departing without the correct load closeout.,1
+Q002,runway was changed on final,hybrid,5,ASRS_0081270,0.5679,air carrier first officer reported they were given multiple runway changes resulting in an unstabilized approach and go-around.,2
+Q002,runway was changed on final,bm25,1,ASRS_0018743,13.8059,ASRS_0018743,0
+Q002,runway was changed on final,bm25,3,ASRS_0063866,11.1868,b757 captain reported workload was very heavy on approach into lax when atc changed their runway assignment twice.,0
+Q002,runway was changed on final,bm25,4,ASRS_0049458,11.1868,ASRS_0049458,0
+Q002,runway was changed on final,bm25,5,ASRS_0013301,11.1056,ASRS_0013301,0
+Q003,ATC assigned different landing runway during arrival,hybrid,1,ASRS_0098781,0.6559,air carrier flight crew reported conflicting atc instructions regarding clearance to land while aircraft is on runway.,1
+Q003,ATC assigned different landing runway during arrival,hybrid,2,ASRS_0105188,0.6058,lancair legacy pilot reported lining up on the wrong runway for landing and was instructed by atc to go around.,1
+Q003,ATC assigned different landing runway during arrival,hybrid,3,ASRS_0098921,0.6078,air carrier pilot reported atc cleared them to cross a runway at the same time an arriving aircraft was on short final. atc issued a go around to the arrival.,1
+Q003,ATC assigned different landing runway during arrival,hybrid,4,ASRS_0068742,0.6828,emb-145 first officer reported that they were assigned to land on the right hand runway when atc suddenly reassigned them to land on the left hand runway.,2
+Q003,ATC assigned different landing runway during arrival,hybrid,5,ASRS_0101200,0.5921,air carrier flight crew reported receiving immediate takeoff clearance and then atc canceled the takeoff clearance due to traffic landing on a converging runway resulting in a rejected takeoff.,1
+Q003,ATC assigned different landing runway during arrival,bm25,1,ASRS_0082781,16.9962,ASRS_0082781,0
+Q003,ATC assigned different landing runway during arrival,bm25,2,ASRS_0055227,14.2917,after requesting and receiving a different runway for takeoff; crew was assigned a different departure procedure. crew failed to notice the different final altitude clearance of the new departure.,1
+Q003,ATC assigned different landing runway during arrival,bm25,3,ASRS_0091181,14.0432,ASRS_0091181,0
+Q003,ATC assigned different landing runway during arrival,bm25,4,ASRS_0019042,13.7272,after atc said to expect runway 24r on the lax seavu arrival; 25l was assigned later. a track deviation occurred when the fmc did not accept the arrival and runway change.,1
+Q003,ATC assigned different landing runway during arrival,bm25,5,ASRS_0048154,13.4398,ASRS_0048154,0
+Q004,new runway assigned close to touchdown,hybrid,1,ASRS_0105099,0.5754,air carrier pilot reported being given a last minute change to runway assignment during final approach due to a uas flying at the approach end of the runway. the approach to the new runway became unstabilized; but the pilot continued to landing.,2
+Q004,new runway assigned close to touchdown,hybrid,2,ASRS_0102554,0.5319,c172 pilot reported a runway incursion when entering the active runway prior to aircraft that just landed exiting the active runway.  pilot had to extend time on runway for aircraft to clear causing a plane on final approach to execute a go around.,1
+Q004,new runway assigned close to touchdown,hybrid,3,ASRS_0100493,0.5266,air carrier first officer reported there was no alert regarding the construction of the new parallel runway at mmgl/gdl; which currently has touchdown zone markings. the reporter stated that during arrival; there can be potential confusion for pilots to land on the wrong runway.,1
+Q004,new runway assigned close to touchdown,hybrid,4,ASRS_0087504,0.5449,c172 pilot reported a runway excursion occurred during touchdown and cited that not being aligned with the runway led to sideloading the aircraft and overcorrecting.,0
+Q004,new runway assigned close to touchdown,hybrid,5,ASRS_0083264,0.5311,c172 pilot and observer reported a runway excursion followed loss of directional control during runway alignment.,0
+Q004,new runway assigned close to touchdown,bm25,1,ASRS_0022585,18.1182,a320 captain made a go-around close to touchdown when departing traffic was still on the runway.,1
+Q004,new runway assigned close to touchdown,bm25,2,ASRS_0072547,15.5186,ASRS_0072547,0
+Q004,new runway assigned close to touchdown,bm25,3,ASRS_0090314,14.4338,ASRS_0090314,0
+Q004,new runway assigned close to touchdown,bm25,4,ASRS_0056508,13.4957,ASRS_0056508,0
+Q004,new runway assigned close to touchdown,bm25,5,ASRS_0072293,13.3587,ASRS_0072293,0
+Q005,runway change requiring FMS reprogramming on approach,hybrid,1,ASRS_0078575,0.6679,emb-175 captain reported reprogramming the fms several times after being issued atc instructions to expect a landing runway different from what atis reported; then being issued opposite runway instructions by the next controller.,2
+Q005,runway change requiring FMS reprogramming on approach,hybrid,2,ASRS_0094540,0.5957,e175 first officer reported the fms programming directed the aircraft to reverse course to return to a previous fix instead of proceeding to the next fix on the arrival when the flight crew entered a runway change into the system.,2
+Q005,runway change requiring FMS reprogramming on approach,hybrid,3,ASRS_0049245,0.6791,md-80 captain reported struggling to get the fms re-programmed after a late runway change from atc. reporter recommended atc stick with the original clearance and minimize short-notice changes.,2
+Q005,runway change requiring FMS reprogramming on approach,hybrid,4,ASRS_0053105,0.6647,first officer reported late runway change during approach to lax. crew was able to reprogram fmc and complete the approach to the newly assigned runway.,2
+Q005,runway change requiring FMS reprogramming on approach,hybrid,5,ASRS_0057982,0.6514,air taxi captain reported that while on an ils approach to mco; the fms was programmed for runway 18r; but had the localizer for runway 17l on the left nav radio. the copilot switched it to the runway 18r frequency and the approach was successfully completed.,1
+Q005,runway change requiring FMS reprogramming on approach,bm25,1,ASRS_0035944,21.4276,ASRS_0035944,0
+Q005,runway change requiring FMS reprogramming on approach,bm25,2,ASRS_0070512,20.4235,ASRS_0070512,0
+Q005,runway change requiring FMS reprogramming on approach,bm25,3,ASRS_0014480,19.5753,ASRS_0014480,0
+Q005,runway change requiring FMS reprogramming on approach,bm25,4,ASRS_0012546,19.1958,ASRS_0012546,0
+Q005,runway change requiring FMS reprogramming on approach,bm25,5,ASRS_0011939,18.9145,ASRS_0011939,0
+Q006,visual approach with last minute runway change,hybrid,1,ASRS_0105099,0.4675,air carrier pilot reported being given a last minute change to runway assignment during final approach due to a uas flying at the approach end of the runway. the approach to the new runway became unstabilized; but the pilot continued to landing.,2
+Q006,visual approach with last minute runway change,hybrid,2,ASRS_0078397,0.481,corporate jet captain reported that a visual illusion from runway lighting caused them to line up with the wrong runway on approach to bed.,1
+Q006,visual approach with last minute runway change,hybrid,3,ASRS_0068022,0.4961,air carrier flight crew reported a late runway change during approach due to heavy volume of traffic.,2
+Q006,visual approach with last minute runway change,hybrid,4,ASRS_0049827,0.5408,pilot reports of numerous runway and approach changes inbound to destination airport.,2
+Q006,visual approach with last minute runway change,hybrid,5,ASRS_0076642,0.47,crj200 captain reported receiving late changes to their arrival star and approach runway. due the conflicting signals from ground based navaids and aircraft fms pilot chose to hand fly a visual approach to the correct runway.,2
+Q006,visual approach with last minute runway change,bm25,1,ASRS_0078402,25.1503,b737 captain reported that a last minute runway change from atc resulted in an unstabilized approach.,0
+Q006,visual approach with last minute runway change,bm25,2,ASRS_0082386,23.1421,flight crew reported last minute runway change on a requested vor approach and low on faf due to lack of familiarity with airport.,0
+Q006,visual approach with last minute runway change,bm25,3,ASRS_0071264,22.2804,ASRS_0071264,0
+Q006,visual approach with last minute runway change,bm25,4,ASRS_0078139,22.2804,ASRS_0078139,0
+Q006,visual approach with last minute runway change,bm25,5,ASRS_0047525,21.9852,a b737 crew on approach to runway 25l accepted a last minute change for a runway 19l night visual. when starting a descent after the stratosphere; atc called a low altitude alert although they were high on the papi.,2
+Q007,runway change resulting in go around,hybrid,1,ASRS_0102212,0.5915,general aviation pilot reported a runway incursion during taxi from the fbo and crossing onto a runway; causing another aircraft to perform a go around to avoid the conflict.,1
+Q007,runway change resulting in go around,hybrid,2,ASRS_0102554,0.5803,c172 pilot reported a runway incursion when entering the active runway prior to aircraft that just landed exiting the active runway.  pilot had to extend time on runway for aircraft to clear causing a plane on final approach to execute a go around.,1
+Q007,runway change resulting in go around,hybrid,3,ASRS_0091242,0.5894,pa-28 pilot reported a go-around was caused by an aircraft stopped on the runway.,1
+Q007,runway change resulting in go around,hybrid,4,ASRS_0081270,0.5959,air carrier first officer reported they were given multiple runway changes resulting in an unstabilized approach and go-around.,2
+Q007,runway change resulting in go around,hybrid,5,ASRS_0076777,0.5842,flight crew reported a runway incursion on final approach that resulted in a go-around.,1
+Q007,runway change resulting in go around,bm25,1,ASRS_0078640,15.5755,ASRS_0078640,0
+Q007,runway change resulting in go around,bm25,2,ASRS_0108276,15.5755,ASRS_0108276,0
+Q007,runway change resulting in go around,bm25,3,ASRS_0076084,15.5755,ASRS_0076084,0
+Q007,runway change resulting in go around,bm25,4,ASRS_0077230,15.5755,ASRS_0077230,0
+Q007,runway change resulting in go around,bm25,5,ASRS_0025788,15.2399,ASRS_0025788,0
+Q008,different runway cleared after intercepting localizer,hybrid,1,ASRS_0083149,0.5744,captain reported aircraft turned towards wrong runway due to multiple localizers operational simultaniously.,1
+Q008,different runway cleared after intercepting localizer,hybrid,2,ASRS_0053348,0.6454,an emb-145 captain intercepting the dtw runway 22r localizer noted the aircraft overshot the runway centerline because the localizer signal did not center coincidental with the runway centerline. the interference may be a runway specific issue.,1
+Q008,different runway cleared after intercepting localizer,hybrid,3,ASRS_0086072,0.5604,air carrier captain reported confusion with a go around procedures directing they fly the localizer outbound when they were offset from the localizer on a visual portion of the ils prm y to runway 10r at ord.,1
+Q008,different runway cleared after intercepting localizer,hybrid,4,ASRS_0064208,0.616,b777 first officer reported they were not assigned a runway by atc; but were told to intercept the localizer. they did not query the controller; nor each other; and lined up on the wrong runway.,1
+Q008,different runway cleared after intercepting localizer,hybrid,5,ASRS_0044121,0.6596,regional jet captain reports being cleared for the visual approach to runway 28r at ord and intercepting a false localizer before returning to heading select; then overshooting the real localizer because the approach mode had not been rearmed.,1
+Q008,different runway cleared after intercepting localizer,bm25,1,ASRS_0014948,20.1959,ASRS_0014948,0
+Q008,different runway cleared after intercepting localizer,bm25,4,ASRS_0062110,15.998,ASRS_0062110,0
+Q008,different runway cleared after intercepting localizer,bm25,5,ASRS_0067457,15.8364,ASRS_0067457,0
+Q009,controller switched landing runway due traffic,hybrid,1,ASRS_0109175,0.6383,air traffic controller reported clearing an aircraft to land; but the aircraft landed on the parallel runway; resulting in a runway incursion and conflict with a vehicle that was operating on the runway.,1
+Q009,controller switched landing runway due traffic,hybrid,2,ASRS_0081382,0.6309,controller reported an operations vehicle that was allowed onto a runway caused landing traffic to go-around.,1
+Q009,controller switched landing runway due traffic,hybrid,3,ASRS_0088795,0.5865,tower controller reported a pilot took the wrong runway for departure; resulting in takeoff clearance cancellation and traffic for another aircraft.,1
+Q009,controller switched landing runway due traffic,hybrid,4,ASRS_0080289,0.5873,center controller reported an aircraft attempting to land on the wrong runway resulting in another aircraft executing a go-around.,1
+Q009,controller switched landing runway due traffic,hybrid,5,ASRS_0061080,0.6313,a trainee controller working local control had to send an aircraft around due to conflicting landing traffic on an intersecting runway.,1
+Q009,controller switched landing runway due traffic,bm25,1,ASRS_0027816,13.8565,pit controller described a loss of separation event when traffic landing runway 28l was cleared to cross runway 28c with traffic landing runway 28c; thinking the landing traffic was assigned runway 28r.,1
+Q009,controller switched landing runway due traffic,bm25,3,ASRS_0040045,12.9214,ASRS_0040045,0
+Q009,controller switched landing runway due traffic,bm25,4,ASRS_0029901,12.7035,ASRS_0029901,0
+Q009,controller switched landing runway due traffic,bm25,5,ASRS_0063414,12.6832,ASRS_0063414,0
+Q010,runway reassignment caused confusion on approach,hybrid,1,ASRS_0105099,0.6258,air carrier pilot reported being given a last minute change to runway assignment during final approach due to a uas flying at the approach end of the runway. the approach to the new runway became unstabilized; but the pilot continued to landing.,2
+Q010,runway reassignment caused confusion on approach,hybrid,2,ASRS_0103150,0.5899,citation flight crew reported flying a visual approach aligning to the wrong runway resulting in a go around and landing safely on the second approach.,1
+Q010,runway reassignment caused confusion on approach,hybrid,3,ASRS_0104987,0.545,a general aviation pilot reported they mistakenly followed aircraft on approach to a parallel runway instead of traffic on approach to their runway resulting in a nmac.,1
+Q010,runway reassignment caused confusion on approach,hybrid,4,ASRS_0081898,0.5853,air carrier first officer reported experiencing an unstabilized approach and lining up for the incorrect runway.,1
+Q010,runway reassignment caused confusion on approach,hybrid,5,ASRS_0067227,0.6228,crj-900 captain reported confusion on approach after multiple arrival and runway changes.,2
+Q010,runway reassignment caused confusion on approach,bm25,1,ASRS_0014350,12.6886,ASRS_0014350,0
+Q010,runway reassignment caused confusion on approach,bm25,2,NTSB_003228,12.6886,NTSB_003228,0
+Q010,runway reassignment caused confusion on approach,bm25,3,ASRS_0084466,12.4335,ASRS_0084466,0
+Q010,runway reassignment caused confusion on approach,bm25,4,ASRS_0015180,12.368,ASRS_0015180,0
+Q010,runway reassignment caused confusion on approach,bm25,5,ASRS_0056578,12.2502,ASRS_0056578,0
+Q011,runway change while aircraft established on ILS,hybrid,1,ASRS_0092685,0.62,mob tower controller reported that it takes up to two hours for the controllers to get the ils switched for a runway change.,1
+Q011,runway change while aircraft established on ILS,hybrid,2,ASRS_0106601,0.5758,air carrier flight crew reported atc vectored them to intercept the ils approach course but the ils was set up for the opposite runway resulting in a temporary loss of aircraft control.,2
+Q011,runway change while aircraft established on ILS,hybrid,3,ASRS_0071935,0.6469,737 flight crew reported being changed to an ils and not remembering what runway it was; but the flight ended up going around due to an un-stabilized approach and rnav/ils changes.,2
+Q011,runway change while aircraft established on ILS,hybrid,4,ASRS_0044014,0.7217,a flight's ord arrival runway was changed; but the fms runway was not so the ils did not update and the aircraft got high on glide slope before correcting to an uneventful landing.,2
+Q011,runway change while aircraft established on ILS,hybrid,5,ASRS_0061815,0.6611,a b767 captain reported receiving a late runway change for the ils on a parallel runway. the captain was unstable on approach; but elected to continue landing due to the potential conflict with a departing aircraft if they would have gone around.,2
+Q011,runway change while aircraft established on ILS,bm25,1,ASRS_0055813,18.9458,ASRS_0055813,0
+Q011,runway change while aircraft established on ILS,bm25,2,ASRS_0046645,14.726,c90 tracon controller states atc personnel had to change ils to a different runway configuration because maintenance personnel could not be found to do so. after the change and a discrepancy was found; maintenance changed the ils back to original state to attempt to fix the problem while aircraft were inbound on the ils.,1
+Q011,runway change while aircraft established on ILS,bm25,3,ASRS_0037207,13.8752,ASRS_0037207,0
+Q011,runway change while aircraft established on ILS,bm25,4,NTSB_003266,13.3391,NTSB_003266,0
+Q011,runway change while aircraft established on ILS,bm25,5,ASRS_0036885,13.2887,ASRS_0036885,0
+Q012,change from intersecting to parallel runway during approach,hybrid,1,ASRS_0104987,0.6283,a general aviation pilot reported they mistakenly followed aircraft on approach to a parallel runway instead of traffic on approach to their runway resulting in a nmac.,1
+Q012,change from intersecting to parallel runway during approach,hybrid,2,ASRS_0103933,0.5642,embraer legacy 450/500 pilot reported on short final they observed a c172 still on the runway. they advised atc who changed their clearance to the parallel runway.,1
+Q012,change from intersecting to parallel runway during approach,hybrid,3,ASRS_0098664,0.573,c172s flight instructor reported seeing traffic approaching on final for the parallel runway and believing that the other aircraft may have overshot the runway; offered to go around to atc. however; atc opted it was not needed; gave the aircraft another clearance; and the reporter with the student pilot landed safely.,1
+Q012,change from intersecting to parallel runway during approach,hybrid,4,ASRS_0084959,0.5983,pilot reported that on final approach they drifted toward the parallel runway while looking for traffic; causing a nmac with the aircraft they were looking for.,1
+Q012,change from intersecting to parallel runway during approach,hybrid,5,ASRS_0034182,0.724,traffic being vectored for a parallel runway crossed the final approach course and conflicted with parallel runway traffic.,1
+Q012,change from intersecting to parallel runway during approach,bm25,1,ASRS_0022568,17.629,ASRS_0022568,0
+Q012,change from intersecting to parallel runway during approach,bm25,2,ASRS_0064233,16.7947,ASRS_0064233,0
+Q012,change from intersecting to parallel runway during approach,bm25,3,ASRS_0052453,16.5643,f11 approach controller reports of the tower waiting to change the runway of an arrival that was catching the preceding arrival. the second aircraft was changed to a parallel runway and landed safely.,2
+Q012,change from intersecting to parallel runway during approach,bm25,4,ASRS_0065031,16.2986,ASRS_0065031,0
+Q012,change from intersecting to parallel runway during approach,bm25,5,ASRS_0083341,16.2739,ASRS_0083341,0
+Q013,ATC changed runway due sudden wind shift,hybrid,1,ASRS_0107569,0.5481,a321 first officer reported a last-minute runway change issued by atc during taxi led to a track deviation. the flight crew also encountered periodic wake turbulence on climb-out from a preceding heavy aircraft.,2
+Q013,ATC changed runway due sudden wind shift,hybrid,2,ASRS_0094677,0.5595,a320 captain reported experiencing wake turbulence and having a communication breakdown with atc while on final approach to the runway; in regards to whether the traffic landing on the other; parallel runway was in sight.,1
+Q013,ATC changed runway due sudden wind shift,hybrid,3,ASRS_0081352,0.5863,air carrier captain reported a regular problem of den atc slow to change active runway due to wind direction changes. multiple go-arounds due to excessive tailwinds by arriving aircraft.,1
+Q013,ATC changed runway due sudden wind shift,hybrid,4,ASRS_0097183,0.5204,b737-700 captain reported a late runway change resulted in a programming confusion that caused a slight track deviation that was complicated by a wake turbulence encounter on descent into atl. the captain; who was pilot monitoring; did not catch the changes in the box that came from the runway change.,2
+Q013,ATC changed runway due sudden wind shift,hybrid,5,ASRS_0086098,0.551,b737-800 captain reported atc changed the departure runway creating a unacceptable tailwind takeoff condition. atc explained the switch was to accommodate the aircraft on the star encountering a tailwind.,2
+Q013,ATC changed runway due sudden wind shift,bm25,1,ASRS_0100606,17.6152,ASRS_0100606,0
+Q013,ATC changed runway due sudden wind shift,bm25,2,ASRS_0057859,17.3348,ASRS_0057859,0
+Q013,ATC changed runway due sudden wind shift,bm25,3,ASRS_0095047,15.5411,ASRS_0095047,0
+Q013,ATC changed runway due sudden wind shift,bm25,4,ASRS_0043799,15.2128,c172 student pilot reports a wind shift during landing resulting in a runway excursion and slight damage to a runway light and the aircraft.,0
+Q013,ATC changed runway due sudden wind shift,bm25,5,ASRS_0052352,14.8069,ASRS_0052352,0
+Q014,runway reassignment after gear-down selection,hybrid,1,ASRS_0090288,0.5879,flight crew reported landing gear did not retract after being selected up after take off. the flight crew performed an air turn back and precautionary landing at departure airport.,0
+Q014,runway reassignment after gear-down selection,hybrid,2,ASRS_0090079,0.5657,captain reported landing gear would not retract when selected after take off. the flight crew requested vectors back to the airport and made a precautionary landing.,0
+Q014,runway reassignment after gear-down selection,hybrid,3,ASRS_0091940,0.5549,emb-145 captain reported landing gear would not retract when selected up after take off. the flight crew returned to departure airport and landed.,0
+Q014,runway reassignment after gear-down selection,hybrid,4,ASRS_0087360,0.569,captain reported left hand main gear did not retract on takeoff. captain elected to request priority handling and an air turn back to make a precautionary landing.,0
+Q014,runway reassignment after gear-down selection,hybrid,5,ASRS_0092015,0.5542,flight crew reported the landing gear would not retract after take off. the crew ran the non-normal checklist which instructed to open and close the manual gear retraction door and verify it is fully closed; followed by cycling the landing gear handle to the down position followed by the up position. upon cycling the gear lever; the gear retracted ,0
+Q014,runway reassignment after gear-down selection,bm25,1,ASRS_0015306,17.5224,ASRS_0015306,0
+Q014,runway reassignment after gear-down selection,bm25,2,ASRS_0095254,15.7436,ASRS_0095254,0
+Q014,runway reassignment after gear-down selection,bm25,3,ASRS_0094687,14.6043,ASRS_0094687,0
+Q014,runway reassignment after gear-down selection,bm25,4,ASRS_0092078,14.2386,ASRS_0092078,0
+Q014,runway reassignment after gear-down selection,bm25,5,ASRS_0001155,12.8447,ASRS_0001155,0
+Q015,runway change issued while vectoring to final,hybrid,1,ASRS_0105099,0.6702,air carrier pilot reported being given a last minute change to runway assignment during final approach due to a uas flying at the approach end of the runway. the approach to the new runway became unstabilized; but the pilot continued to landing.,2
+Q015,runway change issued while vectoring to final,hybrid,2,ASRS_0081270,0.5686,air carrier first officer reported they were given multiple runway changes resulting in an unstabilized approach and go-around.,2
+Q015,runway change issued while vectoring to final,hybrid,3,ASRS_0082748,0.5242,air carrier flight crew reported a runway change prior to departure and departing without the correct load closeout.,1
+Q015,runway change issued while vectoring to final,hybrid,4,ASRS_0083264,0.5194,c172 pilot and observer reported a runway excursion followed loss of directional control during runway alignment.,0
+Q015,runway change issued while vectoring to final,hybrid,5,ASRS_0078402,0.5243,b737 captain reported that a last minute runway change from atc resulted in an unstabilized approach.,2
+Q015,runway change issued while vectoring to final,bm25,1,ASRS_0089935,17.4082,ASRS_0089935,0
+Q015,runway change issued while vectoring to final,bm25,2,ASRS_0022087,15.8731,ASRS_0022087,0
+Q015,runway change issued while vectoring to final,bm25,3,ASRS_0052416,15.6641,a pilot on final to apa was asked to slow for departing aircraft; but could not because his aircraft was at approach speed so atc issued a runway change on very short final creating a perceived unsafe situation for the pilot.,1
+Q015,runway change issued while vectoring to final,bm25,4,ASRS_0092247,14.9423,ASRS_0092247,0
+Q015,runway change issued while vectoring to final,bm25,5,ASRS_0098354,14.9317,ASRS_0098354,0
+Q016,arrival runway changed twice during approach,hybrid,1,ASRS_0105099,0.61,air carrier pilot reported being given a last minute change to runway assignment during final approach due to a uas flying at the approach end of the runway. the approach to the new runway became unstabilized; but the pilot continued to landing.,2
+Q016,arrival runway changed twice during approach,hybrid,2,ASRS_0081270,0.6463,air carrier first officer reported they were given multiple runway changes resulting in an unstabilized approach and go-around.,2
+Q016,arrival runway changed twice during approach,hybrid,3,ASRS_0104987,0.5765,a general aviation pilot reported they mistakenly followed aircraft on approach to a parallel runway instead of traffic on approach to their runway resulting in a nmac.,1
+Q016,arrival runway changed twice during approach,hybrid,4,ASRS_0078219,0.6053,air carrier first officer reported loss of situational awareness and turned toward the wrong runway during initial approach after receiving a late runway change.,2
+Q016,arrival runway changed twice during approach,hybrid,5,ASRS_0078708,0.5721,emb-120er captain reported that on approach they became disoriented and lined up with runway at an adjacent airport.,1
+Q016,arrival runway changed twice during approach,bm25,1,ASRS_0063866,18.5155,b757 captain reported workload was very heavy on approach into lax when atc changed their runway assignment twice.,1
+Q016,arrival runway changed twice during approach,bm25,2,ASRS_0048586,15.3136,emb-170 first officer describes an fms anomaly during approach to lax that will not allow the approach to be changed from runway 25l to runway 24r as assigned by atc. runway 24r is entered twice and each time reverts back to 25l. a hand flown approach to runway 24r is accomplished.,1
+Q016,arrival runway changed twice during approach,bm25,3,ASRS_0048875,15.1609,ASRS_0048875,0
+Q016,arrival runway changed twice during approach,bm25,4,ASRS_0052453,14.2574,f11 approach controller reports of the tower waiting to change the runway of an arrival that was catching the preceding arrival. the second aircraft was changed to a parallel runway and landed safely.,2
+Q016,arrival runway changed twice during approach,bm25,5,ASRS_0099905,13.8217,ASRS_0099905,0
+Q017,runway change while on short final with traffic ahead,hybrid,1,ASRS_0105099,0.5669,air carrier pilot reported being given a last minute change to runway assignment during final approach due to a uas flying at the approach end of the runway. the approach to the new runway became unstabilized; but the pilot continued to landing.,2
+Q017,runway change while on short final with traffic ahead,hybrid,2,ASRS_0107201,0.5406,c182 pilot departing a non-towered airport reported they entered the runway to depart causing an aircraft on short final to go-around.,1
+Q017,runway change while on short final with traffic ahead,hybrid,3,ASRS_0088287,0.5664,commercial captain reported conducting a go around on short final due to departing traffic still on the runway which resulted from atc's inadequate traffic separation.,1
+Q017,runway change while on short final with traffic ahead,hybrid,4,ASRS_0052416,0.6164,a pilot on final to apa was asked to slow for departing aircraft; but could not because his aircraft was at approach speed so atc issued a runway change on very short final creating a perceived unsafe situation for the pilot.,2
+Q017,runway change while on short final with traffic ahead,hybrid,5,ASRS_0068022,0.5712,air carrier flight crew reported a late runway change during approach due to heavy volume of traffic.,2
+Q017,runway change while on short final with traffic ahead,bm25,1,ASRS_0089734,18.2649,ASRS_0089734,0
+Q017,runway change while on short final with traffic ahead,bm25,2,ASRS_0030028,18.0916,ASRS_0030028,0
+Q017,runway change while on short final with traffic ahead,bm25,3,ASRS_0101837,17.8087,ASRS_0101837,0
+Q017,runway change while on short final with traffic ahead,bm25,4,ASRS_0100645,17.6892,ASRS_0100645,0
+Q017,runway change while on short final with traffic ahead,bm25,5,ASRS_0039580,17.3579,ASRS_0039580,0
+Q018,new runway assigned after approach briefing completed,hybrid,1,ASRS_0105099,0.6681,air carrier pilot reported being given a last minute change to runway assignment during final approach due to a uas flying at the approach end of the runway. the approach to the new runway became unstabilized; but the pilot continued to landing.,2
+Q018,new runway assigned after approach briefing completed,hybrid,2,ASRS_0105152,0.5259,air carrier captain reported the jeppesen approach plate and the fms display different final approach course information for runway 13/31 at mli airport.,1
+Q018,new runway assigned after approach briefing completed,hybrid,3,ASRS_0081270,0.5628,air carrier first officer reported they were given multiple runway changes resulting in an unstabilized approach and go-around.,2
+Q018,new runway assigned after approach briefing completed,hybrid,4,ASRS_0078273,0.5454,air carrier first officer reported receiving multiple approach clearances to different runways.,2
+Q018,new runway assigned after approach briefing completed,hybrid,5,ASRS_0078219,0.5287,air carrier first officer reported loss of situational awareness and turned toward the wrong runway during initial approach after receiving a late runway change.,2
+Q018,new runway assigned after approach briefing completed,bm25,1,ASRS_0017154,14.588,ASRS_0017154,0
+Q018,new runway assigned after approach briefing completed,bm25,2,ASRS_0021156,13.7692,ASRS_0021156,0
+Q018,new runway assigned after approach briefing completed,bm25,3,ASRS_0032980,13.7315,ASRS_0032980,0
+Q018,new runway assigned after approach briefing completed,bm25,4,ASRS_0009729,13.6322,ASRS_0009729,0
+Q018,new runway assigned after approach briefing completed,bm25,5,ASRS_0078139,13.0413,ASRS_0078139,0
+Q019,runway change to shorter runway on approach,hybrid,1,ASRS_0105099,0.5001,air carrier pilot reported being given a last minute change to runway assignment during final approach due to a uas flying at the approach end of the runway. the approach to the new runway became unstabilized; but the pilot continued to landing.,2
+Q019,runway change to shorter runway on approach,hybrid,2,ASRS_0104987,0.4889,a general aviation pilot reported they mistakenly followed aircraft on approach to a parallel runway instead of traffic on approach to their runway resulting in a nmac.,1
+Q019,runway change to shorter runway on approach,hybrid,3,ASRS_0064115,0.5092,a flight instructor reported that the approach to a runway has terrain and obstacles in the final approach path.,1
+Q019,runway change to shorter runway on approach,hybrid,4,ASRS_0049827,0.5349,pilot reports of numerous runway and approach changes inbound to destination airport.,2
+Q019,runway change to shorter runway on approach,hybrid,5,ASRS_0052453,0.519,f11 approach controller reports of the tower waiting to change the runway of an arrival that was catching the preceding arrival. the second aircraft was changed to a parallel runway and landed safely.,2
+Q019,runway change to shorter runway on approach,bm25,1,ASRS_0053105,17.8077,first officer reported late runway change during approach to lax. crew was able to reprogram fmc and complete the approach to the newly assigned runway.,1
+Q019,runway change to shorter runway on approach,bm25,2,ASRS_0066467,17.1836,ASRS_0066467,0
+Q019,runway change to shorter runway on approach,bm25,3,ASRS_0056067,17.0747,ASRS_0056067,0
+Q019,runway change to shorter runway on approach,bm25,5,ASRS_0049488,16.6782,ASRS_0049488,0
+Q020,ATC issued circle-to-land to different runway late in approach,hybrid,1,ASRS_0098921,0.6534,air carrier pilot reported atc cleared them to cross a runway at the same time an arriving aircraft was on short final. atc issued a go around to the arrival.,1
+Q020,ATC issued circle-to-land to different runway late in approach,hybrid,2,ASRS_0107753,0.602,air carrier flight crew reported on final approach they were given clearance to land but soon after atc instructed them to go around due to ground traffic crossing runways.,1
+Q020,ATC issued circle-to-land to different runway late in approach,hybrid,3,ASRS_0102474,0.6135,air carrier flight crew reported that while on final approach they were instructed by atc to go-around due to another aircraft wasn't clear of the runway.,1
+Q020,ATC issued circle-to-land to different runway late in approach,hybrid,4,ASRS_0104886,0.606,medium transport aircraft pilot reported atc had the pilot perform missed approaches on two different runways due to being off course; even though the reporter's navigation systems showed the aircraft on course. the reporter noted another aircraft also had the same problem despite being on course for a different runway.,2
+Q020,ATC issued circle-to-land to different runway late in approach,hybrid,5,ASRS_0109346,0.5899,air carrier pilot reported an atc initiated missed approach during landing due to aircraft on the runway.,1
+Q020,ATC issued circle-to-land to different runway late in approach,bm25,1,ASRS_0087286,26.646,ASRS_0087286,0
+Q020,ATC issued circle-to-land to different runway late in approach,bm25,2,ASRS_0020507,25.5466,ASRS_0020507,0
+Q020,ATC issued circle-to-land to different runway late in approach,bm25,3,ASRS_0071351,24.731,ASRS_0071351,0
+Q020,ATC issued circle-to-land to different runway late in approach,bm25,4,ASRS_0044286,23.7189,ASRS_0044286,0
+Q020,ATC issued circle-to-land to different runway late in approach,bm25,5,ASRS_0045781,23.4585,after planning to land straight in on the short runway 3 ils at mkc the flight crew of a ce-560xl learned there had been previous less than good braking action reports at the airport. they opted to circle to land on the longer runway 1. in making the rapid transition from a precision straight in to a non-precision circle to land they failed to comp,1
+Q021,incorrect readback of amended clearance,hybrid,1,ASRS_0107524,0.6084,eug tracon controller reported missing incorrect clearance readback resulted in descent below mva and a cftt event.,2
+Q021,incorrect readback of amended clearance,hybrid,2,ASRS_0057129,0.7153,clearance delivery issued a clearance to an aircraft which was read back incorrectly. clearance delivery did not catch the mistake.,2
+Q021,incorrect readback of amended clearance,hybrid,3,ASRS_0096481,0.603,bna tower controller reported not verifying an incorrect readback that stated a clearance below the mva and was informed by the supervisor.,2
+Q021,incorrect readback of amended clearance,hybrid,4,ASRS_0091322,0.5895,tracon controller reported being unaware of issuing clearance below the mva with read back error. controller reported fatigue due to staffing and scheduling was a contributory factor.,2
+Q021,incorrect readback of amended clearance,hybrid,5,ASRS_0049526,0.6972,pilot reports of receiving an amended clearance and having difficulties with other atc facilities reference the clearance.,1
+Q021,incorrect readback of amended clearance,bm25,1,ASRS_0056043,18.0337,flight crew on departure read back the incorrect altitude clearance. the incorrect readback was not caught by the controller.,2
+Q021,incorrect readback of amended clearance,bm25,3,ASRS_0089219,16.8795,center controller reported an aircraft flew below the minimum vectoring altitude due to an incorrect readback of the controller's clearance.,1
+Q021,incorrect readback of amended clearance,bm25,4,ASRS_0080477,16.3386,tracon controller reported missing an incorrect readback.,0
+Q021,incorrect readback of amended clearance,bm25,5,ASRS_0080952,15.6349,pilot reported receiving amended clearance inflight repeatedly.,1
+Q022,pilot did not read back runway assignment correctly,hybrid,1,ASRS_0105099,0.6243,air carrier pilot reported being given a last minute change to runway assignment during final approach due to a uas flying at the approach end of the runway. the approach to the new runway became unstabilized; but the pilot continued to landing.,2
+Q022,pilot did not read back runway assignment correctly,hybrid,2,ASRS_0087770,0.645,pilot reported confusing taxi instruction and that pavement behind the runway is not notamed correctly.,1
+Q022,pilot did not read back runway assignment correctly,hybrid,3,ASRS_0104886,0.5771,medium transport aircraft pilot reported atc had the pilot perform missed approaches on two different runways due to being off course; even though the reporter's navigation systems showed the aircraft on course. the reporter noted another aircraft also had the same problem despite being on course for a different runway.,2
+Q022,pilot did not read back runway assignment correctly,hybrid,4,ASRS_0097645,0.5966,c208 pilot reported runway excursion during back taxi maneuvering.,1
+Q022,pilot did not read back runway assignment correctly,hybrid,5,ASRS_0080571,0.6034,pilot reported taking off in the wrong runway direction.,1
+Q022,pilot did not read back runway assignment correctly,bm25,1,ASRS_0098444,21.5045,ASRS_0098444,0
+Q022,pilot did not read back runway assignment correctly,bm25,2,ASRS_0069348,21.3178,a pilot reported having to repeat their receipt of the current atis; receiving incomplete taxi instructions; and did not agree with tower insisting they read back the runway assignment when told to hold short.,1
+Q022,pilot did not read back runway assignment correctly,bm25,3,ASRS_0070163,21.2616,controller reported not listening correctly to a read back which had the pilot descend below the minimum vectoring altitude.,1
+Q022,pilot did not read back runway assignment correctly,bm25,4,ASRS_0093193,21.1196,ASRS_0093193,0
+Q022,pilot did not read back runway assignment correctly,bm25,5,ASRS_0060676,20.5299,ASRS_0060676,0
+Q023,ATC phraseology ambiguity during approach clearance,hybrid,1,ASRS_0091688,0.5709,air carrier flight crew reported confusing atc clearance instructions on approach to den airport.,2
+Q023,ATC phraseology ambiguity during approach clearance,hybrid,2,ASRS_0086128,0.5879,air carrier flight crew reported difficulty understanding an arrival clearance and non-standard phraseology used by zsha atc during arrival at zspd foreign airport.,2
+Q023,ATC phraseology ambiguity during approach clearance,hybrid,3,ASRS_0086179,0.5701,a center controller reported their use of improper approach clearance phraseology resulted in an aircraft descending below the minimum ifr altitude.,2
+Q023,ATC phraseology ambiguity during approach clearance,hybrid,4,ASRS_0043718,0.6814,ztl controller voiced concern regarding the varied phraseology used within atc when clearing 'descend via' clearances.,2
+Q023,ATC phraseology ambiguity during approach clearance,hybrid,5,ASRS_0071027,0.6013,instructor pilot reported communications problems with atc and asked for clarification in approach clearance while flying over terrain below approach altitude.,2
+Q023,ATC phraseology ambiguity during approach clearance,bm25,1,ASRS_0063814,18.7133,a320 captain reported ambiguity in procedures; aim guidance; and atc expectations during missed approaches that occur following a go-around from a visual approach clearance given subsequent to an instrument approach clearance.,1
+Q023,ATC phraseology ambiguity during approach clearance,bm25,2,ASRS_0046442,17.8965,a boeing widebody first officer addressed his concerns regarding ambiguity of abbreviated atc/flight crew phraseology with respect to complex rnav sids and stars.,1
+Q023,ATC phraseology ambiguity during approach clearance,bm25,3,ASRS_0057997,17.2044,ASRS_0057997,0
+Q023,ATC phraseology ambiguity during approach clearance,bm25,4,ASRS_0066498,16.4638,ASRS_0066498,0
+Q023,ATC phraseology ambiguity during approach clearance,bm25,5,ASRS_0044634,15.3972,ASRS_0044634,0
+Q024,hearback error on altitude change,hybrid,1,ASRS_0055222,0.7085,a controller reported not hearing an altitude read back error because he had unplugged his headset momentarily to plug into a different headset jack.,2
+Q024,hearback error on altitude change,hybrid,2,ASRS_0093503,0.6041,controller reported failure to hear altitude readback of pilot resulted in aircraft descending below minimum vectoring altitude.,2
+Q024,hearback error on altitude change,hybrid,3,ASRS_0100155,0.5647,tracon controller reported failure to hear readback altitude error; resulted in descent below mva and a cftt event.,2
+Q024,hearback error on altitude change,hybrid,4,ASRS_0081093,0.6035,air carrier flight crew reported experiencing an altitude deviation during departure. flight crew did not hear the 1;000 feet altitude alert.,1
+Q024,hearback error on altitude change,hybrid,5,ASRS_0088798,0.5752,pilot reported possibly not hearing the correct heading after atc gave a immediate turn and low altitude alert.,2
+Q024,hearback error on altitude change,bm25,1,ASRS_0027901,20.7655,a b737 left their assigned altitude following a hearback readback error with atc.,2
+Q024,hearback error on altitude change,bm25,2,ASRS_0012722,18.0417,ASRS_0012722,0
+Q024,hearback error on altitude change,bm25,3,ASRS_0005445,15.8584,ASRS_0005445,0
+Q024,hearback error on altitude change,bm25,4,ASRS_0017888,14.2289,ASRS_0017888,0
+Q024,hearback error on altitude change,bm25,5,ASRS_0022483,13.2803,ASRS_0022483,0
+Q025,simultaneous transmissions caused missed restriction,hybrid,1,ASRS_0102547,0.5019,air traffic controller reported missed communication between controllers resulted with an aircraft entering the runway safety area while another aircraft was landing on the same runway. the crossing aircraft held short of the runway but beyond the hold short lines.,2
+Q025,simultaneous transmissions caused missed restriction,hybrid,2,ASRS_0088029,0.5342,air carrier pilot reported non-emergency flight related transmissions on guard frequency. reporter stated this resulted in interrupted communications; creating a safety of flight issue.,2
+Q025,simultaneous transmissions caused missed restriction,hybrid,3,ASRS_0083747,0.5002,a tracon controller reported they were distracted with radio and communications problems and did not notice an aircraft conducting a missed approach had conflicting traffic that the missed approach aircraft received a tcas/ra for.,2
+Q025,simultaneous transmissions caused missed restriction,hybrid,4,ASRS_0071780,0.5035,corporate pilot and air traffic controller reported a missed crossing restriction resulted in a loss of separation.,2
+Q025,simultaneous transmissions caused missed restriction,hybrid,5,ASRS_0067276,0.5035,zoa center controller reported that an aircraft on the suutr two arrival missed a crossing restriction; creating a direct conflict with another aircraft on the dyamd three arrival.,2
+Q025,simultaneous transmissions caused missed restriction,bm25,1,ASRS_0046031,16.5175,ASRS_0046031,0
+Q025,simultaneous transmissions caused missed restriction,bm25,2,ASRS_0038453,12.8924,ASRS_0038453,0
+Q025,simultaneous transmissions caused missed restriction,bm25,3,ASRS_0024984,12.5709,ASRS_0024984,0
+Q025,simultaneous transmissions caused missed restriction,bm25,4,ASRS_0070164,12.3736,ASRS_0070164,0
+Q025,simultaneous transmissions caused missed restriction,bm25,5,ASRS_0077019,12.3736,ASRS_0077019,0
+Q026,pilot used non standard phraseology requesting runway change,hybrid,1,ASRS_0082386,0.613,flight crew reported last minute runway change on a requested vor approach and low on faf due to lack of familiarity with airport.,2
+Q026,pilot used non standard phraseology requesting runway change,hybrid,2,ASRS_0089159,0.5648,a tower local controller reported non standard phraseology used by the ground controller led an aircraft to taxi onto a runway at the same time another aircraft was departing opposite direction.,2
+Q026,pilot used non standard phraseology requesting runway change,hybrid,3,ASRS_0075142,0.5845,air carrier pilot reported a runway incursion due clearance confusion and language barrier issues.,2
+Q026,pilot used non standard phraseology requesting runway change,hybrid,4,ASRS_0080758,0.5659,pilot reported a runway excursion.,0
+Q026,pilot used non standard phraseology requesting runway change,hybrid,5,ASRS_0076962,0.5647,an air carrier pilot reported the tower was issuing confusing non standard phraseology to taxiing aircraft causing confusion.,2
+Q026,pilot used non standard phraseology requesting runway change,bm25,1,ASRS_0001180,22.281,ASRS_0001180,0
+Q026,pilot used non standard phraseology requesting runway change,bm25,2,NTSB_003707,21.7451,NTSB_003707,0
+Q026,pilot used non standard phraseology requesting runway change,bm25,3,ASRS_0075368,21.6098,a light transport pilot reported atc used non-standard phraseology which led to the crew executing a right 360 degree turn instead of turning to a heading of 360.,1
+Q026,pilot used non standard phraseology requesting runway change,bm25,5,ASRS_0086128,20.979,air carrier flight crew reported difficulty understanding an arrival clearance and non-standard phraseology used by zsha atc during arrival at zspd foreign airport.,1
+Q027,clearance cancelled but pilot continued due miscommunication,hybrid,1,ASRS_0100501,0.699,an air carrier pilot reported after receiving takeoff clearance tower cancelled the clearance due to an aircraft landing on an intersecting runway.,2
+Q027,clearance cancelled but pilot continued due miscommunication,hybrid,2,ASRS_0106979,0.678,a321 flight crew reported that atc cancelled their takeoff clearance and had to reject takeoff due to a conflict with another aircraft that was on final approach.,2
+Q027,clearance cancelled but pilot continued due miscommunication,hybrid,3,ASRS_0105408,0.6664,private pilot reported being cleared for an immediate take-off and not noticing an aircraft on short final. this results in atc cancelling their take-off clearance and the pilot clearing the runway.,2
+Q027,clearance cancelled but pilot continued due miscommunication,hybrid,4,ASRS_0091685,0.6795,pilot reported not being able to receive clearance through pdc and requested verbal clearance from atc. pilot stated a portion of the clearance was not familiar to them and had difficulty getting atc to clarify it.,1
+Q027,clearance cancelled but pilot continued due miscommunication,hybrid,5,ASRS_0071491,0.7321,air carrier pilot reported their takeoff clearance was cancelled after they questioned the timing of the controller's clearance.,2
+Q027,clearance cancelled but pilot continued due miscommunication,bm25,1,ASRS_0073383,17.9361,corporate pilot reported atc cancelled the approach clearance without any further instructions so the pilot cancelled ifr; but was then advised should not have descended.,1
+Q027,clearance cancelled but pilot continued due miscommunication,bm25,3,ASRS_0104485,16.0176,pilot reported atc cancelled takeoff clearance during takeoff roll due to an aircraft landing on an intersecting runway.,2
+Q027,clearance cancelled but pilot continued due miscommunication,bm25,4,ASRS_0071422,15.3939,air carrier captain reported a possible runway incursion due to miscommunication of atc clearance.,2
+Q027,clearance cancelled but pilot continued due miscommunication,bm25,5,ASRS_0071284,15.3939,ASRS_0071284,0
+Q028,frequency congestion during critical approach phase,hybrid,1,ASRS_0085582,0.4907,air carrier pilot reported excessive frequency congestion at ewr airport due to vfr transitioning aircraft using the same tower frequency as arrival and departure traffic. the reporter stated these operations used to have separate frequencies to alleviate the congestion.,2
+Q028,frequency congestion during critical approach phase,hybrid,2,ASRS_0105375,0.4239,pilot reported there was significant frequency congestion at several airports surrounding u76; all of which use the same frequency; and suggested that the u76 ctaf/unicom be changed to alleviate congestion.,1
+Q028,frequency congestion during critical approach phase,hybrid,3,ASRS_0106255,0.3952,general aviation pilot reported being unable to make timely ctaf calls and communication with other aircraft in the traffic pattern due to frequency congestion from surrounding airports.,1
+Q028,frequency congestion during critical approach phase,hybrid,4,ASRS_0079257,0.4377,air carrier first officer reported that the use of multiple departure frequencies at  mdw airport resulted in an increased workload during a critical phase of flight.,2
+Q028,frequency congestion during critical approach phase,hybrid,5,ASRS_0050890,0.5018,small aircraft pilot reports frequency congestion when trying to obtain flight following with sct while departing enroute to burbank. pilot offers concern as to why one controller is responsible for two different frequencies.,1
+Q028,frequency congestion during critical approach phase,bm25,1,ASRS_0061570,18.0463,ASRS_0061570,0
+Q028,frequency congestion during critical approach phase,bm25,2,ASRS_0100595,17.6863,ASRS_0100595,0
+Q028,frequency congestion during critical approach phase,bm25,3,ASRS_0085463,15.9826,ASRS_0085463,0
+Q028,frequency congestion during critical approach phase,bm25,4,ASRS_0068503,15.972,ASRS_0068503,0
+Q028,frequency congestion during critical approach phase,bm25,5,ASRS_0050958,15.4803,pilot reported an approach controller demanded he accept a visual approach to follow other traffic.  when the pilot refused the clearance; the controller became irate; causing distraction during a critical phase of flight.,0
+Q029,readback not corrected by controller,hybrid,1,ASRS_0080477,0.6309,tracon controller reported missing an incorrect readback.,2
+Q029,readback not corrected by controller,hybrid,2,ASRS_0088363,0.5889,tracon controller in charge reported a read back error which caused an aircraft to descend below the mva.,2
+Q029,readback not corrected by controller,hybrid,3,ASRS_0099939,0.5374,center controller reported a missed readback resulted in descent below mva and a cftt event.,2
+Q029,readback not corrected by controller,hybrid,4,ASRS_0096481,0.5404,bna tower controller reported not verifying an incorrect readback that stated a clearance below the mva and was informed by the supervisor.,2
+Q029,readback not corrected by controller,hybrid,5,ASRS_0088135,0.5603,tracon controller missed a read back which led to the wrong aircraft taking an instruction resulting in a mva error.,2
+Q029,readback not corrected by controller,bm25,1,ASRS_0060430,18.1352,ASRS_0060430,0
+Q029,readback not corrected by controller,bm25,2,ASRS_0001825,16.4836,ASRS_0001825,0
+Q029,readback not corrected by controller,bm25,3,ASRS_0056043,14.9503,flight crew on departure read back the incorrect altitude clearance. the incorrect readback was not caught by the controller.,2
+Q030,controller fast delivery of complex clearance,hybrid,1,ASRS_0105621,0.5014,zdc artcc controller reported situation of high volume of traffic and complexity resulting in an unsafe situation with aircraft unable to descent due to traffic and the sector not receiving proper spacing of aircraft.,1
+Q030,controller fast delivery of complex clearance,hybrid,2,ASRS_0097263,0.5241,a tower controller reported an aircraft which acknowledged a clearance to line up and wait; took off conflicting with an arrival to an intersecting runway.,1
+Q030,controller fast delivery of complex clearance,hybrid,3,ASRS_0084058,0.552,an atc supervisor reported instructing a controller to issue an ifr clearance through a restricted area due to priority situation.,1
+Q030,controller fast delivery of complex clearance,hybrid,4,ASRS_0078895,0.5316,controller reported issuing and then having to modify a go-around clearance to a due to loss of separation.,1
+Q030,controller fast delivery of complex clearance,hybrid,5,ASRS_0067791,0.5243,zhu center controller reported issuing a clearance to a helicopter that was below the minimum ifr altitude and not procedurally separated from an arriving helicopter.,2
+Q030,controller fast delivery of complex clearance,bm25,1,ASRS_0029402,17.5257,ASRS_0029402,0
+Q030,controller fast delivery of complex clearance,bm25,2,ASRS_0057129,17.1847,clearance delivery issued a clearance to an aircraft which was read back incorrectly. clearance delivery did not catch the mistake.,0
+Q030,controller fast delivery of complex clearance,bm25,3,ASRS_0049073,16.3137,hcf controller describes situation where an a conflict arises due to a bad clearance issued by clearance delivery at the tower of departure.,2
+Q030,controller fast delivery of complex clearance,bm25,4,ASRS_0066639,14.607,ASRS_0066639,0
+Q030,controller fast delivery of complex clearance,bm25,5,ASRS_0024903,14.2351,ASRS_0024903,0
+Q031,similar call signs leading to wrong clearance acceptance,hybrid,1,ASRS_0074542,0.6397,air carrier first officer reported taking a clearance intended for a similar sounding call sign aircraft.,2
+Q031,similar call signs leading to wrong clearance acceptance,hybrid,2,ASRS_0078365,0.6233,first officer reported impending conflict due to atc clearance issued in error; which was attributed to similar call signs and congested airspace.,2
+Q031,similar call signs leading to wrong clearance acceptance,hybrid,3,ASRS_0067671,0.6499,a tower controller reported they issued a departure clearance to the wrong aircraft due to similar sounding call signs from the same company.,2
+Q031,similar call signs leading to wrong clearance acceptance,hybrid,4,ASRS_0082269,0.5968,ga pilot reported atc clearance issues involving similar call signs and cited controller workload as a contributing factor.,2
+Q031,similar call signs leading to wrong clearance acceptance,hybrid,5,ASRS_0083569,0.587,airbus first officer reported a go-around caused by late clearance to descend and confusion caused by a similar call sign for an aircraft preceding them.,2
+Q031,similar call signs leading to wrong clearance acceptance,bm25,1,ASRS_0075209,29.5881,ASRS_0075209,0
+Q031,similar call signs leading to wrong clearance acceptance,bm25,3,ASRS_0059919,29.1198,a tower controller reported issuing the wrong clearance due to similar sounding same company call signs. the same controller also had to issue clearances and taxi instructions to three aircraft on frequency at the same time with similar company call signs.,2
+Q031,similar call signs leading to wrong clearance acceptance,bm25,4,ASRS_0075541,28.9933,sdf tower controller reported they issued a runway crossing clearance to the wrong aircraft due to confusion caused by similar sounding call signs.,2
+Q031,similar call signs leading to wrong clearance acceptance,bm25,5,ASRS_0046543,28.0138,ASRS_0046543,0
+Q032,pilot responded to clearance meant for other aircraft,hybrid,1,ASRS_0103734,0.6868,air carrier flight crew reported an airborne conflict during final approach with an intruder aircraft. after complying with a tcas ra the flight crew obtained a new clearance to a safe landing.,1
+Q032,pilot responded to clearance meant for other aircraft,hybrid,2,ASRS_0107753,0.6717,air carrier flight crew reported on final approach they were given clearance to land but soon after atc instructed them to go around due to ground traffic crossing runways.,2
+Q032,pilot responded to clearance meant for other aircraft,hybrid,3,ASRS_0101188,0.6808,air carrier flight crew reported a traffic conflict when receiving a takeoff clearance with another aircraft on final approach. the crew did not accept the clearance and remained short of the runway to avoid the conflict.,1
+Q032,pilot responded to clearance meant for other aircraft,hybrid,4,ASRS_0100501,0.6808,an air carrier pilot reported after receiving takeoff clearance tower cancelled the clearance due to an aircraft landing on an intersecting runway.,2
+Q032,pilot responded to clearance meant for other aircraft,hybrid,5,ASRS_0101282,0.6755,air carrier pilot reported a near miss on final approach with another aircraft that received atc takeoff clearance on the same runway. pilot performed a go around to avoid a collision.,2
+Q032,pilot responded to clearance meant for other aircraft,bm25,1,ASRS_0066978,19.0419,ASRS_0066978,0
+Q032,pilot responded to clearance meant for other aircraft,bm25,2,ASRS_0067697,18.289,ASRS_0067697,0
+Q032,pilot responded to clearance meant for other aircraft,bm25,3,ASRS_0072182,17.169,ASRS_0072182,0
+Q032,pilot responded to clearance meant for other aircraft,bm25,4,ASRS_0053320,16.6437,b737 flight crew reported becoming confused by similar sounding call signs during approach to atl and mistakenly accepted a descent clearance meant for another aircraft.,1
+Q032,pilot responded to clearance meant for other aircraft,bm25,5,ASRS_0031464,16.6109,ASRS_0031464,0
+Q033,language difficulties between crew and controller,hybrid,1,ASRS_0082467,0.6591,flight crew reported numerous late clearances due to language barrier from a foreign controller.,2
+Q033,language difficulties between crew and controller,hybrid,2,ASRS_0089973,0.6207,controller reported pilot failed to follow control instructions possibly due to language barrier; which resulted in entering a higher mia.,2
+Q033,language difficulties between crew and controller,hybrid,3,ASRS_0070927,0.6308,air carrier flight crew reported communications difficulty with foreign atc due to language barrier.,2
+Q033,language difficulties between crew and controller,hybrid,4,ASRS_0052520,0.6616,dvt tower controller reports of a language problem with pilots. an aircraft was cleared for a full stop; but did a touch and go. controller reported that pilots do not understand or respond; they just do whatever they want.,2
+Q033,language difficulties between crew and controller,hybrid,5,ASRS_0048461,0.6679,b767 flight crew reports difficulties during pushback due to poor comprehension of english by the tug driver at scel.,2
+Q033,language difficulties between crew and controller,bm25,1,ASRS_0016325,18.3182,acr flt crew reports language difficulties with svmi atc.,1
+Q033,language difficulties between crew and controller,bm25,2,ASRS_0025718,17.2548,ASRS_0025718,0
+Q033,language difficulties between crew and controller,bm25,3,ASRS_0005523,16.3088,ASRS_0005523,0
+Q033,language difficulties between crew and controller,bm25,4,ASRS_0046015,15.3356,language barrier between vfr pilot and controller delayed an airborne conflict resolution with another vfr aircraft.,2
+Q033,language difficulties between crew and controller,bm25,5,ASRS_0071121,15.0353,ASRS_0071121,0
+Q034,controller used non standard phraseology for speed control,hybrid,1,ASRS_0058474,0.6469,b737 captain reported confusion about their speed assignment due to the controller using incorrect phraseology.,2
+Q034,controller used non standard phraseology for speed control,hybrid,2,ASRS_0083101,0.526,medium large transport captain received cpdlc speed clearance from gander control which created procedural confusion between atc; jeppesen manual; and company policy.,2
+Q034,controller used non standard phraseology for speed control,hybrid,3,ASRS_0089159,0.4936,a tower local controller reported non standard phraseology used by the ground controller led an aircraft to taxi onto a runway at the same time another aircraft was departing opposite direction.,2
+Q034,controller used non standard phraseology for speed control,hybrid,4,ASRS_0064142,0.5471,air carrier first officer reported the speed restriction verbiage used in their clearance received via cpdlc/pdc is confusing to pilots due to its non-standard nature.,2
+Q034,controller used non standard phraseology for speed control,hybrid,5,ASRS_0075928,0.4934,small aircraft pilot reported a tower controller's phraseology and performance was unsafe and unprofessional.,1
+Q034,controller used non standard phraseology for speed control,bm25,1,ASRS_0038372,22.6582,ASRS_0038372,0
+Q034,controller used non standard phraseology for speed control,bm25,3,ASRS_0001180,22.281,ASRS_0001180,0
+Q034,controller used non standard phraseology for speed control,bm25,4,NTSB_003707,21.7451,NTSB_003707,0
+Q034,controller used non standard phraseology for speed control,bm25,5,ASRS_0036171,21.7248,ASRS_0036171,0
+Q035,missed level-off due to unclear altitude phraseology,hybrid,1,ASRS_0106093,0.5905,first officer reported receiving an atc low altitude alert after leveling off after departure.  first officer reported reading back the cleared altitude twice despite the sid indicating a higher top altitude.,2
+Q035,missed level-off due to unclear altitude phraseology,hybrid,2,ASRS_0070538,0.6851,air carrier relief pilot reported a missed altitude restriction while on the gibbz2 arrival to iad. the crew misunderstood the 'descend via' phraseology.,2
+Q035,missed level-off due to unclear altitude phraseology,hybrid,3,ASRS_0081349,0.6582,corporate pilot reported leveling off at the wrong altitude while being distracted with the cowl flaps.,1
+Q035,missed level-off due to unclear altitude phraseology,hybrid,4,ASRS_0062532,0.6563,a tracon controller reported an air carrier pilot was not familiar with 'climb via' phraseology and leveled at an interim altitude unnecessarily.,2
+Q035,missed level-off due to unclear altitude phraseology,hybrid,5,ASRS_0088385,0.5865,b737 captain reported leveling at proper altitude and receiving a low altitude alert from atc.,1
+Q035,missed level-off due to unclear altitude phraseology,bm25,1,ASRS_0073951,19.2858,ASRS_0073951,0
+Q035,missed level-off due to unclear altitude phraseology,bm25,2,ASRS_0074250,18.5727,clt controller reported he missed a readback while issuing a clearance which caused a departing aircraft to level off below the minimum vectoring altitude.,1
+Q035,missed level-off due to unclear altitude phraseology,bm25,3,ASRS_0082279,18.3038,ASRS_0082279,0
+Q035,missed level-off due to unclear altitude phraseology,bm25,4,ASRS_0036732,18.2016,ASRS_0036732,0
+Q035,missed level-off due to unclear altitude phraseology,bm25,5,ASRS_0095210,17.9248,ASRS_0095210,0
+Q036,altitude restriction omitted in readback,hybrid,1,ASRS_0104998,0.6019,zau center controller and their trainee reported they missed an erroneous altitude read back and the aircraft descended below the minimum enroute altitude.,2
+Q036,altitude restriction omitted in readback,hybrid,2,ASRS_0105014,0.583,a center supervisor reported a controller did not detect an erroneous descent clearance read back and the aircraft descended below the minimum vectoring altitude.,2
+Q036,altitude restriction omitted in readback,hybrid,3,ASRS_0074250,0.6637,clt controller reported he missed a readback while issuing a clearance which caused a departing aircraft to level off below the minimum vectoring altitude.,2
+Q036,altitude restriction omitted in readback,hybrid,4,ASRS_0056043,0.708,flight crew on departure read back the incorrect altitude clearance. the incorrect readback was not caught by the controller.,2
+Q036,altitude restriction omitted in readback,hybrid,5,ASRS_0093503,0.6048,controller reported failure to hear altitude readback of pilot resulted in aircraft descending below minimum vectoring altitude.,2
+Q036,altitude restriction omitted in readback,bm25,2,ASRS_0027901,12.6962,a b737 left their assigned altitude following a hearback readback error with atc.,2
+Q036,altitude restriction omitted in readback,bm25,3,ASRS_0099321,12.4283,ASRS_0099321,0
+Q036,altitude restriction omitted in readback,bm25,4,ASRS_0084376,12.4283,tracon controller reported missing a readback which resulted in the aircraft being below the minimum vectoring altitude.,2
+Q036,altitude restriction omitted in readback,bm25,5,ASRS_0072599,12.3228,ASRS_0072599,0
+Q037,pilot assumed clearance based on expectation,hybrid,1,ASRS_0085652,0.5443,air carrier pilot flying reported a confusing pre departure clearance.,1
+Q037,pilot assumed clearance based on expectation,hybrid,2,ASRS_0063927,0.5993,two military pilots reported an altitude excursion due to expectation of clearance similar to previous exercises.,1
+Q037,pilot assumed clearance based on expectation,hybrid,3,ASRS_0078212,0.5499,phenom 300 pilot reported receiving an unusual clearance during a go-around that resulted in confusion.,1
+Q037,pilot assumed clearance based on expectation,hybrid,4,ASRS_0079040,0.5452,a center controller reported an aircraft departed an airport requesting an ifr clearance but the pilot was not aware they were adjacent to restricted areas and heading into them.,1
+Q037,pilot assumed clearance based on expectation,hybrid,5,ASRS_0065064,0.562,pilot reported confusion with clearance when controller advised the fix was on a different runway then what the crew was told.,1
+Q037,pilot assumed clearance based on expectation,bm25,1,ASRS_0044037,16.8022,ASRS_0044037,0
+Q037,pilot assumed clearance based on expectation,bm25,2,ASRS_0106881,14.791,ASRS_0106881,0
+Q037,pilot assumed clearance based on expectation,bm25,4,ASRS_0080777,13.9922,ASRS_0080777,0
+Q037,pilot assumed clearance based on expectation,bm25,5,ASRS_0046461,13.9316,ASRS_0046461,0
+Q038,controller changed frequency at busy point in approach,hybrid,1,ASRS_0085334,0.5941,pilot reported having to ask controller several times if they were cleared to land during approach.  reporter stated the controller was probably overwhelmed working three positions/frequencies at the same time.,2
+Q038,controller changed frequency at busy point in approach,hybrid,2,ASRS_0055617,0.5779,a controller issued a frequency change to an adjacent sector for an aircraft. the controller then realized they had not handed off the data block and target of the aircraft.,1
+Q038,controller changed frequency at busy point in approach,hybrid,3,ASRS_0055985,0.5638,controller observed an aircraft not complying with its assigned speed on final approach. the following aircraft had to be sent around for resequencing. the reporter claimed this is a recurring problem with one particular airline.,1
+Q038,controller changed frequency at busy point in approach,hybrid,4,ASRS_0065482,0.5359,a local controller reported an inbound aircraft still on approach control frequency descended through the altitude of a vfr departure.,1
+Q038,controller changed frequency at busy point in approach,hybrid,5,ASRS_0071615,0.516,local controller reported failing to issue a frequency change to an aircraft resulting in aircraft entering a higher mva.,2
+Q038,controller changed frequency at busy point in approach,bm25,1,ASRS_0047290,16.0656,ASRS_0047290,0
+Q038,controller changed frequency at busy point in approach,bm25,2,ASRS_0068900,15.5503,ASRS_0068900,0
+Q038,controller changed frequency at busy point in approach,bm25,3,ASRS_0046027,15.3715,ASRS_0046027,0
+Q038,controller changed frequency at busy point in approach,bm25,4,ASRS_0087558,15.2482,ASRS_0087558,0
+Q038,controller changed frequency at busy point in approach,bm25,5,ASRS_0053721,14.2362,air carrier flight crew reported of flying through the approach course; attempting to contact approach. no response; so they changed to tower frequency and got vectored back on to final. approach controller told pilots they should not have switched to tower frequency. controllers stated they were in a briefing.,1
+Q039,missed handoff resulting in loss of contact,hybrid,1,ASRS_0101594,0.5341,flight instructor reported a near miss with another aircraft that landed without proper spacing at a non-towered airport. the first landing aircraft performed a touch and go to de-conflict the loss of separation on the runway; as the second aircraft turned off the runway.,1
+Q039,missed handoff resulting in loss of contact,hybrid,2,ASRS_0108482,0.5043,atc tracon controller reported situation where the adjacent facility was not taking handoffs in a timely manner resulting in a complex and dangerous atc environment.,2
+Q039,missed handoff resulting in loss of contact,hybrid,3,ASRS_0097712,0.5053,corporate flight crew reported a near miss while on landing rollout at a non-towered airport. a general aviation aircraft was taking off on the intersecting runway without a radio call; requiring the crew to brake firmly to avoid a collision.,1
+Q039,missed handoff resulting in loss of contact,hybrid,4,ASRS_0063839,0.5874,socal tracon feeder and final controllers reported a handoff that was not made correctly which resulted in an aircraft having to be resequenced due to not seeing traffic.,2
+Q039,missed handoff resulting in loss of contact,hybrid,5,ASRS_0083405,0.5284,center controller reported a hand off issue with adjacent airspace resulting in an airspace violation.,2
+Q039,missed handoff resulting in loss of contact,bm25,1,ASRS_0077496,15.1151,ASRS_0077496,0
+Q039,missed handoff resulting in loss of contact,bm25,2,ASRS_0094718,14.4929,ASRS_0094718,0
+Q039,missed handoff resulting in loss of contact,bm25,3,ASRS_0080323,14.4929,ASRS_0080323,0
+Q039,missed handoff resulting in loss of contact,bm25,4,ASRS_0065793,14.2806,ASRS_0065793,0
+Q039,missed handoff resulting in loss of contact,bm25,5,ASRS_0062548,13.9661,ASRS_0062548,0
+Q040,pilot switched to wrong frequency and missed instructions,hybrid,1,ASRS_0080511,0.7138,pilot reported being switched from approach to tower; but dialed incorrect frequency resulting in a go-around.,2
+Q040,pilot switched to wrong frequency and missed instructions,hybrid,2,ASRS_0099483,0.6454,a center controller reported they did not correct a pilot readback of the wrong frequency resulting in loss of contact with the aircraft as it flew below the minimum ifr altitude.,2
+Q040,pilot switched to wrong frequency and missed instructions,hybrid,3,ASRS_0086814,0.673,pilot reported transmitting on the wrong frequency contributed to a near mid air collision.,2
+Q040,pilot switched to wrong frequency and missed instructions,hybrid,4,ASRS_0071457,0.686,air carrier captain reported being issued the wrong frequency to activate pilot controlled lights at an airport where the tower was closed.,2
+Q040,pilot switched to wrong frequency and missed instructions,hybrid,5,ASRS_0082384,0.6546,air carrier captain reported checking in and hearing the controller tell everybody to stand by.  they continued on assigned heading and altitude; finally being told they were on the wrong frequency. controller reportedly was working multiple frequencies.,2
+Q040,pilot switched to wrong frequency and missed instructions,bm25,1,ASRS_0079997,21.8736,ASRS_0079997,0
+Q040,pilot switched to wrong frequency and missed instructions,bm25,2,ASRS_0019181,19.8714,ASRS_0019181,0
+Q040,pilot switched to wrong frequency and missed instructions,bm25,3,ASRS_0062004,18.6066,air carrier captain reported he did not realize they were supposed to wait for frequency change instructions. they switched from tower to departure control on their own.,1
+Q040,pilot switched to wrong frequency and missed instructions,bm25,4,ASRS_0103011,18.3106,ASRS_0103011,0
+Q041,unstable approach due high sink rate,hybrid,1,ASRS_0107382,0.4988,fractional first officer reported an unstable approach leading to a sink rate call by the aircraft.,1
+Q041,unstable approach due high sink rate,hybrid,2,ASRS_0105230,0.5022,air carrier first officer reported experiencing an increased sink rate during final approach resulting in the aircraft bouncing and executing a go around.,1
+Q041,unstable approach due high sink rate,hybrid,3,ASRS_0100232,0.4448,b737 captain reported an unstable approach due to terrain and glide slope configuration warnings. flight crew arrested excessive sink rate and landed.,1
+Q041,unstable approach due high sink rate,hybrid,4,ASRS_0103690,0.4216,air carrier first officer reported an egpws sink rate warning; an unstable approach and firm landing.,1
+Q041,unstable approach due high sink rate,hybrid,5,ASRS_0105346,0.3843,air carrier flight crew reported downdrafts on final approach caused a steep descent and a sink rate warning; resulting in a go around a diversion to a nearby airport.,1
+Q041,unstable approach due high sink rate,bm25,4,ASRS_0104915,22.425,ASRS_0104915,0
+Q041,unstable approach due high sink rate,bm25,5,ASRS_0100145,22.3408,ASRS_0100145,0
+Q042,go around from short final due unstable approach,hybrid,1,ASRS_0108942,0.4896,medium transport flight crew reported unstable approach at mfr resulted in a go-around. flight crew stated that published approaches do not allow approaches to be flown within stabilized approach criteria.,1
+Q042,go around from short final due unstable approach,hybrid,2,ASRS_0107236,0.4843,air carrier flight crew reported an unstable approach and temporary loss of control on short final.,1
+Q042,go around from short final due unstable approach,hybrid,3,ASRS_0108065,0.4813,e175 first officer reported overshooting the final approach course after encountering wake turbulence during descent into bos.,1
+Q042,go around from short final due unstable approach,hybrid,4,ASRS_0082471,0.553,air carrier flight crew reported that the first portion of the approach was unstable due to not slowing early enough on final approach.,1
+Q042,go around from short final due unstable approach,hybrid,5,ASRS_0070950,0.581,a321 flight crew reported an unstable approach after being turned onto final too close to the final approach fix and above glidepath by atc.,1
+Q042,go around from short final due unstable approach,bm25,1,ASRS_0081124,24.2735,flight crew reported a go around due to unstable approach and late handoff from approach controller.,1
+Q042,go around from short final due unstable approach,bm25,2,ASRS_0078856,23.4593,captain reported to executing a go-around due to an unstable final ils approach attributed to a high airspeed clearance until on final.,1
+Q042,go around from short final due unstable approach,bm25,3,ASRS_0077012,22.3245,emb-145 captain reported initiating a go-around due to an unstable approach.,1
+Q042,go around from short final due unstable approach,bm25,4,ASRS_0066854,22.3245,ASRS_0066854,0
+Q042,go around from short final due unstable approach,bm25,5,ASRS_0104738,21.9026,ASRS_0104738,0
+Q043,approach continued below minima,hybrid,1,ASRS_0095553,0.3709,pa28 pilot reported descending below the approach minimums during final approach due to night conditions; fatigue; and complacency; as well as not wanting to overshoot the airport.,1
+Q043,approach continued below minima,hybrid,2,ASRS_0095712,0.3473,c182 pilot reported they used the wrong approach minimums and went below minimum altitude on approach in imc. pilot continued to landing.,1
+Q043,approach continued below minima,hybrid,3,ASRS_0068879,0.4012,m-20k pilot reported low fuel level indications causing a descent below minimums on approach.,1
+Q043,approach continued below minima,hybrid,4,ASRS_0083549,0.3568,flight instructor reported executing a missed approach from an instrument approach after descending below minimums.,1
+Q043,approach continued below minima,hybrid,5,ASRS_0066577,0.3604,emb-175 captain reported that because of weather conditions and low fuel on board the crew landed below restricted captain minima.,1
+Q043,approach continued below minima,bm25,1,NTSB_000918,17.8527,Pilot not advised of weather by approach control. Weather conditions below minima.,0
+Q043,approach continued below minima,bm25,2,NTSB_000747,17.0694,Collided with trees on approach. Improper IFR operation. Descended below minima for reasons unknown.,0
+Q043,approach continued below minima,bm25,3,NTSB_001046,15.3821,NTSB_001046,0
+Q043,approach continued below minima,bm25,4,NTSB_001632,14.4172,NTSB_001632,0
+Q043,approach continued below minima,bm25,5,NTSB_000931,13.8112,NTSB_000931,0
+Q044,late configuration leading to unstable approach,hybrid,1,ASRS_0091223,0.5111,controller and pilot reported issues with an unstable approach and the pilot's decision to begin the missed approach procedure before the published missed approach point.,1
+Q044,late configuration leading to unstable approach,hybrid,2,ASRS_0106914,0.4472,air carrier pilots reported an unstable approach; egwps warning and the execution of a missed approach.,1
+Q044,late configuration leading to unstable approach,hybrid,3,ASRS_0100457,0.4588,b737ng captain reported approach instability on final at sfo; possibly related to weather or wake turbulence.,1
+Q044,late configuration leading to unstable approach,hybrid,4,ASRS_0082471,0.5051,air carrier flight crew reported that the first portion of the approach was unstable due to not slowing early enough on final approach.,1
+Q044,late configuration leading to unstable approach,hybrid,5,ASRS_0087974,0.4768,pilot reported an unstable approach and a go around.,1
+Q044,late configuration leading to unstable approach,bm25,1,ASRS_0071333,20.7062,widebody transport captain reported unstable approach to mem airport due to speed and configuration mismanagement.,1
+Q044,late configuration leading to unstable approach,bm25,2,ASRS_0081124,19.534,flight crew reported a go around due to unstable approach and late handoff from approach controller.,1
+Q044,late configuration leading to unstable approach,bm25,3,ASRS_0107382,19.1836,fractional first officer reported an unstable approach leading to a sink rate call by the aircraft.,0
+Q044,late configuration leading to unstable approach,bm25,4,ASRS_0073049,18.0751,b787-8 first officer reported an unstable approach due to late descent clearance from atc and tailwinds on final approach.,1
+Q044,late configuration leading to unstable approach,bm25,5,ASRS_0067612,17.8958,ASRS_0067612,0
+Q045,high energy approach requiring steep descent,hybrid,1,ASRS_0098466,0.3642,crj-900 first officer reported an unstabilized approach resulting in an excessive descent rate and low altitude alert on approach.,1
+Q045,high energy approach requiring steep descent,hybrid,2,ASRS_0068879,0.4449,m-20k pilot reported low fuel level indications causing a descent below minimums on approach.,1
+Q045,high energy approach requiring steep descent,hybrid,3,ASRS_0087277,0.3737,c150 pilot reported that during initial climb out a jet doing a low approach from the opposite end of the runway passed directly over the cessna; requiring evasive action.,1
+Q045,high energy approach requiring steep descent,hybrid,4,ASRS_0056447,0.4155,an air carrier captain reported a new first officer established a high descent rate between 6;000 feet and about 2;500 feet on the lse runway 31 rnav then was slow to arrest the descent after the egpws alerted pull up prior to the final approach fix.,1
+Q045,high energy approach requiring steep descent,hybrid,5,ASRS_0067809,0.3806,b737 flight crew reported that the chsly3 odp plans the descent path so steep that the speed constraints are not achievable with the use of the speed brake.,1
+Q045,high energy approach requiring steep descent,bm25,1,ASRS_0067242,15.4127,ASRS_0067242,0
+Q045,high energy approach requiring steep descent,bm25,2,ASRS_0068828,14.5042,ASRS_0068828,0
+Q045,high energy approach requiring steep descent,bm25,3,ASRS_0055741,13.6773,ASRS_0055741,0
+Q045,high energy approach requiring steep descent,bm25,4,ASRS_0096022,13.6067,ASRS_0096022,0
+Q045,high energy approach requiring steep descent,bm25,5,ASRS_0056927,13.4856,ASRS_0056927,0
+Q046,tailwind landing causing unstable approach,hybrid,1,ASRS_0104593,0.6518,cessna 172 student pilot reported an unstable approach while landing in strong gusty winds on a solo training flight which resulted in a runway excursion.,1
+Q046,tailwind landing causing unstable approach,hybrid,2,ASRS_0108725,0.6223,a319 first officer reported gusty winds caused an unstable approach at 50 feet resulting in a bounced landing and flap overspeed during the go around.,1
+Q046,tailwind landing causing unstable approach,hybrid,3,ASRS_0102421,0.6188,regional jet flight crew reported while landing in a crosswind they had an unstable approach resulting in a hard landing.,1
+Q046,tailwind landing causing unstable approach,hybrid,4,ASRS_0105990,0.5955,air carrier pilot reported an unstable approach and hard landing.,1
+Q046,tailwind landing causing unstable approach,hybrid,5,ASRS_0100840,0.6065,a light sport experimental pilot reported an unstable approach and long landing resulted in a runway excursion and tail strike.,1
+Q046,tailwind landing causing unstable approach,bm25,1,ASRS_0066243,16.8469,ASRS_0066243,0
+Q046,tailwind landing causing unstable approach,bm25,2,ASRS_0106674,16.7229,ASRS_0106674,0
+Q046,tailwind landing causing unstable approach,bm25,3,ASRS_0072582,16.2692,a319 flight crew reported executing a go-around due to an unstable approach resulting from inadequate spacing and 30-knot tailwind.,1
+Q046,tailwind landing causing unstable approach,bm25,4,ASRS_0092264,14.0847,ASRS_0092264,0
+Q046,tailwind landing causing unstable approach,bm25,5,ASRS_0066418,13.5681,ASRS_0066418,0
+Q047,unstable ILS due incorrect glideslope intercept,hybrid,1,ASRS_0086720,0.6634,pilot reported they were low on glide path during approach and thought they might be having an equipment problem.  pilot observed two aircraft close to the runway which may have interfered with the ils glide slope signal.,1
+Q047,unstable ILS due incorrect glideslope intercept,hybrid,2,ASRS_0086198,0.6534,an air carrier pilot reported they received erroneous glideslope and lateral guidance from the ils while an aircraft was holding in the ils critical area. the reporter stated this will become a recurring issue due to a runway closure at the airport.,1
+Q047,unstable ILS due incorrect glideslope intercept,hybrid,3,ASRS_0106833,0.5795,air carrier captain reported that glide slope anomalies on approach to sfo ils 28r led to an unstabilized approach and a low altitude alert from atc.,1
+Q047,unstable ILS due incorrect glideslope intercept,hybrid,4,ASRS_0058438,0.6618,air carrier flight crew encountered an unstable ils glide slope during approach.,1
+Q047,unstable ILS due incorrect glideslope intercept,hybrid,5,ASRS_0073188,0.6045,crj-200 flight crew reported irregular ils glideslope indications during ils approach.,1
+Q047,unstable ILS due incorrect glideslope intercept,bm25,1,ASRS_0056236,18.3954,ASRS_0056236,0
+Q047,unstable ILS due incorrect glideslope intercept,bm25,2,ASRS_0106434,17.4573,ASRS_0106434,0
+Q047,unstable ILS due incorrect glideslope intercept,bm25,3,ASRS_0048567,16.1626,ASRS_0048567,0
+Q047,unstable ILS due incorrect glideslope intercept,bm25,4,ASRS_0049001,15.9168,ASRS_0049001,0
+Q047,unstable ILS due incorrect glideslope intercept,bm25,5,ASRS_0056986,15.9093,ASRS_0056986,0
+Q048,unstable visual approach with inadequate guidance,hybrid,1,ASRS_0108942,0.5202,medium transport flight crew reported unstable approach at mfr resulted in a go-around. flight crew stated that published approaches do not allow approaches to be flown within stabilized approach criteria.,1
+Q048,unstable visual approach with inadequate guidance,hybrid,2,ASRS_0107819,0.5077,an air taxi captain reported becoming unstable during a visual approach and received a terrain warning as a result.,1
+Q048,unstable visual approach with inadequate guidance,hybrid,3,ASRS_0077986,0.5449,pilot reported an unstable approach on a expressway visual arrival to lga.,1
+Q048,unstable visual approach with inadequate guidance,hybrid,4,ASRS_0066568,0.559,air carrier flight crew reported an issue with a late clearance to a visual approach resulting in a marginally stable approach.,1
+Q048,unstable visual approach with inadequate guidance,hybrid,5,ASRS_0067562,0.5448,erj-170 first officer reported some confusion on a visual approach that led to an unstabilized approach.,1
+Q048,unstable visual approach with inadequate guidance,bm25,2,ASRS_0072582,15.1627,a319 flight crew reported executing a go-around due to an unstable approach resulting from inadequate spacing and 30-knot tailwind.,0
+Q048,unstable visual approach with inadequate guidance,bm25,3,ASRS_0095457,14.332,ASRS_0095457,0
+Q048,unstable visual approach with inadequate guidance,bm25,4,ASRS_0054424,13.989,ASRS_0054424,0
+Q049,automation mode confusion during approach,hybrid,1,ASRS_0091564,0.5386,air carrier captain reported they received a momentary 'obstacle' warning which they overcame by overriding the automation.,1
+Q049,automation mode confusion during approach,hybrid,2,ASRS_0101535,0.4967,b737 max 9 flight crew reported during approach the autothrottle system commanded a climbing turn at the missed approach point without pilot input. flight crew performed a missed approach and completed a second approach with automation disconnected.,1
+Q049,automation mode confusion during approach,hybrid,3,ASRS_0086608,0.534,global 5000 captain reported an over reliance on automation caused them to go below altitude on approach; requiring a climb and subsequently continuing the approach.,1
+Q049,automation mode confusion during approach,hybrid,4,ASRS_0075743,0.555,medium large transport captain reported automation mismanagement resulting in undershooting altitude restrictions on approach.,1
+Q049,automation mode confusion during approach,hybrid,5,ASRS_0087682,0.5055,air carrier pilot reported descending to the final approach fix altitude instead of the atc assigned altitude received with the approach clearance due to automation mismanagement.,1
+Q049,automation mode confusion during approach,bm25,1,ASRS_0109047,15.5705,ASRS_0109047,0
+Q049,automation mode confusion during approach,bm25,2,ASRS_0108009,14.1698,ASRS_0108009,0
+Q049,automation mode confusion during approach,bm25,3,ASRS_0098909,12.7892,ASRS_0098909,0
+Q049,automation mode confusion during approach,bm25,4,ASRS_0037282,12.7548,ASRS_0037282,0
+Q049,automation mode confusion during approach,bm25,5,ASRS_0104158,12.6914,ASRS_0104158,0
+Q050,unstable approach combined with late runway change,hybrid,1,ASRS_0105099,0.526,air carrier pilot reported being given a last minute change to runway assignment during final approach due to a uas flying at the approach end of the runway. the approach to the new runway became unstabilized; but the pilot continued to landing.,2
+Q050,unstable approach combined with late runway change,hybrid,2,ASRS_0082471,0.5819,air carrier flight crew reported that the first portion of the approach was unstable due to not slowing early enough on final approach.,1
+Q050,unstable approach combined with late runway change,hybrid,3,ASRS_0093529,0.5337,lr-45 pilot reported while conducting a visual approach they briefly lost sight of the airport resulting in an unstable approach and touched down too far down the runway. when attempting to stop they had no braking and could not stop until the overrun.,1
+Q050,unstable approach combined with late runway change,hybrid,4,ASRS_0087974,0.523,pilot reported an unstable approach and a go around.,1
+Q050,unstable approach combined with late runway change,hybrid,5,ASRS_0053972,0.5992,this flight crew reported that; due to an early turn toward the airport; the approach exceeded the parameters for a stable approach. however; due to a potential conflict with a departing aircraft on the same runway; both pilots determined that continuing the approach and landing was a better course of action than a go-around.,1
+Q050,unstable approach combined with late runway change,bm25,1,ASRS_0054259,20.0943,crj-200 captain reported receiving a late runway change from atc during arrival to dfw that resulted in an unstable approach and a go-around.,2
+Q050,unstable approach combined with late runway change,bm25,2,ASRS_0097601,18.0847,ASRS_0097601,0
+Q050,unstable approach combined with late runway change,bm25,3,ASRS_0061815,17.6481,a b767 captain reported receiving a late runway change for the ils on a parallel runway. the captain was unstable on approach; but elected to continue landing due to the potential conflict with a departing aircraft if they would have gone around.,1
+Q050,unstable approach combined with late runway change,bm25,4,ASRS_0057681,16.7256,air carrier captain reported a late runway change resulted in an unstabilized approach to a landing.,2
+Q050,unstable approach combined with late runway change,bm25,5,ASRS_0081124,16.4799,flight crew reported a go around due to unstable approach and late handoff from approach controller.,1
+Q051,stabilized criteria not met but landing continued,hybrid,1,ASRS_0105990,0.5707,air carrier pilot reported an unstable approach and hard landing.,1
+Q051,stabilized criteria not met but landing continued,hybrid,2,ASRS_0108807,0.5619,emb-175 captain reported an unstable approach and bounced landing.,1
+Q051,stabilized criteria not met but landing continued,hybrid,3,ASRS_0105604,0.5595,air carrier flight crew reported unstable approach and bounced firm landing.,1
+Q051,stabilized criteria not met but landing continued,hybrid,4,ASRS_0081720,0.6221,b757-200 first officer reported that the approach to landing was stable up until 50 feet agl; then the descent rate rapidly increased; resulting in a firm landing.,1
+Q051,stabilized criteria not met but landing continued,hybrid,5,ASRS_0068102,0.6555,a319 flight crew reported continuing the approach to landing even though not meeting stabilized approach criteria.,1
+Q051,stabilized criteria not met but landing continued,bm25,2,ASRS_0070361,20.8983,widebody transport flight crew reported being high and fast and not meeting stabilized approach criteria before landing.,1
+Q051,stabilized criteria not met but landing continued,bm25,3,ASRS_0048293,19.4853,ASRS_0048293,0
+Q051,stabilized criteria not met but landing continued,bm25,4,ASRS_0053531,18.3678,ASRS_0053531,0
+Q051,stabilized criteria not met but landing continued,bm25,5,ASRS_0008350,17.8934,ASRS_0008350,0
+Q052,unstable approach due to unexpected tailwind gradient,hybrid,1,ASRS_0104593,0.4802,cessna 172 student pilot reported an unstable approach while landing in strong gusty winds on a solo training flight which resulted in a runway excursion.,1
+Q052,unstable approach due to unexpected tailwind gradient,hybrid,2,ASRS_0100457,0.4538,b737ng captain reported approach instability on final at sfo; possibly related to weather or wake turbulence.,1
+Q052,unstable approach due to unexpected tailwind gradient,hybrid,3,ASRS_0067828,0.5395,b777-200 flight crew reported an unstabilized approach on ils approach due to the influence of a strong tailwind.,1
+Q052,unstable approach due to unexpected tailwind gradient,hybrid,4,ASRS_0073049,0.5124,b787-8 first officer reported an unstable approach due to late descent clearance from atc and tailwinds on final approach.,1
+Q052,unstable approach due to unexpected tailwind gradient,hybrid,5,ASRS_0094815,0.4477,pitts s1-c pilot reported a loss of directional control due to quartering tailwind on landing. aircraft ground looped on the runway with no injuries and repairable damage to aircraft.,0
+Q052,unstable approach due to unexpected tailwind gradient,bm25,1,ASRS_0106674,23.4547,ASRS_0106674,0
+Q052,unstable approach due to unexpected tailwind gradient,bm25,2,ASRS_0072582,21.8012,a319 flight crew reported executing a go-around due to an unstable approach resulting from inadequate spacing and 30-knot tailwind.,1
+Q052,unstable approach due to unexpected tailwind gradient,bm25,3,ASRS_0066243,19.4575,ASRS_0066243,0
+Q052,unstable approach due to unexpected tailwind gradient,bm25,4,ASRS_0022019,19.1594,ASRS_0022019,0
+Q052,unstable approach due to unexpected tailwind gradient,bm25,5,ASRS_0082028,18.0054,ASRS_0082028,0
+Q053,gear not down on time causing unstable approach,hybrid,1,ASRS_0107393,0.4666,lancair pilot reported executing a go-around after realizing the gear was not down.,0
+Q053,gear not down on time causing unstable approach,hybrid,2,ASRS_0104519,0.4567,emb-170 flight crew reported that during the initial approach the landing gear would not extend. they cycled the gear lever a second time and then on the third attempt the gear extended normally.,0
+Q053,gear not down on time causing unstable approach,hybrid,3,ASRS_0102345,0.459,a320 flight crew on final approach reported main gear not down and locked.,0
+Q053,gear not down on time causing unstable approach,hybrid,4,ASRS_0082471,0.5113,air carrier flight crew reported that the first portion of the approach was unstable due to not slowing early enough on final approach.,1
+Q053,gear not down on time causing unstable approach,hybrid,5,ASRS_0089592,0.4793,b767-300 flight crew reported a gear down indication malfunction during approach to land.,0
+Q053,gear not down on time causing unstable approach,bm25,1,ASRS_0081655,17.1001,ASRS_0081655,0
+Q053,gear not down on time causing unstable approach,bm25,3,ASRS_0076784,14.5651,ASRS_0076784,0
+Q053,gear not down on time causing unstable approach,bm25,4,ASRS_0080386,14.4372,ASRS_0080386,0
+Q053,gear not down on time causing unstable approach,bm25,5,ASRS_0071570,13.6782,ASRS_0071570,0
+Q054,unstable non-precision approach with high workload,hybrid,1,ASRS_0108942,0.3282,medium transport flight crew reported unstable approach at mfr resulted in a go-around. flight crew stated that published approaches do not allow approaches to be flown within stabilized approach criteria.,1
+Q054,unstable non-precision approach with high workload,hybrid,2,ASRS_0106224,0.331,emb-145 first officer reported executing a missed approach after receiving a gpws sink rate during a non-precision continuous descent final approach.,1
+Q054,unstable non-precision approach with high workload,hybrid,3,ASRS_0109416,0.3224,b757 flight crew reported that they set the wrong final approach target speed on approach to iah; citing fatigue and workload as contributing to the error.,1
+Q054,unstable non-precision approach with high workload,hybrid,4,ASRS_0107382,0.3123,fractional first officer reported an unstable approach leading to a sink rate call by the aircraft.,1
+Q054,unstable non-precision approach with high workload,hybrid,5,ASRS_0082471,0.3251,air carrier flight crew reported that the first portion of the approach was unstable due to not slowing early enough on final approach.,1
+Q054,unstable non-precision approach with high workload,bm25,1,ASRS_0084399,16.8481,air carrier flight crew reported a high workload environment on approach into den airport; which included several runway changes; confusion over arrival procedures; and an unstable approach resulted in a go-around.,0
+Q054,unstable non-precision approach with high workload,bm25,2,ASRS_0018501,16.6922,ASRS_0018501,0
+Q054,unstable non-precision approach with high workload,bm25,3,ASRS_0006972,16.6367,ASRS_0006972,0
+Q054,unstable non-precision approach with high workload,bm25,4,ASRS_0070877,16.0758,ASRS_0070877,0
+Q055,unstable approach on short runway,hybrid,1,ASRS_0108363,0.5381,general aviation pilot reported that they overflew an aircraft holding in position on the runway and then landed long down the runway in order to exit safely.,1
+Q055,unstable approach on short runway,hybrid,2,ASRS_0093529,0.5774,lr-45 pilot reported while conducting a visual approach they briefly lost sight of the airport resulting in an unstable approach and touched down too far down the runway. when attempting to stop they had no braking and could not stop until the overrun.,1
+Q055,unstable approach on short runway,hybrid,3,ASRS_0109419,0.5274,corporate jet flight crew reported an unstable approach that resulted in a long landing and slow speed runway excursion.,1
+Q055,unstable approach on short runway,hybrid,4,ASRS_0104593,0.5322,cessna 172 student pilot reported an unstable approach while landing in strong gusty winds on a solo training flight which resulted in a runway excursion.,1
+Q055,unstable approach on short runway,hybrid,5,ASRS_0100840,0.5406,a light sport experimental pilot reported an unstable approach and long landing resulted in a runway excursion and tail strike.,1
+Q055,unstable approach on short runway,bm25,1,ASRS_0107236,15.2168,air carrier flight crew reported an unstable approach and temporary loss of control on short final.,1
+Q055,unstable approach on short runway,bm25,2,ASRS_0081959,14.5068,pilot flying sf50 vision jet departed runway on landing after unstable approach.,1
+Q055,unstable approach on short runway,bm25,3,ASRS_0056986,14.5053,ASRS_0056986,0
+Q055,unstable approach on short runway,bm25,4,ASRS_0101516,12.7512,ASRS_0101516,0
+Q055,unstable approach on short runway,bm25,5,NTSB_001851,12.0766,NTSB_001851,0
+Q056,unstable approach due to incorrect approach speed,hybrid,1,ASRS_0082471,0.6405,air carrier flight crew reported that the first portion of the approach was unstable due to not slowing early enough on final approach.,1
+Q056,unstable approach due to incorrect approach speed,hybrid,2,ASRS_0108942,0.5623,medium transport flight crew reported unstable approach at mfr resulted in a go-around. flight crew stated that published approaches do not allow approaches to be flown within stabilized approach criteria.,1
+Q056,unstable approach due to incorrect approach speed,hybrid,3,ASRS_0109416,0.5211,b757 flight crew reported that they set the wrong final approach target speed on approach to iah; citing fatigue and workload as contributing to the error.,1
+Q056,unstable approach due to incorrect approach speed,hybrid,4,ASRS_0109419,0.5072,corporate jet flight crew reported an unstable approach that resulted in a long landing and slow speed runway excursion.,1
+Q056,unstable approach due to incorrect approach speed,hybrid,5,ASRS_0088294,0.5531,flight crew reported being vectored with a turn less than 1 mile from the final approach fix; in imc conditions; led to an unstable approach and a go around.,1
+Q056,unstable approach due to incorrect approach speed,bm25,1,ASRS_0071333,24.5475,widebody transport captain reported unstable approach to mem airport due to speed and configuration mismanagement.,1
+Q056,unstable approach due to incorrect approach speed,bm25,2,ASRS_0082028,20.7793,ASRS_0082028,0
+Q056,unstable approach due to incorrect approach speed,bm25,3,ASRS_0071401,20.719,ASRS_0071401,0
+Q056,unstable approach due to incorrect approach speed,bm25,4,ASRS_0104820,20.497,ASRS_0104820,0
+Q056,unstable approach due to incorrect approach speed,bm25,5,ASRS_0081124,20.2573,flight crew reported a go around due to unstable approach and late handoff from approach controller.,1
+Q057,unstable approach due to tailwind and gusts,hybrid,1,ASRS_0104593,0.5088,cessna 172 student pilot reported an unstable approach while landing in strong gusty winds on a solo training flight which resulted in a runway excursion.,1
+Q057,unstable approach due to tailwind and gusts,hybrid,2,ASRS_0107561,0.4916,air carrier captain reported gusty wind conditions led to an overspeed while on initial approach.,1
+Q057,unstable approach due to tailwind and gusts,hybrid,3,ASRS_0063068,0.5956,b737-800 flight crew reported an unstable approach as a result of gusty winds at the end of a divert from another airport also experiencing gusty winds.,1
+Q057,unstable approach due to tailwind and gusts,hybrid,4,ASRS_0067828,0.5471,b777-200 flight crew reported an unstabilized approach on ils approach due to the influence of a strong tailwind.,1
+Q057,unstable approach due to tailwind and gusts,hybrid,5,ASRS_0087028,0.492,pilot reported a runway excursion caused by gusting winds.,0
+Q057,unstable approach due to tailwind and gusts,bm25,1,ASRS_0106674,25.3061,ASRS_0106674,0
+Q057,unstable approach due to tailwind and gusts,bm25,2,ASRS_0072582,21.8418,a319 flight crew reported executing a go-around due to an unstable approach resulting from inadequate spacing and 30-knot tailwind.,1
+Q057,unstable approach due to tailwind and gusts,bm25,3,ASRS_0066243,19.4575,ASRS_0066243,0
+Q057,unstable approach due to tailwind and gusts,bm25,4,ASRS_0082028,18.0054,ASRS_0082028,0
+Q057,unstable approach due to tailwind and gusts,bm25,5,ASRS_0071401,17.8117,ASRS_0071401,0
+Q058,crew rejected go around despite unstable criteria,hybrid,1,ASRS_0106646,0.5644,corporate flight crew reported several deviations from the clearance and an unstable approach.,1
+Q058,crew rejected go around despite unstable criteria,hybrid,2,ASRS_0089394,0.614,flight crew reported a rejected take off and returned to the gate for maintenance. it was discovered that there were numerous rejected take offs in the past 10 days so the crew refused the aircraft to give maintenance time to make appropriate repairs.,0
+Q058,crew rejected go around despite unstable criteria,hybrid,3,ASRS_0096701,0.5749,a319 flight crew reported they rejected take-off due to an engine failure.,0
+Q058,crew rejected go around despite unstable criteria,hybrid,4,ASRS_0081172,0.5846,flight crew reported a rejected take off caused by electrical system failures.,0
+Q058,crew rejected go around despite unstable criteria,hybrid,5,ASRS_0090554,0.5538,a330 captain reported concerns over loss of crew coordination and situational awareness during a rejected take off event.,0
+Q058,crew rejected go around despite unstable criteria,bm25,1,ASRS_0108942,19.7858,medium transport flight crew reported unstable approach at mfr resulted in a go-around. flight crew stated that published approaches do not allow approaches to be flown within stabilized approach criteria.,1
+Q058,crew rejected go around despite unstable criteria,bm25,2,ASRS_0087974,17.9115,pilot reported an unstable approach and a go around.,1
+Q058,crew rejected go around despite unstable criteria,bm25,3,ASRS_0066971,17.4701,ASRS_0066971,0
+Q058,crew rejected go around despite unstable criteria,bm25,4,ASRS_0066975,17.1133,ASRS_0066975,0
+Q058,crew rejected go around despite unstable criteria,bm25,5,ASRS_0052354,16.6841,ASRS_0052354,0
+Q059,unstable approach during circle-to-land manoeuvre,hybrid,1,ASRS_0103621,0.4157,b757-200 first officer reported an unstable approach below the glidepath. the captain continued the approach and landed.,1
+Q059,unstable approach during circle-to-land manoeuvre,hybrid,2,ASRS_0107928,0.403,erj175 flight crew reported pilot flying continued unstable approach below glide slope resulting in captain taking control for a go-around.,1
+Q059,unstable approach during circle-to-land manoeuvre,hybrid,3,ASRS_0108807,0.3949,emb-175 captain reported an unstable approach and bounced landing.,1
+Q059,unstable approach during circle-to-land manoeuvre,hybrid,4,ASRS_0078460,0.4629,flight instructor reported that while conducting a circle-to-land maneuver; there was not adequate spacing from a landing aircraft to allow a go-around if necessary.,1
+Q059,unstable approach during circle-to-land manoeuvre,hybrid,5,ASRS_0102877,0.3888,air carrier captain reported intercepting the glideslope and the oscillations made it impossible to land without the autopilot. the oscillations continued until the aircraft was inside the final approach fix and the flight crew advised atc.,1
+Q059,unstable approach during circle-to-land manoeuvre,bm25,1,ASRS_0076490,21.4733,ASRS_0076490,0
+Q059,unstable approach during circle-to-land manoeuvre,bm25,2,ASRS_0078164,20.5707,ASRS_0078164,0
+Q059,unstable approach during circle-to-land manoeuvre,bm25,3,ASRS_0071351,20.5707,ASRS_0071351,0
+Q059,unstable approach during circle-to-land manoeuvre,bm25,4,ASRS_0044286,20.4546,ASRS_0044286,0
+Q059,unstable approach during circle-to-land manoeuvre,bm25,5,ASRS_0068163,19.9957,ASRS_0068163,0
+Q060,unstable approach after automation disconnect,hybrid,1,ASRS_0108137,0.5544,emb-170 flight crew reported the autopilot randomly disconnected twice during the approach phase.,0
+Q060,unstable approach after automation disconnect,hybrid,2,ASRS_0087594,0.5946,c208 pilot reported the autopilot engaged uncommanded several times. pilot kept the disconnect button depressed for the remainder of the flight until landing to prevent the autopilot from engaging.,0
+Q060,unstable approach after automation disconnect,hybrid,3,ASRS_0104084,0.5447,b737 first officer reported an autopilot disconnect malfunction during an autoland approach at low altitude. the flight crew performed a go-around and returned to the airport for a successful autoland.,0
+Q060,unstable approach after automation disconnect,hybrid,4,ASRS_0105065,0.5275,global 6000 pilot reported on departure not having the automation configured correctly resulting in temporary loss of aircraft control.,0
+Q060,unstable approach after automation disconnect,hybrid,5,ASRS_0102616,0.4922,air carrier flight crew reported a temporary loss of control due to auto pilot malfunction while on final approach. the crew disconnected the autopilot and continued the approach.,0
+Q060,unstable approach after automation disconnect,bm25,1,ASRS_0068333,15.2825,ASRS_0068333,0
+Q060,unstable approach after automation disconnect,bm25,2,ASRS_0056236,14.6463,ASRS_0056236,0
+Q060,unstable approach after automation disconnect,bm25,3,ASRS_0066971,13.526,ASRS_0066971,0
+Q060,unstable approach after automation disconnect,bm25,4,ASRS_0066418,13.2007,ASRS_0066418,0
+Q060,unstable approach after automation disconnect,bm25,5,ASRS_0057328,12.8789,ASRS_0057328,0
+Q061,aircraft crossed hold short line without clearance,hybrid,1,ASRS_0100113,0.7107,air taxi captain reported they crossed runway hold short line without clearance which resulted in atc issuing a go-around to a landing aircraft.,1
+Q061,aircraft crossed hold short line without clearance,hybrid,2,ASRS_0101251,0.6803,ga pilot reported they were cleared to cross the runway but stopped after crossing the hold short line resulting in an aircraft on final approach going around.,1
+Q061,aircraft crossed hold short line without clearance,hybrid,3,ASRS_0102016,0.6765,ga pilot reported they crossed a runway hold short line requiring an aircraft on approach to go around. reportedly; the atc instructions to cross the runway were incorrect.,1
+Q061,aircraft crossed hold short line without clearance,hybrid,4,ASRS_0107536,0.6586,air taxi captain reported the clearance received was to taxi to the runway and cross the intersecting runway. the pilot stopped over the hold short line because an aircraft was executing a missed approach on the intersecting runway.,1
+Q061,aircraft crossed hold short line without clearance,hybrid,5,ASRS_0090010,0.6894,flight instructor on training flight with student in c-172 aircraft reported crossing runway hold short line without clearance.,1
+Q061,aircraft crossed hold short line without clearance,bm25,2,ASRS_0081955,27.2815,ASRS_0081955,0
+Q061,aircraft crossed hold short line without clearance,bm25,3,ASRS_0060563,26.0206,bur tower controller reported an aircraft crossed the hold short line of a runway while taxiing without clearance. an aircraft was forced to go-around as a result.,1
+Q061,aircraft crossed hold short line without clearance,bm25,4,ASRS_0065322,25.4364,b737 captain reported they crossed the runway hold short line prior to getting clearance from atc.,1
+Q061,aircraft crossed hold short line without clearance,bm25,5,ASRS_0055974,24.342,pilot taxied past hold short line without clearance. reportedly; the hold short line is located unexpectedly distant on a parallel taxiway due to displaced threshold runway configuration. the hold short line is not depicted in airport diagrams.,1
+Q062,vehicle on runway during landing,hybrid,1,ASRS_0109175,0.5962,air traffic controller reported clearing an aircraft to land; but the aircraft landed on the parallel runway; resulting in a runway incursion and conflict with a vehicle that was operating on the runway.,1
+Q062,vehicle on runway during landing,hybrid,2,ASRS_0099849,0.609,c172 pilot landing at a non-towered airport reported upon touchdown they saw a vehicle on the runway and conducted a touch and go to avoid it.,1
+Q062,vehicle on runway during landing,hybrid,3,ASRS_0106241,0.5908,a tower local controller reported they cleared an aircraft to land on a runway occupied by a vehicle.,1
+Q062,vehicle on runway during landing,hybrid,4,ASRS_0107285,0.5671,c172 pilot reported a runway excursion during landing.,0
+Q062,vehicle on runway during landing,hybrid,5,ASRS_0100721,0.5812,c172 pilot reported a runway excursion during landing roll. pilot regained control and taxied to parking.,0
+Q062,vehicle on runway during landing,bm25,1,ASRS_0108053,13.2271,ASRS_0108053,0
+Q062,vehicle on runway during landing,bm25,2,ASRS_0080715,13.1549,pilot flying experimental aircraft encountered city vehicle on runway during takeoff.,1
+Q062,vehicle on runway during landing,bm25,3,ASRS_0100280,12.8587,ASRS_0100280,0
+Q062,vehicle on runway during landing,bm25,4,ASRS_0101494,12.6944,ASRS_0101494,0
+Q062,vehicle on runway during landing,bm25,5,ASRS_0108743,12.4878,ASRS_0108743,0
+Q063,landing clearance issued with aircraft still on runway,hybrid,1,ASRS_0100501,0.6834,an air carrier pilot reported after receiving takeoff clearance tower cancelled the clearance due to an aircraft landing on an intersecting runway.,1
+Q063,landing clearance issued with aircraft still on runway,hybrid,2,ASRS_0104485,0.6665,pilot reported atc cancelled takeoff clearance during takeoff roll due to an aircraft landing on an intersecting runway.,1
+Q063,landing clearance issued with aircraft still on runway,hybrid,3,ASRS_0107753,0.6277,air carrier flight crew reported on final approach they were given clearance to land but soon after atc instructed them to go around due to ground traffic crossing runways.,1
+Q063,landing clearance issued with aircraft still on runway,hybrid,4,ASRS_0094285,0.6472,a tower controller reported they issued a landing clearance to a departing aircraft which encountered engine failure and requested special handling even though there was another departing aircraft on the runway.,1
+Q063,landing clearance issued with aircraft still on runway,hybrid,5,ASRS_0098781,0.6244,air carrier flight crew reported conflicting atc instructions regarding clearance to land while aircraft is on runway.,1
+Q063,landing clearance issued with aircraft still on runway,bm25,1,ASRS_0010634,19.2488,ASRS_0010634,0
+Q063,landing clearance issued with aircraft still on runway,bm25,2,ASRS_0033078,17.8472,ASRS_0033078,0
+Q063,landing clearance issued with aircraft still on runway,bm25,3,ASRS_0027842,17.0433,an anc controller described a loss of separation event occuring when a take off clearance was issued to runway 25r traffic with runway 14 landing traffic still on the runway. photo mission distractions were listed as causal factors.,1
+Q063,landing clearance issued with aircraft still on runway,bm25,4,ASRS_0066088,16.1285,tower controllers and a landing pilot reported another aircraft ignored instructions to cancel takeoff clearance and departed over the landing aircraft still on the runway.,1
+Q063,landing clearance issued with aircraft still on runway,bm25,5,ASRS_0107167,15.7094,ASRS_0107167,0
+Q064,pilot lined up on wrong runway for departure,hybrid,1,ASRS_0088795,0.7519,tower controller reported a pilot took the wrong runway for departure; resulting in takeoff clearance cancellation and traffic for another aircraft.,1
+Q064,pilot lined up on wrong runway for departure,hybrid,2,ASRS_0106858,0.6906,private pilot reported a runway incursion while taxiing to mid point on runway for departure with construction on airport proper.  pilot turned in the wrong direction for takeoff and was stopped by atc prior to takeoff roll.,1
+Q064,pilot lined up on wrong runway for departure,hybrid,3,ASRS_0105188,0.6828,lancair legacy pilot reported lining up on the wrong runway for landing and was instructed by atc to go around.,1
+Q064,pilot lined up on wrong runway for departure,hybrid,4,ASRS_0080571,0.7461,pilot reported taking off in the wrong runway direction.,1
+Q064,pilot lined up on wrong runway for departure,hybrid,5,ASRS_0096233,0.6842,pilot reported mistakenly lining up for the wrong runway on final approach causing a nmac with an aircraft already in the pattern.,1
+Q064,pilot lined up on wrong runway for departure,bm25,1,ASRS_0087352,24.2823,pilot reported confusion during taxi for takeoff and lined up on the wrong runway for departure from sts airport. atc notified pilot and the pilot taxied to the correct runway.,2
+Q064,pilot lined up on wrong runway for departure,bm25,2,ASRS_0082435,23.9472,tower controller reported an aircraft lined up for the wrong runway during approach.,1
+Q064,pilot lined up on wrong runway for departure,bm25,3,ASRS_0065623,23.1111,ASRS_0065623,0
+Q064,pilot lined up on wrong runway for departure,bm25,4,ASRS_0059761,23.1111,ASRS_0059761,0
+Q064,pilot lined up on wrong runway for departure,bm25,5,ASRS_0079694,22.0276,ASRS_0079694,0
+Q065,taxiway crossing without clearance,hybrid,1,ASRS_0108393,0.5994,air carrier captain taxiing in to the ramp reported they had to stop abruptly to avoid a vehicle crossing their path.,0
+Q065,taxiway crossing without clearance,hybrid,2,ASRS_0109475,0.5799,air carrier captain reported a taxiway incursion while crossing multiple intersecting taxiways and suggested a hot spot be added.,1
+Q065,taxiway crossing without clearance,hybrid,3,ASRS_0105694,0.582,ramp agent reported a taxiway incursion while an observer in a tug was towing an aircraft on the airport surface to the hangar. when the driver received a clearance to hold short of a taxiway he then crept past the hold short line. the crossing aircraft had to slow down as they became unsure if the tug was going to stop.,1
+Q065,taxiway crossing without clearance,hybrid,4,ASRS_0091572,0.5991,air carrier flight crew reported a taxiway excursion while taxiing for departure and returned to gate for aircraft check. flight crew stated the taxiway markings do not allow for adequate room to maneuver and recommended a taxi line be moved to provide more clearance.,1
+Q065,taxiway crossing without clearance,hybrid,5,ASRS_0097530,0.582,b737 captain taxiing reported they had to make a sudden stop to avoid another taxiing aircraft crossing their intended path.,0
+Q065,taxiway crossing without clearance,bm25,1,ASRS_0032134,17.4294,ASRS_0032134,0
+Q065,taxiway crossing without clearance,bm25,2,ASRS_0067011,15.3746,ASRS_0067011,0
+Q065,taxiway crossing without clearance,bm25,3,ASRS_0044692,13.9718,air carrier pilot reports being inadvertently crossing taxiway e without clearance to do so. the reporter does not believe a hold short clearance was issued by the tower; although this taxiway is an extension of runway 8r and treated as part of the runway by the tower.,1
+Q065,taxiway crossing without clearance,bm25,4,ASRS_0028446,13.2948,ASRS_0028446,0
+Q065,taxiway crossing without clearance,bm25,5,ASRS_0074690,13.1262,ASRS_0074690,0
+Q066,runway incursion during low visibility operations,hybrid,1,ASRS_0105962,0.6084,c182r pilot reported a runway incursion by another aircraft while on short final at a non-towered airport. pilot executed go-around.,1
+Q066,runway incursion during low visibility operations,hybrid,2,ASRS_0102554,0.6078,c172 pilot reported a runway incursion when entering the active runway prior to aircraft that just landed exiting the active runway.  pilot had to extend time on runway for aircraft to clear causing a plane on final approach to execute a go around.,1
+Q066,runway incursion during low visibility operations,hybrid,3,ASRS_0106724,0.596,air taxi captain reported faded hold short markings and lack of warning lights resulted in a runway incursion.,1
+Q066,runway incursion during low visibility operations,hybrid,4,ASRS_0101930,0.5902,c172 pilot reported runway incursion during taxi for takeoff.,1
+Q066,runway incursion during low visibility operations,hybrid,5,ASRS_0091385,0.5934,ga pilot reported a runway incursion occurred at vgt airport; citing distractions and visibility from his tail wheel aircraft as contributing.,1
+Q066,runway incursion during low visibility operations,bm25,1,ASRS_0055597,17.4413,ASRS_0055597,0
+Q066,runway incursion during low visibility operations,bm25,2,ASRS_0031729,16.3774,ASRS_0031729,0
+Q066,runway incursion during low visibility operations,bm25,3,ASRS_0072792,16.2412,ASRS_0072792,0
+Q066,runway incursion during low visibility operations,bm25,4,ASRS_0019226,15.8723,ASRS_0019226,0
+Q066,runway incursion during low visibility operations,bm25,5,ASRS_0066837,15.3818,ASRS_0066837,0
+Q067,multiple aircraft cleared to use same runway,hybrid,1,ASRS_0102792,0.7029,tower ground controller reported they cleared an aircraft to cross a runway at the same time that another aircraft was departing from the same runway.,1
+Q067,multiple aircraft cleared to use same runway,hybrid,2,ASRS_0099560,0.6603,a tower local controller reported they cleared an aircraft onto the runway with another aircraft on short final.,1
+Q067,multiple aircraft cleared to use same runway,hybrid,3,ASRS_0109175,0.6166,air traffic controller reported clearing an aircraft to land; but the aircraft landed on the parallel runway; resulting in a runway incursion and conflict with a vehicle that was operating on the runway.,1
+Q067,multiple aircraft cleared to use same runway,hybrid,4,ASRS_0068955,0.709,sfo tower controller reported clearing two aircraft to cross a runway after another aircraft had already been cleared for takeoff on the same runway.,1
+Q067,multiple aircraft cleared to use same runway,hybrid,5,ASRS_0091380,0.6326,ga pilot reported that while still on the runway after landing; another aircraft landed on the same runway. reportedly; the other aircraft is from a skydiving operation that does not conduct operations in a safe manner.,1
+Q067,multiple aircraft cleared to use same runway,bm25,2,ASRS_0054310,16.2973,ASRS_0054310,0
+Q067,multiple aircraft cleared to use same runway,bm25,3,ASRS_0025252,16.2951,a conflict occurred between an aircraft cleared into position and hold and another on short final cleared to land on the same runway.,1
+Q067,multiple aircraft cleared to use same runway,bm25,4,ASRS_0070046,16.2771,ASRS_0070046,0
+Q067,multiple aircraft cleared to use same runway,bm25,5,ASRS_0108204,16.2439,ASRS_0108204,0
+Q068,backtracking on runway with conflicting traffic,hybrid,1,ASRS_0109245,0.5471,general aviation pilot reported a traffic conflict on final approach with another aircraft taking off opposite direction at a non-towered airport. the pilot performed a go-around; then departed the traffic pattern.,1
+Q068,backtracking on runway with conflicting traffic,hybrid,2,ASRS_0102792,0.5379,tower ground controller reported they cleared an aircraft to cross a runway at the same time that another aircraft was departing from the same runway.,1
+Q068,backtracking on runway with conflicting traffic,hybrid,3,ASRS_0098664,0.5293,c172s flight instructor reported seeing traffic approaching on final for the parallel runway and believing that the other aircraft may have overshot the runway; offered to go around to atc. however; atc opted it was not needed; gave the aircraft another clearance; and the reporter with the student pilot landed safely.,1
+Q068,backtracking on runway with conflicting traffic,hybrid,4,ASRS_0085677,0.564,air carrier pilot back taxiing at an international non-towered airport reported traffic not in ctaf communications was on approach to the same runway and initiated a go-around on short final.,1
+Q068,backtracking on runway with conflicting traffic,hybrid,5,ASRS_0053314,0.5412,an aircraft on final to sfo made two go arounds because of conflicting traffic. one was a crossing runway departure traffic and the second was an aircraft not clear of the runway.,1
+Q068,backtracking on runway with conflicting traffic,bm25,1,ASRS_0075851,14.4584,ASRS_0075851,0
+Q068,backtracking on runway with conflicting traffic,bm25,2,ASRS_0064296,13.8526,ASRS_0064296,0
+Q068,backtracking on runway with conflicting traffic,bm25,3,ASRS_0074240,13.5656,ASRS_0074240,0
+Q068,backtracking on runway with conflicting traffic,bm25,4,ASRS_0046095,13.4103,ASRS_0046095,0
+Q068,backtracking on runway with conflicting traffic,bm25,5,ASRS_0076900,13.2265,ASRS_0076900,0
+Q069,high speed rejected takeoff for conflicting traffic,hybrid,1,ASRS_0101450,0.7346,air carrier captain reported performing a high speed rejected takeoff when atc cancelled the takeoff clearance due to a conflict with landing traffic on another runway.,0
+Q069,high speed rejected takeoff for conflicting traffic,hybrid,2,ASRS_0104639,0.6289,b767 first officer reported a high speed rejected takeoff due to an airspeed discrepancy.,0
+Q069,high speed rejected takeoff for conflicting traffic,hybrid,3,ASRS_0078660,0.6935,air carrier flight crew reported a high-speed rejected takeoff as directed by the tower controller to avoid an aircraft that was about to taxi across the runway.,0
+Q069,high speed rejected takeoff for conflicting traffic,hybrid,4,ASRS_0102354,0.6266,b737 captain reported an airspeed disagree during takeoff roll resulted in a high speed rejected takeoff and return to gate.,0
+Q069,high speed rejected takeoff for conflicting traffic,hybrid,5,ASRS_0082450,0.6646,air carrier captain and local controller reported a high speed rejected takeoff was performed after the aircraft experienced two bird strikes.,0
+Q069,high speed rejected takeoff for conflicting traffic,bm25,1,ASRS_0075067,21.9402,b737 captain reported a high-speed rejected takeoff.,0
+Q069,high speed rejected takeoff for conflicting traffic,bm25,2,ASRS_0082383,21.9402,b737 captain reported high speed rejected takeoff.,0
+Q069,high speed rejected takeoff for conflicting traffic,bm25,3,ASRS_0068952,21.7974,ASRS_0068952,0
+Q069,high speed rejected takeoff for conflicting traffic,bm25,4,ASRS_0066721,20.8589,erj-145 flight crew reported a high speed rejected takeoff.,0
+Q069,high speed rejected takeoff for conflicting traffic,bm25,5,ASRS_0075347,20.8589,emb-145 flight crew reported a high speed rejected takeoff.,0
+Q070,aircraft landed on taxiway instead of runway,hybrid,1,ASRS_0074000,0.8039,falcon field tower controller reported that an aircraft landed on a taxiway instead of the runway.,1
+Q070,aircraft landed on taxiway instead of runway,hybrid,2,ASRS_0102230,0.6961,airport manager reported observing an aircraft taxi onto the runway before the previous landing aircraft had exited and while another aircraft was on short final approach; requiring that aircraft to go-around.,1
+Q070,aircraft landed on taxiway instead of runway,hybrid,3,ASRS_0096327,0.6911,a tower local controller and ground controller reported an aircraft taxied across a runway without a clearance the same time as another aircraft was departing.,1
+Q070,aircraft landed on taxiway instead of runway,hybrid,4,ASRS_0091956,0.6999,air taxi flight crew reported a bounced landing. after the bounce; the aircraft contacted the runway off centerline; bounced again and departed the runway surface. the flight crew maneuvered the aircraft back onto the runway with some damage to aircraft and runway lights.,0
+Q070,aircraft landed on taxiway instead of runway,hybrid,5,ASRS_0089642,0.7002,dca local controller reported an aircraft nearly taxied onto runway 1 without clearance while taxiing on taxiway j before the crew was stopped by ground control. reporter stated flight crews frequently mistake runway 1 for taxiway j.,1
+Q070,aircraft landed on taxiway instead of runway,bm25,2,ASRS_0058537,20.7718,ftw tower local instructor and developmental reported an aircraft landed on a taxiway instead of the runway.,1
+Q070,aircraft landed on taxiway instead of runway,bm25,3,ASRS_0061606,18.7966,ffz local controller and the associated pilot reported that an aircraft had mistakenly landed on a taxiway instead of the assigned runway.,1
+Q070,aircraft landed on taxiway instead of runway,bm25,4,ASRS_0047084,16.5971,ASRS_0047084,0
+Q070,aircraft landed on taxiway instead of runway,bm25,5,ASRS_0057199,16.3977,an aircraft mistook an active runway for a taxiway and taxied onto the runway instead of crossing the runway.,1
+Q071,deviation around thunderstorm cells,hybrid,1,ASRS_0092002,0.5625,air carrier flight crew reported a lightning strike while deviating around a weather cell.,0
+Q071,deviation around thunderstorm cells,hybrid,2,ASRS_0072340,0.5279,b757 flight crew and company dispatcher reported thunderstorms along the route resulted in turbulence with large airspeed/altitude variations and a lightning strike.,0
+Q071,deviation around thunderstorm cells,hybrid,3,ASRS_0070010,0.5092,a321 captain reported a lightning strike while flying 80 miles away from an area of dissipating thunderstorms.,0
+Q071,deviation around thunderstorm cells,hybrid,4,ASRS_0058864,0.5314,b737 captain reported a 45 degree bank angle and 400-500 feet loss of altitude resulted when he encountered a thunderstorm cell at fl350.,0
+Q071,deviation around thunderstorm cells,hybrid,5,ASRS_0069599,0.4995,cl604 flight crew reported altitude and course deviations resulted from an encounter with severe turbulence associated with thunderstorm activity.,0
+Q071,deviation around thunderstorm cells,bm25,1,ASRS_0016236,17.0635,flt crew reports disagreement with zzz1 center over deviation around thunderstorm at fir boundary.,0
+Q071,deviation around thunderstorm cells,bm25,2,ASRS_0043446,13.8024,an air carrier crew encountered severe turbulence between to thunderstorm cells at 16;000 feet climbing and because of aircraft lavatory and flight station disarray returned to the departure airport as a precaution.,0
+Q071,deviation around thunderstorm cells,bm25,3,ASRS_0059918,13.0259,ASRS_0059918,0
+Q071,deviation around thunderstorm cells,bm25,4,ASRS_0003034,11.6416,ASRS_0003034,0
+Q071,deviation around thunderstorm cells,bm25,5,ASRS_0004799,11.3804,ASRS_0004799,0
+Q072,wind shear on final approach,hybrid,1,ASRS_0106586,0.6283,air carrier pilots reported encountering wind shear on final approach.,0
+Q072,wind shear on final approach,hybrid,2,ASRS_0095684,0.5609,emb-170 flight crew reported encountering wind shear on approach and a subsequent diversion to another airport with more favorable weather conditions.,0
+Q072,wind shear on final approach,hybrid,3,ASRS_0077554,0.6021,air carrier captain reported encountering wind shear on final approach and concern regarding fuel remaining.,0
+Q072,wind shear on final approach,hybrid,4,ASRS_0109225,0.4947,cessna 152 flight instructor reported a wind shear encounter on short final resulted in a temporary loss of control and tail strike during an attempted go around.,0
+Q072,wind shear on final approach,hybrid,5,ASRS_0090783,0.5443,gulfstream pilot reported on final approach the ailerons were malfunctioning in a wind shear condition resulting in an unstabilized approach.,0
+Q072,wind shear on final approach,bm25,2,ASRS_0076067,21.3245,ASRS_0076067,0
+Q072,wind shear on final approach,bm25,5,ASRS_0107161,20.4337,ASRS_0107161,0
+Q073,severe turbulence during climb,hybrid,1,ASRS_0094062,0.7105,b737-800 pilot reported encountering sudden moderate to severe turbulence in the climb between fl370 and fl380 that resulted in airspeed and altitude deviations.,0
+Q073,severe turbulence during climb,hybrid,2,ASRS_0072217,0.7618,challenger 350 captain reported severe turbulence during climb.,0
+Q073,severe turbulence during climb,hybrid,3,ASRS_0098902,0.6784,air carrier pilot reported during the climb they experienced severe turbulence resulting in significant excursions of speed; altitude and pitch.,0
+Q073,severe turbulence during climb,hybrid,4,ASRS_0100186,0.6671,air carrier first officer reported encountering severe turbulence during climb out that resulted in temporary loss of control.,0
+Q073,severe turbulence during climb,hybrid,5,ASRS_0072565,0.73,b737 captain reported severe turbulence during climb to smooth altitude.,0
+Q073,severe turbulence during climb,bm25,3,ASRS_0072039,17.8118,ASRS_0072039,0
+Q073,severe turbulence during climb,bm25,4,ASRS_0104267,16.6132,ASRS_0104267,0
+Q073,severe turbulence during climb,bm25,5,ASRS_0055602,16.2487,ASRS_0055602,0
+Q074,icing encounter on approach requiring go around,hybrid,1,ASRS_0099129,0.5396,air carrier flight crew encountered severe icing during climb along with failure of the anti-ice system.,0
+Q074,icing encounter on approach requiring go around,hybrid,2,ASRS_0083939,0.558,be-65 pilot reported difficulty maintaining altitude on approach after encountering severe icing conditions.,0
+Q074,icing encounter on approach requiring go around,hybrid,3,ASRS_0072160,0.5712,b737ng captain reported encountering icing conditions obscuring the forward window that raised concerns to a crew's ability to discriminate between icing intensity level definitions.,0
+Q074,icing encounter on approach requiring go around,hybrid,4,ASRS_0084298,0.5213,anchorage center controller reported c208 encountered icing on approach resulted in decent below mia.,0
+Q074,icing encounter on approach requiring go around,hybrid,5,ASRS_0079389,0.5334,pilot reported diverting due to severe icing and aircraft unable to climb out of icing conditions.,0
+Q074,icing encounter on approach requiring go around,bm25,1,ASRS_0076100,18.037,ASRS_0076100,0
+Q074,icing encounter on approach requiring go around,bm25,2,ASRS_0079743,17.8805,ASRS_0079743,0
+Q074,icing encounter on approach requiring go around,bm25,3,ASRS_0102545,17.2788,ASRS_0102545,0
+Q074,icing encounter on approach requiring go around,bm25,4,ASRS_0059084,16.7763,ASRS_0059084,0
+Q074,icing encounter on approach requiring go around,bm25,5,ASRS_0080144,16.0909,ASRS_0080144,0
+Q075,CB penetration due poor radar interpretation,hybrid,1,ASRS_0092541,0.4833,a tracon controller reported their radar unexpectedly failed resulting in a loss of separation between two aircraft they were vectoring for approach. one of the aircraft on vectors flew below the mva.,0
+Q075,CB penetration due poor radar interpretation,hybrid,2,ASRS_0083430,0.4645,dispatcher reported military radar jamming.,0
+Q075,CB penetration due poor radar interpretation,hybrid,3,ASRS_0077943,0.4752,hcf controller reported a radar outage.,0
+Q075,CB penetration due poor radar interpretation,hybrid,4,ASRS_0069410,0.4656,dab departure controller reported concerns with the new radar identification procedures.,0
+Q075,CB penetration due poor radar interpretation,hybrid,5,ASRS_0066918,0.463,sct tracon controller reported observing a false radar target on a conflicting heading with traffic they were vectoring for an approach.,0
+Q075,CB penetration due poor radar interpretation,bm25,1,ASRS_0076965,12.1995,ASRS_0076965,0
+Q075,CB penetration due poor radar interpretation,bm25,2,ASRS_0078796,12.179,ASRS_0078796,0
+Q075,CB penetration due poor radar interpretation,bm25,3,ASRS_0002325,11.975,ASRS_0002325,0
+Q075,CB penetration due poor radar interpretation,bm25,4,ASRS_0088449,11.6297,ASRS_0088449,0
+Q075,CB penetration due poor radar interpretation,bm25,5,ASRS_0103094,11.4566,ASRS_0103094,0
+Q076,diversion due to weather at destination,hybrid,1,ASRS_0082245,0.7258,pilot reported having to divert due to weather at intended destination; then having to stay on the ground for over 2 hours at diversion airport due to weather at the intended destination airport.,0
+Q076,diversion due to weather at destination,hybrid,2,ASRS_0077427,0.5683,b737-700 captain reported severe turbulence and wind shear conditions necessitating a diversion to an airport with more favorable weather conditions.,0
+Q076,diversion due to weather at destination,hybrid,3,ASRS_0077467,0.5617,b737 captain reported severe weather on approach that resulted in a diversion.,0
+Q076,diversion due to weather at destination,hybrid,4,ASRS_0076873,0.5543,flight crew after diversion due to weather encountered extended ground delay at diversion airport.,0
+Q076,diversion due to weather at destination,hybrid,5,ASRS_0078044,0.5448,dispatcher reported providing the suitable weather diversion airport due to aircraft loss of anti-ice in flight while in known icing weather conditions.,0
+Q076,diversion due to weather at destination,bm25,2,ASRS_0092959,21.4536,ASRS_0092959,0
+Q076,diversion due to weather at destination,bm25,4,ASRS_0012293,18.2548,sf340 flt crew reports weather diversion after two attempts to land at destination and diversion to second alternate after loc failure at first alternate. low fuel emergency is declared.,0
+Q076,diversion due to weather at destination,bm25,5,ASRS_0023440,18.0301,ASRS_0023440,0
+Q077,low visibility approach near minimums,hybrid,1,ASRS_0103390,0.4438,air carrier captain reported difficulty seeing the spot locations at clt due to a lack of lighting at night and expressed concern about minimal clearance between aircraft on designated taxi lines.,0
+Q077,low visibility approach near minimums,hybrid,2,ASRS_0109266,0.4154,air carrier first officer reported there is insufficient visibility for a construction crane that is hazardously positioned close to aircraft lining up for ils 19r at iad.,0
+Q077,low visibility approach near minimums,hybrid,3,ASRS_0089276,0.4271,monterey tower controller reported a visibility issue with trees blocking the view of certain spots at mry airport.,0
+Q077,low visibility approach near minimums,hybrid,4,ASRS_0023514,0.5899,a319 first officer reported visibility going below minimums outside sibly during a cat iiib ils to runway 27r at ord. captain believed this was acceptable and continued to autoland.,1
+Q077,low visibility approach near minimums,hybrid,5,ASRS_0087018,0.4019,air carrier captain reported there is an unlighted island that is very difficult to see at night or during inclement weather during taxi; lima between spot 20 and 23; at lga.,0
+Q077,low visibility approach near minimums,bm25,1,ASRS_0083480,17.2054,emb-145 captain reported executing a cat ii approach with the visibility below their required minimums.,1
+Q077,low visibility approach near minimums,bm25,2,ASRS_0027316,16.6669,ASRS_0027316,0
+Q077,low visibility approach near minimums,bm25,3,ASRS_0048799,15.1024,ASRS_0048799,0
+Q077,low visibility approach near minimums,bm25,4,ASRS_0068879,14.9094,m-20k pilot reported low fuel level indications causing a descent below minimums on approach.,0
+Q077,low visibility approach near minimums,bm25,5,ASRS_0046205,14.059,ASRS_0046205,0
+Q078,microburst encounter on final,hybrid,1,ASRS_0069472,0.6012,b737 captain reported encountering a windshear and microburst on short final into den.,0
+Q078,microburst encounter on final,hybrid,2,ASRS_0065306,0.5989,b737 captain reported executing a go-around at mco after encountering a 'microburst type event' on short final.,0
+Q078,microburst encounter on final,hybrid,3,ASRS_0095919,0.4679,emb-145 flight crew reported experiencing turbulence (microbursts) during climbout at 18;000-19;000 ft. resulting in temporary loss of aircraft control. the crew disconnected the autopilot and were able to regain control of the aircraft at 13;500 ft.,0
+Q078,microburst encounter on final,hybrid,4,ASRS_0087626,0.4813,zma artcc controller reported an aircraft was caught in a microburst and eventually regained controlled of the aircraft after vectoring to another airport.,0
+Q078,microburst encounter on final,hybrid,5,ASRS_0060244,0.546,emb-175 captain reported diverting after encountering a microburst while on approach to slc.,0
+Q078,microburst encounter on final,bm25,1,ASRS_0020609,16.4485,b737ng first officer relates unexpected encounter with windshear and/or microburst on approach to hou.,0
+Q078,microburst encounter on final,bm25,4,ASRS_0005294,13.3027,b747-400 flt crew encounters wx microburst activity on final at rjaa; executes gar; declares emer and diverts to alternate.,0
+Q078,microburst encounter on final,bm25,5,ASRS_0000202,13.0787,ASRS_0000202,0
+Q079,turbulence injury to cabin crew,hybrid,1,ASRS_0108625,0.7654,emb-175 flight crew reported severe turbulence in cruise flight that resulted in injuries to a passenger and a flight attendant.,0
+Q079,turbulence injury to cabin crew,hybrid,2,ASRS_0090486,0.7642,air carrier captain reported encountering turbulence during arrival which resulted in an injury to a flight attendant.,0
+Q079,turbulence injury to cabin crew,hybrid,3,ASRS_0076003,0.7986,flight attendant reported being injured during turbulence.,0
+Q079,turbulence injury to cabin crew,hybrid,4,ASRS_0075905,0.7975,pilot reported moderate turbulence that caused injuries to flight attendants.,0
+Q079,turbulence injury to cabin crew,hybrid,5,ASRS_0078369,0.7829,air carrier flight crew reported clear air turbulence that caused minor injuries to the flight attendants.,0
+Q079,turbulence injury to cabin crew,bm25,1,ASRS_0016083,22.0492,a320 cabin crew reports encountering severe turbulence causing injury to one.,0
+Q079,turbulence injury to cabin crew,bm25,2,ASRS_0091687,15.7493,ASRS_0091687,0
+Q079,turbulence injury to cabin crew,bm25,3,ASRS_0017645,15.6322,ASRS_0017645,0
+Q079,turbulence injury to cabin crew,bm25,4,ASRS_0087477,15.6322,ASRS_0087477,0
+Q079,turbulence injury to cabin crew,bm25,5,ASRS_0068836,15.4735,ASRS_0068836,0
+Q080,icing on departure roll,hybrid,1,ASRS_0093731,0.6161,ac50 pilot reported a runway excursion resulted during landing roll out due to runway icing.,0
+Q080,icing on departure roll,hybrid,2,ASRS_0088933,0.5952,ce-525 pilot reported taxiway excursion due to icing.,0
+Q080,icing on departure roll,hybrid,3,ASRS_0084587,0.5895,pilot flying c-172 aircraft reported inflight icing.,0
+Q080,icing on departure roll,hybrid,4,ASRS_0084561,0.5873,pilot flying v35b aircraft reports icing inflight.,0
+Q080,icing on departure roll,hybrid,5,ASRS_0079618,0.5965,c172 student pilot reported returning to departure airport after encountering unforecast icing conditions.,0
+Q080,icing on departure roll,bm25,1,ASRS_0008997,11.5699,ASRS_0008997,0
+Q080,icing on departure roll,bm25,3,ASRS_0050321,10.0203,ASRS_0050321,0
+Q080,icing on departure roll,bm25,4,ASRS_0009019,9.9687,ASRS_0009019,0
+Q080,icing on departure roll,bm25,5,ASRS_0081578,9.5002,ASRS_0081578,0
+Q081,engine failure after takeoff,hybrid,1,ASRS_0107286,0.7249,c172 flight instructor reported an engine failure after takeoff.,0
+Q081,engine failure after takeoff,hybrid,2,ASRS_0107556,0.6864,c172 pilot reported engine malfunction during takeoff climb and returned to airport.,0
+Q081,engine failure after takeoff,hybrid,3,ASRS_0085776,0.7469,cessna 150 flight instructor reported experiencing engine failure after takeoff.,0
+Q081,engine failure after takeoff,hybrid,4,ASRS_0097507,0.6842,air carrier b767-300 flight crew reported engine failure after takeoff. returned to departure airport and landed uneventfully.,0
+Q081,engine failure after takeoff,hybrid,5,ASRS_0081495,0.7278,pilot reported engine failure after takeoff resulting in an off-field landing.,0
+Q081,engine failure after takeoff,bm25,1,NTSB_001757,14.8821,NTSB_001757,0
+Q081,engine failure after takeoff,bm25,2,ASRS_0074406,13.7431,beech 19 pilot reported engine failure after takeoff.,0
+Q081,engine failure after takeoff,bm25,3,NTSB_001153,13.7431,Crashed after experiencing engine failure on takeoff climbout.,0
+Q081,engine failure after takeoff,bm25,4,ASRS_0083260,13.7431,ASRS_0083260,0
+Q081,engine failure after takeoff,bm25,5,ASRS_0058156,13.4045,pa-28 pilot reported engine failure shortly after takeoff.,0
+Q082,mechanical failure during approach,hybrid,1,ASRS_0103851,0.5515,crj900 captain reported a hydraulic failure during the final approach resulting in a go-around.,0
+Q082,mechanical failure during approach,hybrid,2,ASRS_0085128,0.5465,crj-200 flight crew reported glideslope failure on approach.,0
+Q082,mechanical failure during approach,hybrid,3,ASRS_0098785,0.4935,pilot flying c-172 aircraft reported electrical failure on approach.,0
+Q082,mechanical failure during approach,hybrid,4,ASRS_0080163,0.523,crj-200 captain reported a failure of the flap system on approach.,0
+Q082,mechanical failure during approach,hybrid,5,ASRS_0080394,0.5089,pilot reported electrical failure on approach to landing.,0
+Q082,mechanical failure during approach,bm25,1,ASRS_0046663,13.2549,ASRS_0046663,0
+Q082,mechanical failure during approach,bm25,2,ASRS_0106579,12.9821,ASRS_0106579,0
+Q082,mechanical failure during approach,bm25,3,ASRS_0082653,12.5563,ASRS_0082653,0
+Q082,mechanical failure during approach,bm25,4,ASRS_0085353,12.4688,ASRS_0085353,0
+Q082,mechanical failure during approach,bm25,5,ASRS_0069163,12.4688,ASRS_0069163,0
+Q083,hydraulic failure causing alternate gear extension,hybrid,1,ASRS_0107099,0.6037,b777 flight crew reported a nose gear extension issue due to a loss of hydraulic fluid on approach.,0
+Q083,hydraulic failure causing alternate gear extension,hybrid,2,ASRS_0095455,0.6166,beech 1900 pilot reported an issue with low hydraulic fluid during cruise and the need to use the manual gear extension procedure in order to extend the gear prior to a safe landing.,0
+Q083,hydraulic failure causing alternate gear extension,hybrid,3,ASRS_0100955,0.5743,a300 captain reported hydraulic system failure during approach resulted in emergency landing gear extension. flight continued to landing and was towed off runway.,0
+Q083,hydraulic failure causing alternate gear extension,hybrid,4,ASRS_0099348,0.5767,general aviation pilot reported they failed to extend the landing gear resulting in a gear up landing.,0
+Q083,hydraulic failure causing alternate gear extension,hybrid,5,ASRS_0098051,0.5784,an air carrier flight crew reported a complete loss of hydraulic fluid resulted in discontinuing the approach; a manual gear extension for a successful landing.,0
+Q083,hydraulic failure causing alternate gear extension,bm25,1,ASRS_0035269,20.4553,ASRS_0035269,0
+Q083,hydraulic failure causing alternate gear extension,bm25,2,ASRS_0071302,19.9146,ASRS_0071302,0
+Q083,hydraulic failure causing alternate gear extension,bm25,3,ASRS_0077175,18.9065,c525a flight crew reported hydraulic pressure failure resulted emergency gear extension and loss of power brakes.,0
+Q083,hydraulic failure causing alternate gear extension,bm25,4,ASRS_0094988,18.5174,ASRS_0094988,0
+Q083,hydraulic failure causing alternate gear extension,bm25,5,ASRS_0102388,18.3987,ASRS_0102388,0
+Q084,fuel imbalance discovered during cruise,hybrid,1,ASRS_0106552,0.7237,b-777 first officer reported a fuel imbalance during cruise flight in oceanic airspace; which lead to a determination of a possible fuel leak. the aircraft diverted to an alternate airport and landed.,0
+Q084,fuel imbalance discovered during cruise,hybrid,2,ASRS_0100698,0.7385,b737-800 flight crew reported recurring fuel imbalance during cruise. after landing flight crew observed puddles of fuel on ground and flight attendants reported strong fuel fumes in cabin.,0
+Q084,fuel imbalance discovered during cruise,hybrid,3,ASRS_0097606,0.7466,air carrier flight crew reported fuel imbalance in cruise. flight crew landed uneventfully at destination.,0
+Q084,fuel imbalance discovered during cruise,hybrid,4,ASRS_0094952,0.743,b777 captain reported an increasing fuel imbalance in cruise. the flight crew monitored the observed fuel imbalance and elected to continue to the destination airport.,0
+Q084,fuel imbalance discovered during cruise,hybrid,5,ASRS_0099637,0.7105,ce750 first officer reported a fuel imbalance issue during cruise. the crew troubleshot the problem but were not able to resolve it and continued to the destination airport landing with a fuel imbalance of 500 pounds heavy on the left side.,0
+Q084,fuel imbalance discovered during cruise,bm25,1,ASRS_0085924,19.8891,a321 captain reported a wing fuel imbalance limit exceedance during cruise.,0
+Q084,fuel imbalance discovered during cruise,bm25,2,ASRS_0045449,18.7499,ASRS_0045449,0
+Q084,fuel imbalance discovered during cruise,bm25,4,ASRS_0103266,16.8063,emb-145 captain reported receiving a fuel imbalance eicas and other fuel quantity related anomalies for tank one during cruise flight and landed.,0
+Q084,fuel imbalance discovered during cruise,bm25,5,ASRS_0064822,16.5914,b737 flight crew and dispatcher reported a fuel imbalance at cruise and subsequent diversion.,0
+Q085,maintenance error left panel unsecured,hybrid,1,ASRS_0096842,0.5161,aircraft maintenance technician reported wing access panels departed the aircraft inflight due to possible missing or damaged part.,0
+Q085,maintenance error left panel unsecured,hybrid,2,ASRS_0106891,0.4803,tol tower controller reported the control panel in the tower has been out of service for months and has led to an unsafe environment where the controllers are unable to turn the lights up for aircraft.,0
+Q085,maintenance error left panel unsecured,hybrid,3,ASRS_0105399,0.4788,b787 technician reported seeing deterioration of the panel seals on numerous aircraft and suggested there be an investigation into the cause of the problem.,0
+Q085,maintenance error left panel unsecured,hybrid,4,ASRS_0083203,0.5234,maintenance technician reported failing to secure the floor boards and bulkhead panel after completing a functional check.,0
+Q085,maintenance error left panel unsecured,hybrid,5,ASRS_0084666,0.5137,technician reported that during scheduled maintenance; he replaced numerous fasteners on the right-hand wing leading edge access panels and was asked about compliance issues.,0
+Q085,maintenance error left panel unsecured,bm25,1,ASRS_0062065,13.5754,ASRS_0062065,0
+Q085,maintenance error left panel unsecured,bm25,2,ASRS_0039452,13.0987,ASRS_0039452,0
+Q085,maintenance error left panel unsecured,bm25,3,ASRS_0040259,12.8994,ASRS_0040259,0
+Q085,maintenance error left panel unsecured,bm25,4,NTSB_002389,12.6122,NTSB_002389,0
+Q085,maintenance error left panel unsecured,bm25,5,ASRS_0037028,12.368,ASRS_0037028,0
+Q086,smoke in cabin requiring emergency landing,hybrid,1,ASRS_0103742,0.7737,air carrier flight attendants reported smoke filled the passenger cabin along with a fire smell while on initial approach. the flight continued to a safe landing.,0
+Q086,smoke in cabin requiring emergency landing,hybrid,2,ASRS_0084960,0.8022,pilot reported smoke in the cabin and elected to air turn back and make a precautionary emergency landing.,0
+Q086,smoke in cabin requiring emergency landing,hybrid,3,ASRS_0095880,0.7584,air carrier flight attendants reported preparing the cabin for a possible abnormal landing because of smoke reported in the flight deck. the aircraft landed safely and the passengers were able to deplane normally.,0
+Q086,smoke in cabin requiring emergency landing,hybrid,4,ASRS_0094481,0.7529,e145 flight attendant reported there was smoke and burning in the flight deck's windshield and prepped the cabin for landing.,0
+Q086,smoke in cabin requiring emergency landing,hybrid,5,ASRS_0098264,0.728,beechjet 400 flight crew reported smoke in cabin during descent before landing uneventfully.,0
+Q086,smoke in cabin requiring emergency landing,bm25,1,ASRS_0018938,17.6996,md88 cabin attendant informs flight crew of smoke in cabin. crew declares emergency and proceeds directly to destination for landing. smoke dissipates prior to landing.,0
+Q086,smoke in cabin requiring emergency landing,bm25,2,ASRS_0010999,16.2451,smoke in cabin immediately after tkof triggers emergency declaration and immediate overweight landing at dep arpt.,0
+Q086,smoke in cabin requiring emergency landing,bm25,4,ASRS_0009850,15.6227,ASRS_0009850,0
+Q086,smoke in cabin requiring emergency landing,bm25,5,ASRS_0060810,15.2816,ASRS_0060810,0
+Q087,pressurization problem leading to emergency descent,hybrid,1,ASRS_0095930,0.6734,air carrier captain reported a pressurization system malfunction during climb that required a descent and return to the departure airport.,0
+Q087,pressurization problem leading to emergency descent,hybrid,2,ASRS_0081488,0.6736,b737-800 captain reported encountering an aircraft pressurization problem and having to start a descent.,0
+Q087,pressurization problem leading to emergency descent,hybrid,3,ASRS_0085856,0.6606,air carrier captain reported malfunctioning pressurization system on descent.,0
+Q087,pressurization problem leading to emergency descent,hybrid,4,ASRS_0090106,0.6405,b737-800 flight crew reported pressurization malfunction during descent.,0
+Q087,pressurization problem leading to emergency descent,hybrid,5,ASRS_0076316,0.6715,a boeing 737-700 captain reported a pressurization problem during climb that necessitated a descent and return to the departure airport.,0
+Q087,pressurization problem leading to emergency descent,bm25,1,ASRS_0045507,18.5568,ASRS_0045507,0
+Q087,pressurization problem leading to emergency descent,bm25,3,ASRS_0078614,18.0329,ASRS_0078614,0
+Q087,pressurization problem leading to emergency descent,bm25,4,ASRS_0019763,17.5065,ASRS_0019763,0
+Q087,pressurization problem leading to emergency descent,bm25,5,ASRS_0042509,17.0662,ASRS_0042509,0
+Q088,gear did not extend normally,hybrid,1,ASRS_0104519,0.6818,emb-170 flight crew reported that during the initial approach the landing gear would not extend. they cycled the gear lever a second time and then on the third attempt the gear extended normally.,0
+Q088,gear did not extend normally,hybrid,2,ASRS_0098232,0.6539,light twin pilot reported the landing gear would not extend normally even after employing all available techniques. the nose gear collapsed on landing; resulting in damage to the aircraft.,0
+Q088,gear did not extend normally,hybrid,3,ASRS_0060470,0.699,searey pilot reported having a temporary issue with one main gear not extending. pilot was able to land normally and extend the gear fully upon touchdown.,0
+Q088,gear did not extend normally,hybrid,4,ASRS_0063049,0.688,cessna 402 flight crew reported the left main gear would not extend;so the alternate gear extension procedure was activated.,0
+Q088,gear did not extend normally,hybrid,5,ASRS_0066661,0.6782,a pa-28 pilot reported not being able to extend the right main gear. after troubleshooting; the pilot attempted what he thought was a gear up landing in the grassy area next to the runway; but he was surprised when he touched down with the nose gear and left main gear extended.,0
+Q088,gear did not extend normally,bm25,1,ASRS_0023276,19.8139,ASRS_0023276,0
+Q088,gear did not extend normally,bm25,2,ASRS_0076050,18.8266,ASRS_0076050,0
+Q088,gear did not extend normally,bm25,3,ASRS_0078431,18.7426,ASRS_0078431,0
+Q088,gear did not extend normally,bm25,4,ASRS_0004085,18.5143,ASRS_0004085,0
+Q088,gear did not extend normally,bm25,5,ASRS_0098735,18.379,ASRS_0098735,0
+Q089,electrical failure causing loss of some instruments,hybrid,1,ASRS_0093356,0.5807,be-55 pilot reported electrical system failure resulted in the loss of the instrument panel lighting and indications resulting in a diversion.,0
+Q089,electrical failure causing loss of some instruments,hybrid,2,ASRS_0102625,0.5342,ga flight student with instructor reported the aircraft navigation and communication equipment malfunctioned during final approach. it was discovered post-flight that a loose piece of aluminum tape in the engine compartment had caused an electrical short.,0
+Q089,electrical failure causing loss of some instruments,hybrid,3,ASRS_0105055,0.5244,embraer legacy 600 flight crew reported a complete electrical failure during cruise at night; resulting in loss of flight instruments except for the standby indicator. the electrical failure resulted in multiple system failures. the crew diverted to an alternate airport and landed safely.,0
+Q089,electrical failure causing loss of some instruments,hybrid,4,ASRS_0091346,0.5592,a321 first officer reported electrical systems loss lead to cockpit instruments and lighting to fail. the flight crew requested priority handling and diverted to make a precautionary landing.,0
+Q089,electrical failure causing loss of some instruments,hybrid,5,ASRS_0089584,0.5523,flight crew flying hawker 4000 aircraft reported loss of multiple electronics and avionics failures inflight.,0
+Q089,electrical failure causing loss of some instruments,bm25,1,ASRS_0009487,18.9267,ASRS_0009487,0
+Q089,electrical failure causing loss of some instruments,bm25,2,ASRS_0006267,17.9281,falcon 20 flt crew has loss of electrical power and primary instruments associated with misset electrical power control switch,0
+Q089,electrical failure causing loss of some instruments,bm25,3,ASRS_0098447,16.517,ASRS_0098447,0
+Q089,electrical failure causing loss of some instruments,bm25,5,ASRS_0020678,16.2114,a b737-300 flight crew experienced loss of first officer's flight instruments and other components due to an electrical bus failure. they coordinated with dispatch and diverted to a suitable airport.,0
+Q090,APU fire during ground operations,hybrid,1,ASRS_0103681,0.693,air carrier flight crew reported apu fire while parked at gate awaiting departure.,0
+Q090,APU fire during ground operations,hybrid,2,ASRS_0107128,0.6806,air carrier flight crew reported apu fire during boarding and passengers evacuated.,0
+Q090,APU fire during ground operations,hybrid,3,ASRS_0103452,0.6866,corporate pilot reported an apu fire and a diversion to a nearby airport.,0
+Q090,APU fire during ground operations,hybrid,4,ASRS_0097090,0.6855,air carrier crew reported an apu fire while loading at the parked position on the ramp. the crew observed smoke at the tail of the aircraft without cockpit warning; activated fire bottles; then evacuated safely by airstairs.,0
+Q090,APU fire during ground operations,hybrid,5,ASRS_0086543,0.6906,flight crew reported an apu exceedance indication in the cockpit was actually an apu fire that was extinguished with portable fire extinguishers by maintenance.,0
+Q090,APU fire during ground operations,bm25,1,ASRS_0053804,17.5442,captain reported he was informed by a ground fueler during fueling operations that white smoke followed by flames were coming out of the apu tail pipe on their gulfstream g-200 (astra galaxy) aircraft. the apu door was open; but the apu was not running. no fire warning in cockpit. discharge of apu fire bottle did not extinguish flames.,0
+Q090,APU fire during ground operations,bm25,2,ASRS_0080700,16.5357,ASRS_0080700,0
+Q090,APU fire during ground operations,bm25,3,ASRS_0060342,16.1245,ASRS_0060342,0
+Q090,APU fire during ground operations,bm25,4,ASRS_0076556,15.7255,ASRS_0076556,0
+Q090,APU fire during ground operations,bm25,5,ASRS_0005770,15.3576,a319 flt crew has apu fire during start.,0
+Q091,crew fatigue contributed to decision errors,hybrid,1,ASRS_0087821,0.6703,air carrier captain reported chronic fatigue due to flight crew scheduling practices.,0
+Q091,crew fatigue contributed to decision errors,hybrid,2,ASRS_0083709,0.6763,air carrier flight crew reported an unstablized approach and cited fatigue; time pressure and reduced flying as contributing factors.,1
+Q091,crew fatigue contributed to decision errors,hybrid,3,ASRS_0081017,0.6755,air carrier captain reported that continual; significant changes in crew schedules over the past months are causing cumulative fatigue.,0
+Q091,crew fatigue contributed to decision errors,hybrid,4,ASRS_0076326,0.6673,captain reported fatigued resulted in a go around due to aircraft not being properly configured.,1
+Q091,crew fatigue contributed to decision errors,hybrid,5,ASRS_0071642,0.673,b737 first officer reported flight crew fatigue resulted in multiple procedural errors during pre-dawn ifr approaches.,1
+Q091,crew fatigue contributed to decision errors,bm25,1,ASRS_0014499,17.2743,ASRS_0014499,0
+Q091,crew fatigue contributed to decision errors,bm25,2,ASRS_0019561,16.0637,ASRS_0019561,0
+Q091,crew fatigue contributed to decision errors,bm25,3,ASRS_0028965,15.8152,ASRS_0028965,0
+Q091,crew fatigue contributed to decision errors,bm25,4,ASRS_0000082,15.5323,ASRS_0000082,0
+Q091,crew fatigue contributed to decision errors,bm25,5,ASRS_0083248,15.2252,ASRS_0083248,0
+Q092,high workload in terminal area led to missed call,hybrid,1,ASRS_0081538,0.485,corporate pilot reported having to execute a missed approach after a delayed approach clearance left the flight too high to conduct a stabilized approach. the pilot stated that the controller was very busy working multiple frequencies and asked flights to stand by for call backs.,1
+Q092,high workload in terminal area led to missed call,hybrid,2,ASRS_0080127,0.482,dispatcher reported a similar callsign issue and cancellations attributed in part to covid-19 pandemic related work environment.,0
+Q092,high workload in terminal area led to missed call,hybrid,3,ASRS_0092166,0.4438,tower controller reported a busy session when a pilot thought they were told to line up and wait causing a go around and runway incursion.,1
+Q092,high workload in terminal area led to missed call,hybrid,4,ASRS_0081904,0.4594,air carrier flight crew reported being high on the approach due to task saturation; communications errors and focusing outside for traffic.,1
+Q092,high workload in terminal area led to missed call,hybrid,5,ASRS_0084399,0.4403,air carrier flight crew reported a high workload environment on approach into den airport; which included several runway changes; confusion over arrival procedures; and an unstable approach resulted in a go-around.,2
+Q092,high workload in terminal area led to missed call,bm25,1,ASRS_0071912,21.242,ASRS_0071912,0
+Q092,high workload in terminal area led to missed call,bm25,2,ASRS_0069841,19.6367,air carrier captain reported high workload led to an unstabilized approach to iad. reporter cited fatigue as contributing to the event.,1
+Q092,high workload in terminal area led to missed call,bm25,3,ASRS_0073554,19.5516,b737-800 captain expressed concern that atc often delayed runway and arrival assignment information to flight crews; increasing workload in the terminal area.,0
+Q092,high workload in terminal area led to missed call,bm25,4,ASRS_0090524,19.2086,ASRS_0090524,0
+Q092,high workload in terminal area led to missed call,bm25,5,ASRS_0030866,19.103,ASRS_0030866,0
+Q093,captain and first officer disagreed on go around decision,hybrid,1,ASRS_0086386,0.7117,flight crew reported that the first officer made errors during final approach to landing and the captain elected to call for a go around.,1
+Q093,captain and first officer disagreed on go around decision,hybrid,2,ASRS_0103861,0.6548,air carrier first officer reported a conflict with traffic ahead of them during final approach. flight crew executed a go around due to the other aircraft not exiting the runway.,1
+Q093,captain and first officer disagreed on go around decision,hybrid,3,ASRS_0107814,0.6098,air carrier first officer reported they initiated a go around due to a flap disagree message on approach.,1
+Q093,captain and first officer disagreed on go around decision,hybrid,4,ASRS_0088989,0.6382,b787 first officer reported uncommanded go-around during final approach.,1
+Q093,captain and first officer disagreed on go around decision,hybrid,5,ASRS_0075513,0.6732,air carrier captain reported first officer's noncompliance to execute a go-around maneuver.,1
+Q093,captain and first officer disagreed on go around decision,bm25,1,ASRS_0096828,18.3622,ASRS_0096828,0
+Q093,captain and first officer disagreed on go around decision,bm25,2,ASRS_0023226,17.801,ASRS_0023226,0
+Q093,captain and first officer disagreed on go around decision,bm25,3,ASRS_0022385,17.7956,ASRS_0022385,0
+Q093,captain and first officer disagreed on go around decision,bm25,4,ASRS_0067286,17.3936,ASRS_0067286,0
+Q094,distraction in cockpit due to non-essential conversation,hybrid,1,ASRS_0087425,0.6777,air carrier first officer reported vaccine mandate conversations in the cockpit during flight are becoming a distraction and resulting in loss of focus and fatigue.,0
+Q094,distraction in cockpit due to non-essential conversation,hybrid,2,ASRS_0103686,0.6189,ga pilot reported experiencing a cftt event in cruise due to distraction and lack of situational awareness.,1
+Q094,distraction in cockpit due to non-essential conversation,hybrid,3,ASRS_0087135,0.6414,captain reported concerns over the cockpit/cabin intercommunication system allowing crew conversations to be heard by passengers.,0
+Q094,distraction in cockpit due to non-essential conversation,hybrid,4,ASRS_0092074,0.624,captain reported a loss of separation was caused by distractions during in flight systems malfunctions.,1
+Q094,distraction in cockpit due to non-essential conversation,hybrid,5,ASRS_0086343,0.6065,pilot reported distractions lead to a collision on a taxiway with another aircraft during preparations for formation operations.,0
+Q094,distraction in cockpit due to non-essential conversation,bm25,1,ASRS_0070061,18.3904,ASRS_0070061,0
+Q094,distraction in cockpit due to non-essential conversation,bm25,2,ASRS_0005007,18.2951,ASRS_0005007,0
+Q094,distraction in cockpit due to non-essential conversation,bm25,3,ASRS_0067149,17.2776,ASRS_0067149,0
+Q094,distraction in cockpit due to non-essential conversation,bm25,4,ASRS_0076153,16.8718,ASRS_0076153,0
+Q094,distraction in cockpit due to non-essential conversation,bm25,5,ASRS_0008251,16.4079,ASRS_0008251,0
+Q095,PF/PM role confusion during approach,hybrid,1,ASRS_0074442,0.5124,b747-400 first officer reported a communications breakdown between captain (pf) and first officer (pm) during unstabilized approach. first officer further stated captain refused to consider pilot monitoring recommendations.,1
+Q095,PF/PM role confusion during approach,hybrid,2,ASRS_0070848,0.4672,emb-140 first officer reported flying through final approach course due to non-activation approach mode. after third attempt; pf became re-oriented and executed approach.,1
+Q095,PF/PM role confusion during approach,hybrid,3,ASRS_0070852,0.4563,first officer [pf] reported a communication breakdown with captain [pm] during approach resulting in an unnecessary 'go-around.',1
+Q095,PF/PM role confusion during approach,hybrid,4,ASRS_0084606,0.4017,air carrier flight crew reported the first officer (pm) read back the wrong clearance to atc during departure causing confusion. the first officer cited lack of flying contributed to the event.,1
+Q095,PF/PM role confusion during approach,hybrid,5,ASRS_0094485,0.3709,flight crew reported multiple differences between captain's and first officer's pfds. the flight crew consulted maintenance control; diverted; and made precautionary landing.,0
+Q095,PF/PM role confusion during approach,bm25,3,ASRS_0024967,17.456,ASRS_0024967,0
+Q095,PF/PM role confusion during approach,bm25,4,ASRS_0106149,16.0148,ASRS_0106149,0
+Q095,PF/PM role confusion during approach,bm25,5,ASRS_0051017,13.0423,ASRS_0051017,0
+Q096,inadequate briefing led to misunderstanding of plan,hybrid,1,ASRS_0094866,0.4843,b737 flight crew reported confusing procedures regarding the acknowledgement of final dg required a conference call with dispatch and load planning to confirm that the dg was actually received before the flight.,0
+Q096,inadequate briefing led to misunderstanding of plan,hybrid,2,ASRS_0086884,0.4881,air carrier first officer reported the pilot crew did not accomplish a complete approach briefing.  atc approach clearance and speed reduction were late and the captain was confused regarding the 'cleared for the approach' from atc. all these contributed to the low altitude warning.,1
+Q096,inadequate briefing led to misunderstanding of plan,hybrid,3,ASRS_0089879,0.4776,air carrier captain reported a misunderstanding about the 5g aircraft documentation needed to execute an approach. this had an effect on this day's flight; leading to a divert to an alternate airport.,1
+Q096,inadequate briefing led to misunderstanding of plan,hybrid,4,ASRS_0084217,0.491,air carrier first officer reported having to do an unexpected go-around on final approach that may not have been correctly executed and cited confusing communications and unclear sop procedures as contributing factors.,1
+Q096,inadequate briefing led to misunderstanding of plan,hybrid,5,ASRS_0082369,0.4821,flight attendant reported failing to conduct a required briefing after many distractions during deplaning/boarding including cleaners entering while passengers were deplaning.,0
+Q096,inadequate briefing led to misunderstanding of plan,bm25,1,ASRS_0072343,22.5069,ASRS_0072343,0
+Q096,inadequate briefing led to misunderstanding of plan,bm25,2,ASRS_0034554,17.4505,ASRS_0034554,0
+Q096,inadequate briefing led to misunderstanding of plan,bm25,3,ASRS_0069659,15.8157,crj-200 pilot reported an inadequate briefing resulted in a taxiway excursion.,1
+Q096,inadequate briefing led to misunderstanding of plan,bm25,4,ASRS_0018578,15.1555,ASRS_0018578,0
+Q096,inadequate briefing led to misunderstanding of plan,bm25,5,ASRS_0095259,15.0547,ASRS_0095259,0
+Q097,captain overrode first officer's concern about weather,hybrid,1,ASRS_0095695,0.5873,a319 captain reported heavy weather during climb. after encountering heavy hail; the first officer's wind screen shattered. the flight crew performed an air turn back to the departure airport.,0
+Q097,captain overrode first officer's concern about weather,hybrid,2,ASRS_0071444,0.5932,embraer jet captain reported encountering turbulent weather conditions beyond their control that were changing very rapidly and fo usurping captain's authority and advising atc.,0
+Q097,captain overrode first officer's concern about weather,hybrid,3,ASRS_0078035,0.5733,air carrier captain reported different interpretations of far weather requirements by crews and dispatch.,0
+Q097,captain overrode first officer's concern about weather,hybrid,4,ASRS_0070980,0.5737,emb175 first officer reported the captain continued an approach and landed even though the weather was below approach minimums.,1
+Q097,captain overrode first officer's concern about weather,hybrid,5,ASRS_0076352,0.5452,b737-800 captain reported exercising emergency authority to avoid significant weather with reported windshear advisories in the area.,0
+Q097,captain overrode first officer's concern about weather,bm25,1,ASRS_0052654,15.6012,b767 first officer reported the captain ignored his concerns about landing at the destination with severe weather in the area.,0
+Q097,captain overrode first officer's concern about weather,bm25,2,ASRS_0092562,14.4187,ASRS_0092562,0
+Q097,captain overrode first officer's concern about weather,bm25,3,ASRS_0064616,14.4187,ASRS_0064616,0
+Q097,captain overrode first officer's concern about weather,bm25,4,ASRS_0023306,14.4187,ASRS_0023306,0
+Q097,captain overrode first officer's concern about weather,bm25,5,ASRS_0039287,13.9177,ASRS_0039287,0
+Q098,ATC workload resulted in delayed responses,hybrid,1,ASRS_0075158,0.6093,air carrier flight crew reported confusion with atc and receiving multiple reroutes on short flight resulting in increased workload.,1
+Q098,ATC workload resulted in delayed responses,hybrid,2,ASRS_0080552,0.5863,pilot reported encountering multiple delays from atc while on an ifr flight and was given an approach clearance into the wrong airport.,1
+Q098,ATC workload resulted in delayed responses,hybrid,3,ASRS_0095894,0.5365,air carrier flight crew reported slowing below atc assigned speed following a wake turbulence encounter on approach to atl.,1
+Q098,ATC workload resulted in delayed responses,hybrid,4,ASRS_0071733,0.5958,emb505 captain reported receiving excessive delays after refusing atc clearance to maintain 250 knots below class b airspace.,1
+Q098,ATC workload resulted in delayed responses,hybrid,5,ASRS_0070569,0.5882,b737ng captain reported high workload resulted in some missed sops on arrival into den following multiple atc clearance changes.,1
+Q098,ATC workload resulted in delayed responses,bm25,1,ASRS_0012808,16.1332,ASRS_0012808,0
+Q098,ATC workload resulted in delayed responses,bm25,2,ASRS_0099955,15.4832,ASRS_0099955,0
+Q098,ATC workload resulted in delayed responses,bm25,3,ASRS_0073554,15.4258,b737-800 captain expressed concern that atc often delayed runway and arrival assignment information to flight crews; increasing workload in the terminal area.,1
+Q098,ATC workload resulted in delayed responses,bm25,4,ASRS_0076862,14.486,ASRS_0076862,0
+Q098,ATC workload resulted in delayed responses,bm25,5,ASRS_0084957,13.6673,ASRS_0084957,0
+Q099,multiple simultaneous abnormal indications overwhelmed crew,hybrid,1,ASRS_0098528,0.5733,be-300 flight crew reported a dual bleed air failure during cruise resulting in loss of pressurization and intense hypoxia symptoms. flight crew executed a rapid descent followed by a return to departure airport and landing.,0
+Q099,multiple simultaneous abnormal indications overwhelmed crew,hybrid,2,ASRS_0102055,0.5576,emb145 flight crew reported multiple control system anomalies in flight requiring a precautionary landing.,0
+Q099,multiple simultaneous abnormal indications overwhelmed crew,hybrid,3,ASRS_0098696,0.5302,b757 flight crew reported multiple system failures during approach. flight crew performed checklists and landed uneventfully.,0
+Q099,multiple simultaneous abnormal indications overwhelmed crew,hybrid,4,ASRS_0089705,0.5416,emb-190 flight crew reported multiple system failures while in cruise and elected to divert and make a precautionary landing,0
+Q099,multiple simultaneous abnormal indications overwhelmed crew,hybrid,5,ASRS_0082057,0.5495,first officer reported multiple systems failures and an inoperative primary flight display caused a diversion and subsequent cancellation of flight due to crew fatigue.,0
+Q099,multiple simultaneous abnormal indications overwhelmed crew,bm25,1,ASRS_0005467,17.3343,ASRS_0005467,0
+Q099,multiple simultaneous abnormal indications overwhelmed crew,bm25,2,ASRS_0071263,15.1015,ASRS_0071263,0
+Q099,multiple simultaneous abnormal indications overwhelmed crew,bm25,3,ASRS_0078411,14.5684,ASRS_0078411,0
+Q099,multiple simultaneous abnormal indications overwhelmed crew,bm25,4,ASRS_0077398,14.2488,ASRS_0077398,0
+Q099,multiple simultaneous abnormal indications overwhelmed crew,bm25,5,ASRS_0030475,14.063,ASRS_0030475,0
+Q100,crew rushed checklist due time pressure,hybrid,1,ASRS_0078452,0.7065,b737-700 first officer reported that distraction and time pressure caused the crew to miss a checklist item that resulted in a fuel imbalance and a diversion.,0
+Q100,crew rushed checklist due time pressure,hybrid,2,ASRS_0107944,0.5891,first officer reported a pressurization pack failure at cruise altitude. crew executed checklist and continued to destination.,0
+Q100,crew rushed checklist due time pressure,hybrid,3,ASRS_0108756,0.5645,air carrier technician reported that while they were troubleshooting post flight reports; they were distracted by management due to time pressure.,0
+Q100,crew rushed checklist due time pressure,hybrid,4,ASRS_0091848,0.554,b737 captain reported during preflight checks; the crew o2 pressure dropped to below minimums. the captain called maintenance to check the crew o2 bottle valve and found it to be opened a quarter turn and the technician made repairs as required.,0
+Q100,crew rushed checklist due time pressure,hybrid,5,ASRS_0093148,0.5468,b767-300 captain reported concerns over the crew o2 being sufficient pressure to sustain the flight crew during a diversion.,0
+Q100,crew rushed checklist due time pressure,bm25,1,ASRS_0075784,17.3967,b737-800 flight crew reported rushed departure due to impending weather which resulted in a failure to complete mel checklist.,0
+Q100,crew rushed checklist due time pressure,bm25,2,ASRS_0006167,15.9098,ASRS_0006167,0
+Q100,crew rushed checklist due time pressure,bm25,3,ASRS_0061895,14.5679,a319 flight crew reported being rushed during takeoff resulting in the non-completion of the post engine start checklist.,0
+Q100,crew rushed checklist due time pressure,bm25,5,ASRS_0056691,14.0615,b777 flight crew reported inability to complete the before pushback checklist due to a persistent fuel pressure light illumination. maintenance was unable to correct the problem by the time the crew timed-out and the flight was cancelled.,0

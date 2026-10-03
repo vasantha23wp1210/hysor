@@ -1,0 +1,9 @@
+metric,category,value
+total_incidents,all,113468.0
+intent_coverage_count,all,69128.0
+intent_coverage_pct,all,60.92
+phase_coverage_count,all,56857.0
+phase_coverage_pct,all,50.11
+incidents_with_any_hazard_count,all,113468.0
+hazard_coverage_pct,all,100.0
+avg_hazards_per_incident,all,1.0

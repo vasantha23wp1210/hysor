@@ -1,0 +1,89 @@
+path,bytes,sha256,kind,shipped_in_zip,produced_by,redistribution
+data/raw/ASRS-clean-dataset-aviation-safety.csv,281234575,e2325dd48cda4ba48993d57c3c681a013830ec6899ebe91e70cd41edd705f524,data,no (tools/copy_data.py),external source (ASRS / NTSB / Kaggle / UK CAA),check source licence before public release
+data/raw/ASRS-raw-dataset-aviation-safety.csv,292201937,c916d635fc6afb643136fdfa1fcce23303cd1569229de4f3a61d36561ad17491,data,no (tools/copy_data.py),external source (ASRS / NTSB / Kaggle / UK CAA),check source licence before public release
+data/raw/CAA_ATC_Section8.pdf,885108,a5ea96a6283ba0b2d2b15f5fe89ed6a806e127f918cef509c25103b1fd1ca2f5,data,no (tools/copy_data.py),external source (ASRS / NTSB / Kaggle / UK CAA),check source licence before public release
+data/raw/NTSB_database.csv,100889761,c0973408748cc09173f217cb16d0f5f9259df94dd257b10e04a1ecaefe32522c,data,no (tools/copy_data.py),external source (ASRS / NTSB / Kaggle / UK CAA),check source licence before public release
+data/raw/airline-safety.csv,2265,064300a3542fe4c3ee61aac54f55e95208a862eb11182c6ab48cc2618cbd58b3,data,no (tools/copy_data.py),external source (ASRS / NTSB / Kaggle / UK CAA),check source licence before public release
+data/raw/airline_safety.csv,2265,064300a3542fe4c3ee61aac54f55e95208a862eb11182c6ab48cc2618cbd58b3,data,no (tools/copy_data.py),external source (ASRS / NTSB / Kaggle / UK CAA),check source licence before public release
+data/raw/plane_crashes.csv,995648,df47989c14a3b867f50144cdff2a1029790037f680124aaa38f674f569be97e6,data,no (tools/copy_data.py),external source (ASRS / NTSB / Kaggle / UK CAA),check source licence before public release
+data/processed/asrs_for_fusion.csv,25906036,c54ccc6f2d5cb187b8705256cc4895496132050b298abc1e768a489e9d4b8717,data,no (tools/copy_data.py),src/tests/process_asrs_data.py,contains ASRS/NTSB narratives
+data/processed/fused_ntsb_airline_crashes.csv,2794860,c0df9d5f265989a66a51e43609b036adc5eda011182aee68467e5fd66afcdbe9,data,no (tools/copy_data.py),src/ontology/fuse_datasets.py,contains ASRS/NTSB narratives
+data/processed/fused_with_asrs.csv,21956107,71697731a58cb2309b5800e526257343ad53eaaad02f6a66e42d3d89cecb1094,data,no (tools/copy_data.py),src/ontology/fuse_datasets.py,contains ASRS/NTSB narratives
+data/processed/fused_corpus_v4.csv,30381399,13579cd67af41ca058a8494ceeec0b48219802b399ade1c27c91a1a5f58d1076,data,no (tools/copy_data.py),src/ontology/fuse_datasets_v4.py (writes fused_corpus_V4.csv),contains ASRS/NTSB narratives
+data/processed/fusion_report_v4.txt,1134,8045d2540b798a9e511a5d21a394849d6b54893fb2df5cf30d3a115631e854e3,data,no (tools/copy_data.py),src/ontology/fuse_datasets_v4.py (writes fusion_report_V4.txt),
+data/processed/asrs_nlp_annotated.csv,26797902,3180f0c23a3620d7ccf8dbbd6914653cb8ce0295b08249fb7945c01893566f24,data,no (tools/copy_data.py),src/rag/asrs_nlp_pipeline.py,contains ASRS/NTSB narratives
+data/processed/asrs_faiss.index,174286893,fd32b7184c2d69f3841149c0ad56f8afbbb25dcf1c9e73eb8c9ba490528f4d29,data,no (tools/copy_data.py),src/rag/asrs_nlp_pipeline.py,
+data/processed/asrs_faiss_meta.csv,30048316,59d96d8ce6b257c8fc088b2e67b5a48e2e0964eed7e4ee5395b80dc7d3d9b43f,data,no (tools/copy_data.py),src/rag/asrs_nlp_pipeline.py,contains ASRS/NTSB narratives
+data/processed/CAA_ATC_section8_enriched.csv,70517,baa386c98d3201c5722878fb0c12e38bec329d25d45b2f30b9bcadd75b8166d7,data,no (tools/copy_data.py),src/phraseology/extract_phraseology_frm_CAA.py (intermediate CSVs not in repo),contains ASRS/NTSB narratives
+data/processed/CAA_ICAO_crossmap.csv,128744,360afe8f9b4290437614339dad0f6c511b4d9ea1919a798d50342635ffd4e8c3,data,no (tools/copy_data.py),src/phraseology/caa_icao_crossmap.py (ICAO input CSVs not in repo),contains ASRS/NTSB narratives
+data/processed/phraseology_triples.csv,746002,2064ced3a70fb563de42f8121f79bdbf0d4173dad78d15e595869fbe91d2b66a,data,no (tools/copy_data.py),src/ontology/build_ontology_triples.py,contains ASRS/NTSB narratives
+data/processed/phraseology_ontology.ttl,497676,8c36b57e617a5c84b0bc5f7a3a922ad3ec040a88cddfaca05d590d707dbc0d6d,data,no (tools/copy_data.py),src/ontology/build_ontology_triples.py,contains ASRS/NTSB narratives
+data/processed/asrs_incidents.ttl,61336924,357b4e366539a0a45b5e0077f42d36533c99a9e033293327dc198bb00df73f69,data,no (tools/copy_data.py),src/rag/ontology_population.py,contains ASRS/NTSB narratives
+data/processed/uatie_edm_merged.ttl,61913050,fc5b838c07f98b61d1bec4a455863a871885b44a8b0058dafcb50538ec7e14cd,data,no (tools/copy_data.py),src/rag/ontology_population.py,contains ASRS/NTSB narratives
+src/tests/process_asrs_data.py,1324,67d8961995800e85aaefa3973c8679be07bc2fa2c0abf1787aaa0fc39a651f0f,code,yes,,
+src/ontology/fuse_datasets.py,3805,9407a89f3326f284029a52b525ea7acd092db5a8ff644fc9879752f2dfbe4ba8,code,yes,,
+src/ontology/fuse_datasets_v4.py,11935,c933bb8472463f454d0bad5ab244217f89038256836d44505f2758207fc915e4,code,yes,,
+src/ontology/uatie_edm_ontology.owl,8747,33cfd60cba1c6d0edcdd32edd6437fe3b4cdcf4c4389f9dc6098147d2568e3e8,code,yes,,
+src/ontology/uatie_fused.owl,332365,9871d83a8b54a2fe4c00a205185ef8f895512269d503e1885fcb1e1ca673cf03,code,yes,,
+src/ontology/build_ontology_triples.py,11082,83e3f811199529f3e811c510dfdee56c321407c9b68c3ec360429412f6ee922d,code,yes,,
+src/phraseology/extract_phraseology_frm_CAA.py,15425,b6cdb55e8a89df652dae64f0c6392b191c9bd0d285d831b4822be912a2a241cd,code,yes,,
+src/phraseology/build_icao_phraseology_master_from_raw.py,6698,13bcf5baa915bdb4138a2ef4441524c24f2799d41030b2cbddf76b1484f27e89,code,yes,,
+src/phraseology/caa_icao_crossmap.py,5151,f025fcb6560301cd31648f5d9a78a5a393866c314aa8cb70338324688de17433,code,yes,,
+src/rag/asrs_nlp_pipeline.py,22092,dad82520d9613e99157ace8d8bef182daf6f4210fd777bf6bb85ec59604afd50,code,yes,,
+src/rag/ontology_population.py,35893,59940c35abcc376b83e2fe57df3af3c350db089466895813ba050779b822866f,code,yes,,
+src/rag/rag_query_engine.py,26647,32ae3d215cd2b52f8edc18e79472f14f639dcf5b04038e770f40c9d4756ab5fb,code,yes,,
+src/rag/bm25_baseline.py,13863,ea82ed49c7b4fdf43357ce24abce36650932759a69d840204e01a84aa6f64962,code,yes,,
+src/rag/auto_label_relavance.py,7717,ce9814cd59adbea1c6667b2e98bd948f651741092d52124b961e95bb589477b0,code,yes,,
+src/rag/build_pooled_evaluation_candidates.py,4695,d99f3a5e39f934753b87e5b5bbe953288d5e08ed2dab3eb3e1ec14461452c8a7,code,yes,,
+src/rag/make_pool_simple.py,6111,53d259e76ecf0675a819a09a633cb673f8e27c0ffdd1e6f8cea30339db27a037,code,yes,,
+src/rag/merge_pooled_labels.py,840,b20825c420a94d43e9e38cefa5c5b2ee6ba58e492af0cec944d0cc11da4e5fa2,code,yes,,
+src/rag/Plot_comparison.py,4396,7ddf2742e52f2119c62f12155224f1f59771fe82664fe58a58c3eb77396ac839,code,yes,,
+src/rag/plot_hazard_analysis.py,2072,aad7fc73c569ed9b96f72a3c2f2e804f2f128ed2d67072aa84f4a263aa7188cd,code,yes,,
+src/compute_global_metrics.py,4437,64c817b5b0204c041f600d16c2816d9bce0d81c2518510b07a77f28b54175822,code,yes,,
+src/extract_late_runway_change_analysis.py,10277,fefa44767c94d01bf50f01db4f1facd9a5a91da4936ca664df6cddaf1a02b54c,code,yes,,
+src/extract_late_runway_change_stats.py,8089,2d7bf3095101bcd6bd03555c404267f9e2f072315d33c79bd6199c13899f5f98,code,yes,,
+src/semantic_retrieve_all_late_runways.py,6593,f0f34f31d38a42aa5ca380280fe47eaddd80ad00079ab46bf4633c93d9b33024,code,yes,,
+src/analyze_semantic_late_runway_change_results.py,8111,68d742f5f46cbda751b100b34e798c4623f96b97db6f1f4d4f4e2e5876af75d1,code,yes,,
+src/compute_scenario_metrics.py,4185,31348ad73f658fe222212a1d8b52d2102b6f253c30d8cf0ec94def2a68620b19,code,yes,,
+src/hysor_ablation.py,17747,56fd7fb1798d5a5fa0b36094dbb5eebc05ddd458c60beaaf11a12b2591aac270,code,yes,,
+src/hysor_rrf.py,8679,1d27b891a793a66ee5fb2fb4b4304f8c7bf5e5e627312b5ed552f59a8270a194,code,yes,,
+src/HySor_App.py,9629,ce32cd99d6a65e41d7527882ae03fd1b1295719dd94bc66ba730f4226a06fc81,code,yes,,
+evaluation/generate_gold_queries.py,8645,4f143726ab2f234f39d1c3a0135da12dc0a0e68851cd5b5a5c03e3e4eb67204b,code,yes,,
+evaluation/build_retrieval_results.py,3604,b59c6fc0f557a7ef53b5e62fb695ec785c93bbf27b9a504f0355b1c89ebc1627,code,yes,,
+evaluation/build_retrieval_results_v2.py,4178,f39b45185daabdb594580c4816ef9ad3677e44afd3f0bf52ebc58eb3ece76ec0,code,yes,,
+evaluation/enrich_retrieval_results.py,6230,79f9cd3e215e4f0ac18cf09919be8c7461510b1868e3e6b468425c6cf6717467,code,yes,,
+evaluation/fix_retrieval_naratives.py,5381,658ef5c2d3adbdfdc063c5c84317a66047ed2a6305e4878edbc6eca9e21cb4f2,code,yes,,
+evaluation/score_retrieval.py,4043,57760f835b834f0081582b5a3262bc97c4977374bf2281ff77fe34d2aac26cee,code,yes,,
+evaluation/run_eval_pipeline.py,1767,6ecfe98595861af072164af9a15c33e86996bfb463d0a90931d593acea21a85d,code,yes,,
+evaluation/assist_gold_labeling.py,4508,38de85b4fe903bf4f76c51f43dd2734df07bbd40b3015d728c4bb697fcb1ad1b,code,yes,,
+evaluation/gold_queries.csv,14838,816aa52f9d26bbcfd2683951f385948a2e27026443ce18e88dc5e36d8cc0d389,result,yes,evaluation/generate_gold_queries.py,
+evaluation/gold_relevance.csv,890436,78d9ba5da57c83c4399149d72fee632ac51609937c4b00a1fe6206c7be9bfa7c,result,yes,"manual (Q001-Q020) + src/rag/auto_label_relavance.py (Q021-Q100, MiniLM cosine)",
+evaluation/retrieval_results.csv,54842,6ff3abd3b93b6b56c2e610e1585c04b5cbaccba52f759a84d26f03837f88710a,result,yes,evaluation/build_retrieval_results_v2.py,
+evaluation/retrieval_results_enriched.csv,866226,c5c8d0caba828b01d465fdba00e228f5b73a2a7c22d76736724ec3b40f62c6c9,result,yes,evaluation/build_retrieval_results_v2.py / enrich_retrieval_results.py,
+evaluation/bm25_results.csv,78533,584b410a5b8200bb0662a58b0dcbab79aa9fc982b40f47512b4e4d28005fd5ca,result,yes,src/rag/bm25_baseline.py,
+evaluation/bm25_scores.csv,11371,ae30877fca0038b9d46695d516cac9e4718b86658aad6893184f811c34b1bd5b,result,yes,src/rag/bm25_baseline.py,
+evaluation/comparison_table.csv,526,b0e5e895cb02c7b3a39ea30215fd114e013cd9b2586a419994628e039150284c,result,yes,src/rag/bm25_baseline.py,
+evaluation/pooled_candidates.csv,174413,9ce7c10ba3ef768cf31f35655a152f81032f8982c291bef87aff6b15b1ef7135,result,yes,src/rag/build_pooled_evaluation_candidates.py,
+evaluation/pooled_labeling_template.csv,78,103eae33a6db8a773154f8438c824fdb7a54edd306bbb55a94caede521d57df3,result,yes,src/rag/build_pooled_evaluation_candidates.py,
+evaluation/pooled_labeling_template_autolabeled.csv,42264,dd80abcb483cf1605a5ed2364c0b264189968bd1c9c9a87ac04f686d4ed46b38,result,yes,src/rag/auto_label_relavance.py,
+evaluation/retrieval_metrics.csv,7158,59324a9d988b1da8e653fadf1097f4a442622c99a30b78790b1a8cd9a0871900,result,yes,evaluation/score_retrieval.py,
+evaluation/aggregate_metrics.json,245,4c40eb10b8a88ad409192d963cdc13d059808c83ab0297b772070cbcd4ac7fd7,result,yes,evaluation/score_retrieval.py,
+evaluation/figures/hazard_analysis.pdf,21507,03c2bf1cc3e3901e6759dbe14ed5a67ffa516c2b8b6bd5971268715ab93040a6,result,yes,src/rag/plot_hazard_analysis.py,
+evaluation/figures/hazard_analysis.png,266616,1bca16c535bd9d92e3a64b4bd2cb93fbba95d01039a3fd257036ee1ee4b8bc7a,result,yes,src/rag/plot_hazard_analysis.py,
+evaluation/figures/retrieval_comparison.pdf,21982,14fb588f3942a468271b87c5c4ae7d4a6760a65ef74e8126eefe87ae432b67ec,result,yes,src/rag/Plot_comparison.py,
+evaluation/figures/retrieval_comparison.png,302324,769eee963e24d13fbfd11773fcfce97ebdc7ffd2b5e72e4a451ae3c366116979,result,yes,src/rag/Plot_comparison.py,
+output/late_runway_change_approach_incidents.csv,206682,ed168d440d99da7c431c7bbe5c2b680ea2c51ffffd01a1f939d1817f047c6b0b,result,yes,src/extract_late_runway_change_analysis.py,
+output/late_runway_change_approach_stats.csv,766,31b0e10baeee8ea997f7c4bf7b74f7ff8be96d8a3d4ee8002f490a6d81db5505,result,yes,src/extract_late_runway_change_analysis.py,
+output/late_runway_change_hazard_summary.csv,287,468dd6f001a9d6aabb20bab7d0bd5bef20857060ac86432d182ce06203932b29,result,yes,src/extract_late_runway_change_analysis.py,
+output/late_runway_change_summary.csv,133,fdf70120fab69d5ece81a7a066d7ac225177c1aa439ebd01a3d510aba012d4b2,result,yes,src/extract_late_runway_change_analysis.py,
+output/semantic_late_runway_change_hazard_summary.csv,288,7a1818b09b913685cb1bdb913bac63f09ef7b3192166b7b9708065776062a1dd,result,yes,src/analyze_semantic_late_runway_change_results.py,
+output/semantic_late_runway_change_incidents.csv,101881,3f61ecc047153132d849d5f5ddc61014eabc00893c771d028225d2907e78b7e9,result,yes,src/semantic_retrieve_all_late_runways.py,
+output/semantic_late_runway_change_incidents_enriched.csv,153529,9d9235168834066ff0c07d39b060af08740d9a83adffc35f8b5a5bcc50463a86,result,yes,src/analyze_semantic_late_runway_change_results.py,
+output/semantic_late_runway_change_query_summary.csv,771,d5ac0d8d44ef861bf27695295ea008e26e9b5fdfba163c7252b500ec2e48f8a0,result,yes,src/semantic_retrieve_all_late_runways.py,
+output/semantic_late_runway_change_scenario_summary.csv,154,a7453e28fee87cc74eff47efc39d372a578ee90ff1c308a22994816ac9c20ad2,result,yes,src/analyze_semantic_late_runway_change_results.py,
+output/semantic_late_runway_change_stats.csv,827,bfd78410fd36ef6a9f7d7fd0fdc43920ca5ec1b90c35c9a7676c9b2cba79a041,result,yes,src/analyze_semantic_late_runway_change_results.py,
+metrics/metrics_global.csv,285,052eb48aafa133482ee7922a2291dd150a7f13b151e28b6eb561bcfd1ec0d44e,result,yes,src/compute_global_metrics.py,
+metrics/metrics_scenarios.csv,4384,300c98b9875e3d0e6c562f6f3b7ac53b4af5f7c36971dd89151ab31d73ba99ee,result,yes,src/compute_scenario_metrics.py,
+ablation_results.csv,352,fa5fc045bbe541ee78e09d492e2f69c663f71aad5674ae27237dd3b4241083f1,result,yes,src/hysor_ablation.py,
+rrf_results.csv,263,2d3eacc03b481ba20aa073d445c2bbd90cfee8d82493855b44fd63701c389710,result,yes,src/hysor_rrf.py,
+src/sanity_check_results.csv,281,fdce21a38308231f37f6dfe9e5a55f64ad7c35f917d4ed86ffcffd8b2497fc22,result,yes,src/hysor_ablation.py --sanity,

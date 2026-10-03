@@ -1,0 +1,23 @@
+metric,category,value
+total_semantic_candidates,all,144.0
+by_source,ASRS,144.0
+by_scenario_type,Runway change during approach,65.0
+by_scenario_type,Late runway change,35.0
+by_scenario_type,Approach reconfiguration,27.0
+by_scenario_type,Runway reassignment,17.0
+by_phase_inferred,approach,78.0
+by_phase_inferred,Unknown,45.0
+by_phase_inferred,final approach,11.0
+by_phase_inferred,descent,9.0
+by_phase_inferred,initial approach,1.0
+similarity_score,min,0.5203321576118469
+similarity_score,mean,0.5774818157984151
+similarity_score,max,0.719885528087616
+outcome_flag,go_around,25.0
+outcome_flag,unstable_approach,11.0
+outcome_flag,wrong_runway,5.0
+outcome_flag,runway_confusion,1.0
+outcome_flag,fms_reprogramming,28.0
+outcome_flag,atc_late_change,18.0
+outcome_flag,track_deviation,32.0
+avg_inferred_hazards_per_incident,all,0.715

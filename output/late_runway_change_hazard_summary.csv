@@ -1,0 +1,9 @@
+hazard,incident_count,incident_pct
+lateral_vertical_deviation_hazard,51,14.05
+go_around_hazard,50,13.77
+automation_setup_hazard,43,11.85
+terrain_separation_hazard,22,6.06
+unstable_approach_hazard,22,6.06
+workload_hazard,8,2.2
+runway_misalignment_hazard,5,1.38
+communication_hazard,4,1.1

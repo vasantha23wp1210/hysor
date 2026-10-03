@@ -1,0 +1,77 @@
+{
+  "hashes": {
+    "files": 88,
+    "missing": [],
+    "hash_mismatch": []
+  },
+  "claims_checked": 83,
+  "claims_matching": 72,
+  "mismatches": [
+    {
+      "item": "Sect. 3 (pipeline input)",
+      "claim": "rows in fused_with_asrs.csv (input to asrs_nlp_pipeline.py)",
+      "paper": "115461",
+      "measured": "115548"
+    },
+    {
+      "item": "Sect. 3.2",
+      "claim": "intent-classified records",
+      "paper": "69670",
+      "measured": "69128"
+    },
+    {
+      "item": "Sect. 3.2",
+      "claim": "unclassified records",
+      "paper": "43798",
+      "measured": "44340"
+    },
+    {
+      "item": "Fig. 1",
+      "claim": "intent classes",
+      "paper": "13",
+      "measured": "11"
+    },
+    {
+      "item": "Table 3",
+      "claim": "FAISS index type",
+      "paper": "IndexFlatL2",
+      "measured": "IndexFlatIP"
+    },
+    {
+      "item": "Sect. 3.3 / Table 3",
+      "claim": "merged ontology triples",
+      "paper": "4880",
+      "measured": "989421"
+    },
+    {
+      "item": "Table 8",
+      "claim": "rule-based from NTSB",
+      "paper": "2",
+      "measured": "0"
+    },
+    {
+      "item": "Sect. 6 (phase of 363)",
+      "claim": "Approach %",
+      "paper": "38.6",
+      "measured": "38.0"
+    },
+    {
+      "item": "Sect. 6 (phase of 363)",
+      "claim": "Final %",
+      "paper": "11.3",
+      "measured": "10.2"
+    },
+    {
+      "item": "Sect. 6 (phase of 363)",
+      "claim": "Landing %",
+      "paper": "5.8",
+      "measured": "0.0"
+    },
+    {
+      "item": "Sect. 6 (phase of 363)",
+      "claim": "Unknown %",
+      "paper": "44.3",
+      "measured": "36.6"
+    }
+  ]
+}
