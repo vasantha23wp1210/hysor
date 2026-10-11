@@ -19,10 +19,29 @@ SCRATCH = ROOT / "_repro"
 def run(args, cwd):
     print(">>", " ".join(str(a) for a in args), flush=True)
     subprocess.run([sys.executable, *map(str, args)], cwd=cwd, check=True,
-                   env={**os.environ, "PYTHONHASHSEED": "42", "CUDA_VISIBLE_DEVICES": ""})
+                   env={**os.environ, "PYTHONHASHSEED": "42", "CUDA_VISIBLE_DEVICES": "", "PYTHONUTF8": "1"})
+
+
+def check_data():
+    import csv
+    bad = []
+    for r in csv.DictReader(open(ROOT / "DATA_MANIFEST.csv", newline="", encoding="utf-8")):
+        f = ROOT / r["path"]
+        if r["kind"] != "data":
+            continue
+        if not f.exists():
+            bad.append(f"{r['path']}: missing")
+        elif f.stat().st_size < 1024 and f.read_bytes().startswith(b"version https://git-lfs"):
+            bad.append(f"{r['path']}: Git LFS pointer, not the real file")
+    if bad:
+        sys.exit("Data files are not in place:\n  " + "\n  ".join(bad) +
+                 "\nRun `git lfs install` and `git lfs pull` in this repo, then retry.")
 
 
 def main():
+    if sys.version_info[:2] != (3, 11):
+        print(f"WARNING: Python {sys.version.split()[0]}; the pinned requirements are for Python 3.11.", flush=True)
+    check_data()
     run([ROOT / "verify.py"], ROOT)
     run([ROOT / "recheck" / "run.py"], ROOT)
     shutil.rmtree(SCRATCH, ignore_errors=True)
@@ -33,8 +52,8 @@ def main():
 
 
 def write_report():
-    v = json.loads((ROOT / "verify" / "results.json").read_text())
-    r = json.loads((ROOT / "recheck" / "results.json").read_text())
+    v = json.loads((ROOT / "verify" / "results.json").read_text(encoding="utf-8"))
+    r = json.loads((ROOT / "recheck" / "results.json").read_text(encoding="utf-8"))
     results = {
         "input_files": v["hashes"]["files"], "input_missing": v["hashes"]["missing"],
         "input_hash_mismatch": v["hashes"]["hash_mismatch"],
@@ -46,7 +65,7 @@ def write_report():
         "retrieval_matching_published_protocol": r["matches_published_protocol"],
         "figures_regenerated": sorted(str(p.relative_to(ROOT)) for p in (SCRATCH / "evaluation" / "figures").glob("*")),
     }
-    (ROOT / "results.json").write_text(json.dumps(results, indent=2))
+    (ROOT / "results.json").write_text(json.dumps(results, indent=2), encoding="utf-8")
 
     import pandas as pd
     claims = pd.read_csv(ROOT / "verify" / "claims.csv")
@@ -67,7 +86,7 @@ def write_report():
         note = "" if pd.isna(c.note) else str(c.note).replace("|", "/")
         L.append(f"| {c.item} | {c.claim} | {c.paper} | {c.measured} | {c.status} | {c.source} | {note} |")
     L += ["", "## Retrieval numbers", "", "See `recheck/REPORT.md`.", ""]
-    (ROOT / "REPORT.md").write_text("\n".join(L))
+    (ROOT / "REPORT.md").write_text("\n".join(L), encoding="utf-8")
     print(json.dumps(results, indent=2))
 
 

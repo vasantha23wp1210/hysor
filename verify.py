@@ -159,7 +159,7 @@ def main():
     df.to_csv(OUT / "claims.csv", index=False)
     res = {"hashes": check_hashes(), "claims_checked": len(df), "claims_matching": int((df.status == "match").sum()),
            "mismatches": df[df.status != "match"][["item", "claim", "paper", "measured"]].astype(str).to_dict("records")}
-    (OUT / "results.json").write_text(json.dumps(res, indent=2))
+    (OUT / "results.json").write_text(json.dumps(res, indent=2), encoding="utf-8")
     print(json.dumps({k: res[k] for k in ("hashes", "claims_checked", "claims_matching")}, indent=2))
     return res
 

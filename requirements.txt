@@ -8,4 +8,4 @@ scikit-learn==1.9.1
 sentence-transformers==6.1.0
 torch==2.14.1
 transformers==5.18.0
-streamlit==1.50.0
+streamlit==1.60.0

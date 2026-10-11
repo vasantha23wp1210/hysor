@@ -26,7 +26,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--from", dest="src", required=True, help="path to a uatie-edm-phase1 checkout")
     src_repo = Path(ap.parse_args().src).resolve()
-    rows = [r for r in csv.DictReader(open(HYSOR / "DATA_MANIFEST.csv", newline="")) if r["kind"] == "data"]
+    rows = [r for r in csv.DictReader(open(HYSOR / "DATA_MANIFEST.csv", newline="", encoding="utf-8")) if r["kind"] == "data"]
     failed = []
     for r in rows:
         src, dst = src_repo / r["path"], HYSOR / r["path"]

@@ -8,13 +8,13 @@ Table 5,HySOR,all,77,nDCG@10,0.901,0.9013,True,0.9013,True
 Table 5,HySOR,all,77,MRR,0.934,0.934,True,0.934,True
 Table 5,HySOR,all,77,MAP,0.896,0.8957,True,0.4683,False
 Table 5,BM25,all,77,P@1,0.338,0.3377,True,0.3377,True
-Table 5,BM25,all,77,P@3,0.338,0.3333,False,0.3333,False
-Table 5,BM25,all,77,P@5,0.278,0.2805,False,0.2831,False
+Table 5,BM25,all,77,P@3,0.338,0.3377,True,0.329,False
+Table 5,BM25,all,77,P@5,0.278,0.2779,True,0.2831,False
 Table 5,BM25,all,77,P@10,0.21,0.2104,True,0.2169,False
-Table 5,BM25,all,77,nDCG@5,0.297,0.2989,False,0.3,False
-Table 5,BM25,all,77,nDCG@10,0.246,0.2461,True,0.2504,False
+Table 5,BM25,all,77,nDCG@5,0.297,0.2975,True,0.2997,False
+Table 5,BM25,all,77,nDCG@10,0.246,0.2463,True,0.2502,False
 Table 5,BM25,all,77,MRR,0.506,0.5056,True,0.5021,False
-Table 5,BM25,all,77,MAP,0.088,0.0878,True,0.0754,False
+Table 5,BM25,all,77,MAP,0.088,0.088,True,0.0752,False
 Table 5,Keyword,all,77,P@1,0.195,0.1948,True,0.1948,True
 Table 5,Keyword,all,77,P@3,0.134,0.1342,True,0.1342,True
 Table 5,Keyword,all,77,P@5,0.119,0.1195,True,0.1195,True
@@ -26,7 +26,7 @@ Table 5,Keyword,all,77,MAP,0.029,0.0293,True,0.0255,False
 Table 6,HySOR,runway_change,19,P@5,0.921,0.9579,False,0.9579,False
 Table 6,HySOR,runway_change,19,MRR,0.951,1.0,False,1.0,False
 Table 6,BM25,runway_change,19,P@5,0.312,0.2316,False,0.2421,False
-Table 6,BM25,runway_change,19,MRR,0.501,0.4433,False,0.4491,False
+Table 6,BM25,runway_change,19,MRR,0.501,0.4431,False,0.4491,False
 Table 6,HySOR,phraseology,20,P@5,0.874,0.99,False,0.99,False
 Table 6,HySOR,phraseology,20,MRR,0.919,1.0,False,1.0,False
 Table 6,BM25,phraseology,20,P@5,0.278,0.35,False,0.34,False
@@ -37,7 +37,7 @@ Table 6,BM25,unstable_approach,20,P@5,0.271,0.27,False,0.27,False
 Table 6,BM25,unstable_approach,20,MRR,0.498,0.5597,False,0.5558,False
 Table 6,HySOR,runway_incursion,9,P@5,0.912,0.8889,False,0.8889,False
 Table 6,HySOR,runway_incursion,9,MRR,0.941,0.9444,False,0.9444,False
-Table 6,BM25,runway_incursion,9,P@5,0.298,0.3778,False,0.3778,False
+Table 6,BM25,runway_incursion,9,P@5,0.298,0.3556,False,0.3778,False
 Table 6,BM25,runway_incursion,9,MRR,0.514,0.6003,False,0.6037,False
 Table 6,HySOR,weather,1,P@5,0.902,0.2,False,0.2,False
 Table 6,HySOR,weather,1,MRR,0.929,0.25,False,0.25,False
@@ -77,14 +77,14 @@ Table 10,D,all,77,MRR,0.939,,,0.9387,True
 Table 10,D,all,77,MAP,0.462,,,0.4617,True
 Sect. 5.8 RRF,BM25,all,77,P@5,0.283,,,0.2831,True
 Sect. 5.8 RRF,BM25,all,77,MRR,0.502,,,0.5021,True
-Sect. 5.8 RRF,BM25,all,77,MAP,0.075,,,0.0754,True
+Sect. 5.8 RRF,BM25,all,77,MAP,0.075,,,0.0752,True
 Sect. 5.8 RRF,A,all,77,P@5,0.883,,,0.8831,True
 Sect. 5.8 RRF,A,all,77,MRR,0.938,,,0.938,True
 Sect. 5.8 RRF,A,all,77,MAP,0.457,,,0.457,True
-Sect. 5.8 RRF,RRF,all,77,P@5,0.678,,,0.6753,False
+Sect. 5.8 RRF,RRF,all,77,P@5,0.678,,,0.6779,True
 Sect. 5.8 RRF,RRF,all,77,MRR,0.931,,,0.9306,True
-Sect. 5.8 RRF,RRF,all,77,MAP,0.264,,,0.2638,True
+Sect. 5.8 RRF,RRF,all,77,MAP,0.264,,,0.2637,True
 Sect. 5.7,HySOR,Q001-Q020,19,MRR,0.921,1.0,False,1.0,False
 Sect. 5.7,HySOR,Q001-Q020,19,MAP,0.874,0.9644,False,0.4827,False
-Sect. 5.7,BM25,Q001-Q020,19,MRR,0.531,0.4433,False,0.4491,False
+Sect. 5.7,BM25,Q001-Q020,19,MRR,0.531,0.4431,False,0.4491,False
 Sect. 5.7,BM25,Q001-Q020,19,MAP,0.103,0.0541,False,0.0489,False

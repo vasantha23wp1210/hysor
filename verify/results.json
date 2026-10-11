@@ -1,7 +1,9 @@
 {
   "hashes": {
     "files": 88,
-    "missing": [],
+    "missing": [
+      "data/processed/fusion_report_v4.txt"
+    ],
     "hash_mismatch": []
   },
   "claims_checked": 83,

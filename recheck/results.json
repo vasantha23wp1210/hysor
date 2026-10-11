@@ -40,9 +40,9 @@
     "weather": 1
   },
   "paper_numbers_checked": 89,
-  "matches_reference_protocol": 46,
+  "matches_reference_protocol": 47,
   "checked_reference_protocol": 85,
-  "matches_published_protocol": 21,
+  "matches_published_protocol": 24,
   "checked_published_protocol": 52,
   "summary": {
     "all": {
@@ -90,23 +90,23 @@
         },
         "reference|bm25_baseline": {
           "P@1": 0.3377,
-          "P@3": 0.3333,
-          "P@5": 0.2805,
+          "P@3": 0.3377,
+          "P@5": 0.2779,
           "P@10": 0.2104,
-          "nDCG@5": 0.2989,
-          "nDCG@10": 0.2461,
+          "nDCG@5": 0.2975,
+          "nDCG@10": 0.2463,
           "MRR": 0.4987,
-          "MAP": 0.0744
+          "MAP": 0.0746
         },
         "reference|bm25_rrf": {
           "P@1": 0.3377,
-          "P@3": 0.3333,
+          "P@3": 0.329,
           "P@5": 0.2831,
           "P@10": 0.2169,
-          "nDCG@5": 0.3,
-          "nDCG@10": 0.2504,
+          "nDCG@5": 0.2997,
+          "nDCG@10": 0.2502,
           "MRR": 0.5021,
-          "MAP": 0.0754
+          "MAP": 0.0752
         },
         "reference|hysor_engine": {
           "P@1": 0.8961,
@@ -131,22 +131,22 @@
         "reference|rrf": {
           "P@1": 0.8961,
           "P@3": 0.7706,
-          "P@5": 0.6753,
+          "P@5": 0.6779,
           "P@10": 0.5636,
-          "nDCG@5": 0.7268,
-          "nDCG@10": 0.636,
+          "nDCG@5": 0.7289,
+          "nDCG@10": 0.6364,
           "MRR": 0.9306,
-          "MAP": 0.2638
+          "MAP": 0.2637
         },
         "table5_bm25_baseline_py|bm25_baseline": {
           "P@1": 0.3377,
-          "P@3": 0.3333,
-          "P@5": 0.2805,
+          "P@3": 0.3377,
+          "P@5": 0.2779,
           "P@10": 0.2104,
-          "nDCG@5": 0.2989,
-          "nDCG@10": 0.2461,
+          "nDCG@5": 0.2975,
+          "nDCG@10": 0.2463,
           "MRR": 0.5056,
-          "MAP": 0.0878
+          "MAP": 0.088
         },
         "table5_bm25_baseline_py|hysor_engine": {
           "P@1": 0.8961,
@@ -256,12 +256,12 @@
         "reference|rrf": {
           "P@1": 0.8421,
           "P@3": 0.7193,
-          "P@5": 0.5789,
-          "P@10": 0.5368,
-          "nDCG@5": 0.6428,
-          "nDCG@10": 0.5904,
+          "P@5": 0.5895,
+          "P@10": 0.5421,
+          "nDCG@5": 0.6505,
+          "nDCG@10": 0.595,
           "MRR": 0.9211,
-          "MAP": 0.2108
+          "MAP": 0.2125
         },
         "table5_bm25_baseline_py|bm25_baseline": {
           "P@1": 0.2632,
@@ -270,7 +270,7 @@
           "P@10": 0.1421,
           "nDCG@5": 0.2484,
           "nDCG@10": 0.1803,
-          "MRR": 0.4433,
+          "MRR": 0.4431,
           "MAP": 0.0541
         },
         "table5_bm25_baseline_py|hysor_engine": {
@@ -383,10 +383,10 @@
           "P@3": 0.5833,
           "P@5": 0.475,
           "P@10": 0.35,
-          "nDCG@5": 0.543,
-          "nDCG@10": 0.4442,
+          "nDCG@5": 0.5448,
+          "nDCG@10": 0.4454,
           "MRR": 0.8125,
-          "MAP": 0.2363
+          "MAP": 0.2373
         },
         "table5_bm25_baseline_py|bm25_baseline": {
           "P@1": 0.125,
@@ -473,19 +473,19 @@
           "P@5": 0.35,
           "P@10": 0.265,
           "nDCG@5": 0.3476,
-          "nDCG@10": 0.2895,
+          "nDCG@10": 0.2898,
           "MRR": 0.5142,
-          "MAP": 0.0785
+          "MAP": 0.0788
         },
         "reference|bm25_rrf": {
           "P@1": 0.3,
-          "P@3": 0.35,
+          "P@3": 0.3333,
           "P@5": 0.34,
           "P@10": 0.275,
-          "nDCG@5": 0.3305,
-          "nDCG@10": 0.289,
+          "nDCG@5": 0.3293,
+          "nDCG@10": 0.2882,
           "MRR": 0.5,
-          "MAP": 0.0759
+          "MAP": 0.0754
         },
         "reference|hysor_engine": {
           "P@1": 1.0,
@@ -511,11 +511,11 @@
           "P@1": 1.0,
           "P@3": 0.8667,
           "P@5": 0.79,
-          "P@10": 0.665,
+          "P@10": 0.66,
           "nDCG@5": 0.8372,
-          "nDCG@10": 0.733,
+          "nDCG@10": 0.7298,
           "MRR": 1.0,
-          "MAP": 0.2909
+          "MAP": 0.2886
         },
         "table5_bm25_baseline_py|bm25_baseline": {
           "P@1": 0.3,
@@ -523,9 +523,9 @@
           "P@5": 0.35,
           "P@10": 0.265,
           "nDCG@5": 0.3476,
-          "nDCG@10": 0.2895,
+          "nDCG@10": 0.2898,
           "MRR": 0.5187,
-          "MAP": 0.0952
+          "MAP": 0.0953
         },
         "table5_bm25_baseline_py|hysor_engine": {
           "P@1": 1.0,
@@ -635,12 +635,12 @@
         "reference|rrf": {
           "P@1": 0.8421,
           "P@3": 0.7193,
-          "P@5": 0.5789,
-          "P@10": 0.5368,
-          "nDCG@5": 0.6428,
-          "nDCG@10": 0.5904,
+          "P@5": 0.5895,
+          "P@10": 0.5421,
+          "nDCG@5": 0.6505,
+          "nDCG@10": 0.595,
           "MRR": 0.9211,
-          "MAP": 0.2108
+          "MAP": 0.2125
         },
         "table5_bm25_baseline_py|bm25_baseline": {
           "P@1": 0.2632,
@@ -649,7 +649,7 @@
           "P@10": 0.1421,
           "nDCG@5": 0.2484,
           "nDCG@10": 0.1803,
-          "MRR": 0.4433,
+          "MRR": 0.4431,
           "MAP": 0.0541
         },
         "table5_bm25_baseline_py|hysor_engine": {
@@ -720,12 +720,12 @@
         "reference|bm25_baseline": {
           "P@1": 0.4444,
           "P@3": 0.4444,
-          "P@5": 0.3778,
+          "P@5": 0.3556,
           "P@10": 0.3333,
-          "nDCG@5": 0.3925,
-          "nDCG@10": 0.3551,
+          "nDCG@5": 0.3779,
+          "nDCG@10": 0.354,
           "MRR": 0.6003,
-          "MAP": 0.1135
+          "MAP": 0.1128
         },
         "reference|bm25_rrf": {
           "P@1": 0.4444,
@@ -770,12 +770,12 @@
         "table5_bm25_baseline_py|bm25_baseline": {
           "P@1": 0.4444,
           "P@3": 0.4444,
-          "P@5": 0.3778,
+          "P@5": 0.3556,
           "P@10": 0.3333,
-          "nDCG@5": 0.3925,
-          "nDCG@10": 0.3551,
+          "nDCG@5": 0.3779,
+          "nDCG@10": 0.354,
           "MRR": 0.6003,
-          "MAP": 0.1365
+          "MAP": 0.1357
         },
         "table5_bm25_baseline_py|hysor_engine": {
           "P@1": 0.8889,
@@ -844,13 +844,13 @@
         },
         "reference|bm25_baseline": {
           "P@1": 0.45,
-          "P@3": 0.3333,
+          "P@3": 0.35,
           "P@5": 0.27,
           "P@10": 0.215,
-          "nDCG@5": 0.3118,
-          "nDCG@10": 0.2581,
+          "nDCG@5": 0.313,
+          "nDCG@10": 0.2591,
           "MRR": 0.5555,
-          "MAP": 0.0794
+          "MAP": 0.0802
         },
         "reference|bm25_rrf": {
           "P@1": 0.45,
@@ -858,9 +858,9 @@
           "P@5": 0.27,
           "P@10": 0.215,
           "nDCG@5": 0.3122,
-          "nDCG@10": 0.2593,
+          "nDCG@10": 0.2591,
           "MRR": 0.5558,
-          "MAP": 0.0797
+          "MAP": 0.0795
         },
         "reference|hysor_engine": {
           "P@1": 0.9,
@@ -894,13 +894,13 @@
         },
         "table5_bm25_baseline_py|bm25_baseline": {
           "P@1": 0.45,
-          "P@3": 0.3333,
+          "P@3": 0.35,
           "P@5": 0.27,
           "P@10": 0.215,
-          "nDCG@5": 0.3118,
-          "nDCG@10": 0.2581,
+          "nDCG@5": 0.313,
+          "nDCG@10": 0.2591,
           "MRR": 0.5597,
-          "MAP": 0.0934
+          "MAP": 0.0943
         },
         "table5_bm25_baseline_py|hysor_engine": {
           "P@1": 0.9,
@@ -1057,7 +1057,7 @@
         0.3377
       ],
       "P@3": [
-        0.3333,
+        0.3377,
         0.3377
       ],
       "P@5": [
@@ -1069,7 +1069,7 @@
         0.2104
       ],
       "nDCG@5": [
-        0.2977,
+        0.2975,
         0.299
       ],
       "nDCG@10": [
@@ -1081,7 +1081,7 @@
         0.5056
       ],
       "MAP": [
-        0.0878,
+        0.0879,
         0.0881
       ]
     },
@@ -1092,7 +1092,7 @@
       ],
       "P@3": [
         0.329,
-        0.3333
+        0.329
       ],
       "P@5": [
         0.2805,
@@ -1104,11 +1104,11 @@
       ],
       "nDCG@5": [
         0.298,
-        0.3
+        0.2997
       ],
       "nDCG@10": [
         0.25,
-        0.2504
+        0.2502
       ],
       "MRR": [
         0.5021,
@@ -1116,7 +1116,7 @@
       ],
       "MAP": [
         0.075,
-        0.0754
+        0.0752
       ]
     },
     "rrf": {
@@ -1150,7 +1150,7 @@
       ],
       "MAP": [
         0.2637,
-        0.2638
+        0.2637
       ]
     }
   },
@@ -1301,7 +1301,7 @@
         },
         "P@3": {
           "committed": 0.329,
-          "rerun": 0.3333
+          "rerun": 0.329
         },
         "P@5": {
           "committed": 0.2831,
@@ -1313,11 +1313,11 @@
         },
         "nDCG@5": {
           "committed": 0.2997,
-          "rerun": 0.3
+          "rerun": 0.2997
         },
         "nDCG@10": {
           "committed": 0.2502,
-          "rerun": 0.2504
+          "rerun": 0.2502
         },
         "MRR": {
           "committed": 0.5021,
@@ -1325,7 +1325,7 @@
         },
         "MAP": {
           "committed": 0.0752,
-          "rerun": 0.0754
+          "rerun": 0.0752
         }
       },
       "A": {
@@ -1373,7 +1373,7 @@
         },
         "P@5": {
           "committed": 0.6779,
-          "rerun": 0.6753
+          "rerun": 0.6779
         },
         "P@10": {
           "committed": 0.5636,
@@ -1381,11 +1381,11 @@
         },
         "nDCG@5": {
           "committed": 0.7289,
-          "rerun": 0.7268
+          "rerun": 0.7289
         },
         "nDCG@10": {
           "committed": 0.6364,
-          "rerun": 0.636
+          "rerun": 0.6364
         },
         "MRR": {
           "committed": 0.9306,
@@ -1393,7 +1393,7 @@
         },
         "MAP": {
           "committed": 0.2637,
-          "rerun": 0.2638
+          "rerun": 0.2637
         }
       }
     },
@@ -1439,11 +1439,11 @@
         },
         "P@3": {
           "committed": 0.3377,
-          "rerun": 0.3333
+          "rerun": 0.3377
         },
         "P@5": {
           "committed": 0.2779,
-          "rerun": 0.2805
+          "rerun": 0.2779
         },
         "P@10": {
           "committed": 0.2104,
@@ -1451,11 +1451,11 @@
         },
         "nDCG@5": {
           "committed": 0.2975,
-          "rerun": 0.2989
+          "rerun": 0.2975
         },
         "nDCG@10": {
           "committed": 0.2463,
-          "rerun": 0.2461
+          "rerun": 0.2463
         },
         "MRR": {
           "committed": 0.5056,
@@ -1463,7 +1463,7 @@
         },
         "MAP": {
           "committed": 0.088,
-          "rerun": 0.0878
+          "rerun": 0.088
         }
       },
       "keyword": {
@@ -1502,22 +1502,9 @@
       }
     }
   },
-  "rerun_vs_committed_mismatches": [
-    "rrf_results.csv:bm25_rrf:P@3",
-    "rrf_results.csv:bm25_rrf:nDCG@5",
-    "rrf_results.csv:bm25_rrf:nDCG@10",
-    "rrf_results.csv:bm25_rrf:MAP",
-    "rrf_results.csv:rrf:P@5",
-    "rrf_results.csv:rrf:nDCG@5",
-    "rrf_results.csv:rrf:nDCG@10",
-    "comparison_table.csv:bm25_baseline:P@3",
-    "comparison_table.csv:bm25_baseline:P@5",
-    "comparison_table.csv:bm25_baseline:nDCG@5",
-    "comparison_table.csv:bm25_baseline:nDCG@10",
-    "comparison_table.csv:bm25_baseline:MAP"
-  ],
+  "rerun_vs_committed_mismatches": [],
   "environment": {
-    "python": "3.11.15",
+    "python": "3.11.9",
     "numpy": "2.4.6",
     "pandas": "3.0.6",
     "faiss": "1.15.1",
@@ -1526,14 +1513,14 @@
     "torch": "2.14.1+cpu"
   },
   "inputs_sha256": {
-    "evaluation/gold_relevance.csv": "78d9ba5da57c83c4399149d72fee632ac51609937c4b00a1fe6206c7be9bfa7c",
-    "evaluation/gold_queries.csv": "816aa52f9d26bbcfd2683951f385948a2e27026443ce18e88dc5e36d8cc0d389",
-    "evaluation/retrieval_results_enriched.csv": "c5c8d0caba828b01d465fdba00e228f5b73a2a7c22d76736724ec3b40f62c6c9",
-    "data/processed/asrs_faiss_meta.csv": "59d96d8ce6b257c8fc088b2e67b5a48e2e0964eed7e4ee5395b80dc7d3d9b43f",
-    "data/processed/asrs_faiss.index": "fd32b7184c2d69f3841149c0ad56f8afbbb25dcf1c9e73eb8c9ba490528f4d29",
-    "src/hysor_rrf.py": "1d27b891a793a66ee5fb2fb4b4304f8c7bf5e5e627312b5ed552f59a8270a194",
-    "src/hysor_ablation.py": "56fd7fb1798d5a5fa0b36094dbb5eebc05ddd458c60beaaf11a12b2591aac270",
-    "src/rag/bm25_baseline.py": "ea82ed49c7b4fdf43357ce24abce36650932759a69d840204e01a84aa6f64962",
-    "src/rag/rag_query_engine.py": "32ae3d215cd2b52f8edc18e79472f14f639dcf5b04038e770f40c9d4756ab5fb"
+    "evaluation\\gold_relevance.csv": "78d9ba5da57c83c4399149d72fee632ac51609937c4b00a1fe6206c7be9bfa7c",
+    "evaluation\\gold_queries.csv": "816aa52f9d26bbcfd2683951f385948a2e27026443ce18e88dc5e36d8cc0d389",
+    "evaluation\\retrieval_results_enriched.csv": "c5c8d0caba828b01d465fdba00e228f5b73a2a7c22d76736724ec3b40f62c6c9",
+    "data\\processed\\asrs_faiss_meta.csv": "59d96d8ce6b257c8fc088b2e67b5a48e2e0964eed7e4ee5395b80dc7d3d9b43f",
+    "data\\processed\\asrs_faiss.index": "fd32b7184c2d69f3841149c0ad56f8afbbb25dcf1c9e73eb8c9ba490528f4d29",
+    "src\\hysor_rrf.py": "1d27b891a793a66ee5fb2fb4b4304f8c7bf5e5e627312b5ed552f59a8270a194",
+    "src\\hysor_ablation.py": "56fd7fb1798d5a5fa0b36094dbb5eebc05ddd458c60beaaf11a12b2591aac270",
+    "src\\rag\\bm25_baseline.py": "ea82ed49c7b4fdf43357ce24abce36650932759a69d840204e01a84aa6f64962",
+    "src\\rag\\rag_query_engine.py": "32ae3d215cd2b52f8edc18e79472f14f639dcf5b04038e770f40c9d4756ab5fb"
   }
 }

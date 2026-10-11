@@ -264,7 +264,7 @@ def main():
                            REPO / "src" / "hysor_rrf.py", REPO / "src" / "hysor_ablation.py",
                            REPO / "src" / "rag" / "bm25_baseline.py", REPO / "src" / "rag" / "rag_query_engine.py"]},
     }
-    (TASK / "results.json").write_text(json.dumps(results, indent=2))
+    (TASK / "results.json").write_text(json.dumps(results, indent=2), encoding="utf-8")
     write_report(results, comp, tie_agg)
     print(json.dumps({k: results[k] for k in ["queries_evaluated", "matches_reference_protocol", "checked_reference_protocol",
                                              "matches_published_protocol", "checked_published_protocol",
@@ -325,7 +325,7 @@ def write_report(R, comp, tie_agg):
           "- All numbers here score against the Phase 1 labels, including the MiniLM auto-labels for Q021–Q100. "
           "They are not an unbiased measure; `phase2/gold_eval_rebuild` (uatie-edm-phase1 repo) replaces those labels.",
           "- The recency score depends on the current year (engine uses `datetime.now().year`).", ""]
-    (TASK / "REPORT.md").write_text("\n".join(L))
+    (TASK / "REPORT.md").write_text("\n".join(L), encoding="utf-8")
 
 
 if __name__ == "__main__":
